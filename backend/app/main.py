@@ -35,14 +35,14 @@ async def get_db():
         yield session
 
 app = FastAPI(
-    title="Diabetes App API",
+    title="MediRounds App API",
     version="0.1.0",
 )
 
 @app.get("/")
 async def root():
     return {
-        "message": "Diabetes app backend is running"
+        "message": "MediRounds app backend is running"
     }
 
 @app.get("/health")
