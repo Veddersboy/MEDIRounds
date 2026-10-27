@@ -50,7 +50,6 @@ class Message(Base):
     role: Mapped[str] = mapped_column(String(16), nullable=False)
     content: Mapped[str] = mapped_column(Text, nullable=False)
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow, nullable=False)
-    # Python attribute "message_metadata" avoids SQLAlchemy's reserved "metadata" name.
     message_metadata: Mapped[dict | None] = mapped_column("metadata", JSON, nullable=True)
 
     session: Mapped[ChatSession] = relationship(back_populates="messages")

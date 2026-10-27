@@ -9,16 +9,27 @@ Database tables are defined in `app/models.py`, and input validation is handled 
 When adding or modifying a database table:
 
 1. Make the changes in `app/models.py`.
+
 2. Generate a migration:
 
    ```bash
-   alembic revision --autogenerate -m "description"
+   python -m alembic revision --autogenerate --rev-id 000x -m "add new field"
    ```
 
 3. Review the generated migration and apply it:
 
    ```bash
    alembic upgrade head
+   ```
+
+4. Verify the current position
+   ```bash
+   alembic current
+   ```
+
+5. Roll back the most recent migration
+   ```bash
+   alembic downgrade -1
    ```
 
 Migrations are stored in `alembic/versions/` and should be committed so other developers can apply the same database changes.
