@@ -24,5 +24,20 @@ services:
     depends_on:
       - postgres
 
+  mailpit:
+    image: axllent/mailpit:latest
+    container_name: medirounds-mailpit
+    restart: unless-stopped
+    ports:
+      - "1025:1025" # Catching SMTP
+      - "8025:8025" # Fake inbox
+    environment:
+      MP_SMTP_AUTH_ACCEPT_ANY: 1
+      MP_SMTP_AUTH_ALLOW_INSECURE: 1
+      MP_MAX_MESSAGES: 500
+    volumes:
+      - mailpit_data:/data
+
 volumes:
   postgres_data:
+  mailpit_data:
