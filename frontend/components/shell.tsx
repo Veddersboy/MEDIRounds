@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
+import { authClient } from "@/src/lib/auth-client";
 
 import {
   ChevronDown,
@@ -55,6 +56,7 @@ export function Shell({
   const [mobileOpen, setMobileOpen] = useState(false);
   const [collapsed, setCollapsed] = useState(false);
   const [busy, setBusy] = useState(false);
+  const [signingOut, setSigningOut] = useState(false);
 
   useEffect(() => {
     try {
@@ -79,7 +81,25 @@ export function Shell({
       return next;
     });
   }
+  async function handleSignOut() {
+    try {
+      setSigningOut(true);
 
+      const { error } = await authClient.signOut();
+
+      if (error) {
+        alert(error.message || "Could not sign out.");
+        return;
+      }
+
+      router.push("/sign-in");
+      router.refresh();
+    } catch {
+      alert("Something went wrong while signing out.");
+    } finally {
+      setSigningOut(false);
+    }
+  }
   async function create() {
     try {
       setBusy(true);
@@ -140,9 +160,8 @@ export function Shell({
 
   return (
     <div
-      className={`app-shell ${
-        collapsed ? "sidebar-collapsed" : ""
-      }`}
+      className={`app-shell ${collapsed ? "sidebar-collapsed" : ""
+        }`}
     >
       <aside
         className={`sidebar ${mobileOpen ? "open" : ""}`}
@@ -176,7 +195,7 @@ export function Shell({
             href="/"
             className={
               pathname === "/" ||
-              pathname.startsWith("/chat")
+                pathname.startsWith("/chat")
                 ? "selected"
                 : ""
             }
@@ -242,11 +261,10 @@ export function Shell({
 
                 {items.map((session) => (
                   <div
-                    className={`session-row ${
-                      pathname === `/chat/${session.id}`
+                    className={`session-row ${pathname === `/chat/${session.id}`
                         ? "active"
                         : ""
-                    }`}
+                      }`}
                     key={session.id}
                   >
                     <Link
@@ -305,8 +323,16 @@ export function Shell({
             <strong>{settings.clinicianName}</strong>
             <small>{settings.specialty}</small>
           </div>
-
-          <ChevronDown size={14} />
+          <button
+            type="button"
+            className="sign-out-button"
+            onClick={() => void handleSignOut()}
+            disabled={signingOut}
+            aria-label="Sign out"
+            title="Sign out"
+          >
+            {signingOut ? "Signing out..." : "Sign out"}
+          </button>
         </div>
       </aside>
 
