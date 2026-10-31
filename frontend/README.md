@@ -73,6 +73,31 @@ npm run dev
 
 Open `http://localhost:3000`. `NEXT_PUBLIC_DATA_MODE=mock` is the default even if no `.env.local` file is present. Starter history is created when the browser loads the app for the first time. Open DevTools → Application → Local Storage to clear demo data.
 
+### Set your Better Auth secret
+
+`BETTER_AUTH_SECRET` signs the session cookie that keeps you signed in. Generate your own value once:
+
+```bash
+npx auth secret            # or: openssl rand -base64 32
+```
+
+Put the **same value** in all three env files, then restart the frontend and backend:
+
+| File | Used when |
+| --- | --- |
+| `frontend/.env.local` | Running `npm run dev` |
+| `backend/.env` | Running FastAPI or Alembic on your machine |
+| `.env` (repo root) | Running `docker compose up`; passed to both containers |
+
+All three files are gitignored. Never commit a real secret.
+
+**If you don't set it, or the values don't match:**
+
+- **Secret empty or missing in the frontend:** in development, Better Auth falls back to a built-in default secret that is public in its source code, and logs a warning. Sign-up and sign-in still work locally, but anyone could forge cookies signed with that secret. In production (`next build` / `next start`), Better Auth refuses to start.
+- **Secret missing from `backend/.env`:** FastAPI fails at startup with a settings validation error. If the line is there but empty, FastAPI starts but can't verify any session.
+- **Frontend and backend secrets differ:** you can sign in to the app, but every FastAPI endpoint that requires a signed-in user returns `401 Not signed in`, because the backend can't verify the cookie's signature.
+- **Secret changed:** existing session cookies stop working, so everyone has to sign in again. Their accounts and passwords are unaffected.
+
 ### Configure FastAPI
 
 ```dotenv
@@ -115,7 +140,6 @@ interface ChatSession {
 }
 interface Settings {
   theme: "light" | "dark" | "system";
-  clinicianName: string;
   specialty: string;
   showDisclaimer: boolean;
   enterToSend: boolean;

@@ -25,7 +25,6 @@ export interface ChatSession {
 
 export interface Settings {
   theme: "light" | "dark" | "system";
-  clinicianName: string;
   specialty: string;
   showDisclaimer: boolean;
   enterToSend: boolean;
@@ -60,7 +59,6 @@ export interface ChatRepository {
 
 export const defaultSettings: Settings = {
   theme: "light",
-  clinicianName: "Dr. John Doctor",
   specialty: "Endocrinology",
   showDisclaimer: true,
   enterToSend: true,
