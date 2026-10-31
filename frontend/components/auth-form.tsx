@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { authClient } from "@/src/lib/auth-client";
+import { validateSignIn, validateSignUp } from "@/src/lib/auth-validation.mjs";
 import Link from "next/link";
 
 type AuthFormProps = {
@@ -28,27 +29,15 @@ export default function AuthForm({ mode }: AuthFormProps) {
                 setError("");
 
                 // Validate input before submitting.
-                if (isSignUp && !name.trim()) {
-                    setError("Please enter your name.");
+                const result = isSignUp
+                    ? validateSignUp({ name, email, password, confirmPassword })
+                    : validateSignIn({ email, password });
+                if (!result.valid) {
+                    setError(Object.values(result.errors)[0] as string);
                     return;
                 }
 
                 const normalizedEmail = email.trim();
-
-                if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(normalizedEmail)) {
-                    setError("Please enter a valid email address.");
-                    return;
-                }
-
-                if (password.length < 8) {
-                    setError("Password must be at least 8 characters.");
-                    return;
-                }
-
-                if (isSignUp && password !== confirmPassword) {
-                    setError("Passwords do not match.");
-                    return;
-                }
 
                 setIsLoading(true);
 
@@ -58,12 +47,10 @@ export default function AuthForm({ mode }: AuthFormProps) {
                             name: name.trim(),
                             email: normalizedEmail,
                             password,
-                            callbackURL: "/timeline",
                         })
                         : await authClient.signIn.email({
                             email: normalizedEmail,
                             password,
-                            callbackURL: "/timeline",
                         });
 
                     if (result.error) {
