@@ -16,8 +16,16 @@ import {
   defaultSettings,
 } from "@/lib/types";
 
+// Signed-in user, passed down from the (app) layout's session check
+export type SessionUser = {
+  id: string;
+  name: string;
+  email: string;
+};
+
 // Context type
 type Context = {
+  user: SessionUser;
   sessions: ChatSession[];
   settings: Settings;
   loading: boolean;
@@ -31,8 +39,10 @@ const AppContext = createContext<Context | null>(null);
 
 // Application provider
 export function AppProvider({
+  user,
   children,
 }: {
+  user: SessionUser;
   children: React.ReactNode;
 }) {
   const [sessions, setSessions] = useState<ChatSession[]>([]);
@@ -97,6 +107,7 @@ export function AppProvider({
   // Memoize context values
   const value = useMemo(
     () => ({
+      user,
       sessions,
       settings,
       loading,
@@ -105,6 +116,7 @@ export function AppProvider({
       setSettings: save,
     }),
     [
+      user,
       sessions,
       settings,
       loading,

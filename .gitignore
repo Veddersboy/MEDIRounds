@@ -18,6 +18,7 @@ __pycache__/
 .ruff_cache/
 .coverage
 htmlcov/
+debug.log
 
 # IDE
 .vscode/

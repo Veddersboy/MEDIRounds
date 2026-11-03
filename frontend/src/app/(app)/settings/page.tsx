@@ -7,7 +7,7 @@ import { useApp } from "@/components/app-provider";
 import { Settings } from "@/lib/types";
 
 export default function SettingsPage() {
-  const { settings, setSettings } = useApp();
+  const { user, settings, setSettings } = useApp();
 
   const [draft, setDraft] = useState<Settings>(settings);
   const [status, setStatus] = useState("");
@@ -61,20 +61,14 @@ export default function SettingsPage() {
         <h2>Profile</h2>
 
         <p className="section-description">
-          Used in the workspace display. Authentication and identity
-          will be managed by FastAPI later.
+          Your name comes from your account and is shown in the
+          workspace sidebar.
         </p>
 
         <label className="field">
           Display name
 
-          <input
-            value={draft.clinicianName}
-            onChange={(e) =>
-              update("clinicianName", e.target.value)
-            }
-            maxLength={90}
-          />
+          <input value={user.name} readOnly />
         </label>
 
         <label className="field">

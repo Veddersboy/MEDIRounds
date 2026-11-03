@@ -16,9 +16,10 @@ def test_migrations_create_fresh_database(tmp_path):
 
     engine = create_engine(url)
     tables = set(inspect(engine).get_table_names())
-    assert {"users", "chat_sessions", "messages", "citations", "user_settings"} <= tables
+    assert {"user", "session", "account", "verification", "chat_sessions", "messages", "citations", "user_settings"} <= tables
+    assert "users" not in tables
     with engine.connect() as conn:
-        assert conn.execute(text("SELECT version_num FROM alembic_version")).scalar_one() == "0001"
+        assert conn.execute(text("SELECT version_num FROM alembic_version")).scalar_one() == "0002"
     engine.dispose()
 
     command.upgrade(config, "head")

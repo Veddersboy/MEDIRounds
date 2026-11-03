@@ -48,3 +48,10 @@ class UserSettingsSchema(BaseModel):
     specialty: str = ""
     showDisclaimer: bool = True
     enterToSend: bool = True
+
+
+class CurrentUserSchema(BaseModel):
+    model_config = ConfigDict(extra="forbid", from_attributes=True)
+    id: str
+    name: str
+    email: str

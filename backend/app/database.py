@@ -3,6 +3,10 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 class Settings(BaseSettings):
     DATABASE_URL: str
+    # Must match the frontend's value; used to verify Better Auth session cookies.
+    BETTER_AUTH_SECRET: str
+    # Origin allowed to call the API with cookies (CORS).
+    FRONTEND_ORIGIN: str = "http://localhost:3000"
     CHATBOT_API_URL: str | None = None
     CHATBOT_API_KEY: str | None = None
 

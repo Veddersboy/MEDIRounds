@@ -47,7 +47,7 @@ export function Shell({
 }: {
   children: React.ReactNode;
 }) {
-  const { sessions, settings, refresh, error } = useApp();
+  const { sessions, settings, refresh, error, user } = useApp();
 
   const pathname = usePathname();
   const router = useRouter();
@@ -310,7 +310,7 @@ export function Shell({
 
         <div className="sidebar-bottom">
           <div className="avatar">
-            {settings.clinicianName
+            {user.name
               .split(" ")
               .filter(Boolean)
               .slice(-2)
@@ -320,8 +320,9 @@ export function Shell({
           </div>
 
           <div className="user-copy">
-            <strong>{settings.clinicianName}</strong>
+            <strong>{user.name}</strong>
             <small>{settings.specialty}</small>
+            {/* TODO: Add a configurable user profile, where they can change their name and specialty */}
           </div>
           <button
             type="button"
