@@ -249,33 +249,28 @@ const base =
   process.env.NEXT_PUBLIC_API_BASE_URL?.replace(/\/$/, "") ||
   "http://localhost:8000";
 
-// HTTP Request Helper
-
-// Generic request function for FastAPI endpoints
 async function request<T>(
   path: string,
-  init?: RequestInit
+  init: RequestInit = {}
 ): Promise<T> {
   const response = await fetch(`${base}${path}`, {
     ...init,
-
     headers: {
       "Content-Type": "application/json",
-      ...init?.headers,
+      ...init.headers,
     },
-
     credentials: "include",
     cache: "no-store",
   });
 
-  // Handle unsuccessful HTTP responses
   if (!response.ok) {
+    const detail = await response.text();
+
     throw new Error(
-      `API ${response.status}: ${await response.text()}`
+      `API ${response.status}: ${detail}`
     );
   }
 
-  // Handle successful responses without a body
   if (response.status === 204) {
     return undefined as T;
   }
@@ -283,79 +278,54 @@ async function request<T>(
   return response.json() as Promise<T>;
 }
 
-// FastAPI Repository
-
 export const apiRepository: ChatRepository = {
-  // GET /api/v1/chats
-  // Retrieve all conversations
-  listSessions: () =>
-    request("/api/v1/chats"),
+  async listSessions() {
+    return request<ChatSession[]>("/api/v1/chats");
+  },
 
-  // GET /api/v1/chats/:id
-  // Retrieve a specific conversation
-  getSession: (id) =>
-    request(
+  async getSession(id) {
+    return request<ChatSession | null>(
       `/api/v1/chats/${encodeURIComponent(id)}`
-    ),
+    );
+  },
 
-  // POST /api/v1/chats
-  // Create a conversation
-  createSession: () =>
-    request("/api/v1/chats", {
+  async createSession() {
+    return request<ChatSession>("/api/v1/chats", {
       method: "POST",
-      body: "{}",
-    }),
+      body: JSON.stringify({}),
+    });
+  },
 
-  // PATCH /api/v1/chats/:id
-  // Rename a conversation
-  renameSession: (id, title) =>
-    request(
-      `/api/v1/chats/${encodeURIComponent(id)}`,
-      {
-        method: "PATCH",
-        body: JSON.stringify({ title }),
-      }
-    ),
+  async renameSession() {
+    throw new Error(
+      "Renaming conversations is not implemented yet."
+    );
+  },
 
-  // DELETE /api/v1/chats/:id
-  // Delete a conversation
-  deleteSession: (id) =>
-    request(
-      `/api/v1/chats/${encodeURIComponent(id)}`,
-      {
-        method: "DELETE",
-      }
-    ),
+  async deleteSession() {
+    throw new Error(
+      "Deleting conversations is not implemented yet."
+    );
+  },
 
-  // POST /api/v1/chats/:id/messages
-  // Send a message to the assistant
-  sendMessage: (id, content) =>
-    request(
+  async sendMessage(id, content) {
+    return request<Message>(
       `/api/v1/chats/${encodeURIComponent(id)}/messages`,
       {
         method: "POST",
         body: JSON.stringify({ content }),
       }
-    ),
+    );
+  },
 
-  // GET /api/v1/me/settings
-  // Retrieve user settings
-  getSettings: () =>
-    request("/api/v1/me/settings"),
+  async getSettings() {
+    return mockRepository.getSettings();
+  },
 
-  // PUT /api/v1/me/settings
-  // Update user settings
-  saveSettings: (settings) =>
-    request("/api/v1/me/settings", {
-      method: "PUT",
-      body: JSON.stringify(settings),
-    }),
+  async saveSettings(settings) {
+    return mockRepository.saveSettings(settings);
+  },
 };
-
-// Repository Selection
-
-// Use the FastAPI repository when NEXT_PUBLIC_DATA_MODE="api".
-// Otherwise, default to the mock implementation.
 
 export const repository: ChatRepository =
   process.env.NEXT_PUBLIC_DATA_MODE === "api"
