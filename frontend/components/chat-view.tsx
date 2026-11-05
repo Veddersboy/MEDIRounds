@@ -13,6 +13,9 @@ import {
   Stethoscope,
 } from "lucide-react";
 
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
+
 import { useApp } from "./app-provider";
 import { repository } from "@/lib/repository";
 import { ChatSession, Message } from "@/lib/types";
@@ -287,7 +290,13 @@ export function ChatView({ id }: { id?: string }) {
                 )}
 
                 <div className="message-content">
-                  {m.content}
+                  {m.role === "assistant" ? (
+                    <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                      {m.content}
+                    </ReactMarkdown>
+                  ) : (
+                    m.content
+                  )}
                 </div>
 
                 {/* Citations */}

@@ -11,6 +11,7 @@ services:
       - /app/node_modules
       - /app/.next
     environment:
+      - NEXT_PUBLIC_DATA_MODE=${NEXT_PUBLIC_DATA_MODE:-api}
       - NEXT_PUBLIC_API_BASE_URL=${NEXT_PUBLIC_API_BASE_URL}
       - DATABASE_URL=${AUTH_DATABASE_URL}
       - BETTER_AUTH_SECRET=${BETTER_AUTH_SECRET}
@@ -34,6 +35,8 @@ services:
       - SECRET_KEY=${SECRET_KEY}
       - BETTER_AUTH_SECRET=${BETTER_AUTH_SECRET}
       - FRONTEND_ORIGIN=${FRONTEND_ORIGIN:-http://localhost:3000}
+      - CHATBOT_API_URL=${CHATBOT_API_URL}
+      - CHATBOT_API_KEY=${CHATBOT_API_KEY}
       - SMTP_HOST=${SMTP_HOST}
       - SMTP_PORT=${SMTP_PORT}
       - EMAIL_FROM=${EMAIL_FROM}
