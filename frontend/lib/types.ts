@@ -26,6 +26,7 @@ export interface ChatSession {
 export interface Settings {
   theme: "light" | "dark" | "system";
   specialty: string;
+  experience: string;
   showDisclaimer: boolean;
   enterToSend: boolean;
 }
@@ -60,6 +61,7 @@ export interface ChatRepository {
 export const defaultSettings: Settings = {
   theme: "light",
   specialty: "Endocrinology",
+  experience: "",
   showDisclaimer: true,
   enterToSend: true,
 };

@@ -1,4 +1,5 @@
 from datetime import datetime, timezone
+from typing import Literal
 from uuid import uuid4
 
 from sqlalchemy import Boolean, DateTime, ForeignKey, Index, JSON, String, Text, func
@@ -126,6 +127,7 @@ class UserSettings(Base):
     theme: Mapped[str] = mapped_column(String(16), default="system", nullable=False)
     clinician_name: Mapped[str] = mapped_column(String(255), default="", nullable=False)
     specialty: Mapped[str] = mapped_column(String(255), default="", nullable=False)
+    experience: Mapped[str] = mapped_column(String(32), default="", nullable=False)
     show_disclaimer: Mapped[bool] = mapped_column(Boolean, default=True, nullable=False)
     enter_to_send: Mapped[bool] = mapped_column(Boolean, default=True, nullable=False)
     user: Mapped[AuthUser] = relationship(back_populates="settings")

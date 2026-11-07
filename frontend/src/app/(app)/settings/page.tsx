@@ -82,6 +82,27 @@ export default function SettingsPage() {
             maxLength={90}
           />
         </label>
+
+        <label className="field">
+          Experience level
+
+          <select
+            value={draft.experience}
+            onChange={(e) =>
+              update(
+                "experience",
+                e.target.value as Settings["experience"]
+              )
+            }
+          >
+            <option value="">Select your level</option>
+            <option value="student">Medical Student</option>
+            <option value="resident">Resident</option>
+            <option value="fellow">Fellow</option>
+            <option value="attending">Attending Physician</option>
+            <option value="advanced">Advanced / Researcher</option>
+          </select>
+        </label>
       </section>
 
       <section className="settings-section">

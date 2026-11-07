@@ -19,7 +19,9 @@ def test_migrations_create_fresh_database(tmp_path):
     assert {"user", "session", "account", "verification", "chat_sessions", "messages", "citations", "user_settings"} <= tables
     assert "users" not in tables
     with engine.connect() as conn:
-        assert conn.execute(text("SELECT version_num FROM alembic_version")).scalar_one() == "0002"
+        assert conn.execute(text("SELECT version_num FROM alembic_version")).scalar_one() == "0003"
+    columns = {col["name"] for col in inspect(engine).get_columns("user_settings")}
+    assert "experience" in columns
     engine.dispose()
 
     command.upgrade(config, "head")

@@ -7,9 +7,12 @@ from uuid import UUID
 import httpx
 from fastapi import APIRouter, Depends, HTTPException
 from pydantic import BaseModel, Field
+from sqlalchemy import select
+from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.auth import get_current_user
-from app.models import AuthUser
+from app.database import get_db
+from app.models import AuthUser, UserSettings
 
 router = APIRouter(
     prefix="/api/v1/chats",
@@ -239,12 +242,44 @@ async def get_chat(
 
     return map_conversation(conversation, messages)
 
+EXPERIENCE_PROMPTS = {
+    "student": (
+        "The user is a medical student. Explain concepts from the ground up. "
+        "Define medical terminology and abbreviations on first use. "
+        "Include relevant pathophysiology to build understanding. "
+        "Use a structured, teaching-oriented tone."
+    ),
+    "resident": (
+        "The user is a medical resident. Provide evidence-based clinical reasoning "
+        "with references to current guidelines (ADA, EASD, KDIGO). "
+        "Highlight key decision points and common pitfalls. "
+        "Assume foundational medical knowledge."
+    ),
+    "fellow": (
+        "The user is a subspecialty fellow. Focus on nuanced clinical decision-making, "
+        "multimorbidity considerations, and subspecialty-specific management strategies. "
+        "Compare guideline recommendations where they diverge. "
+        "Assume strong general medical knowledge."
+    ),
+    "attending": (
+        "The user is an attending physician. Be concise and direct. "
+        "Prioritize recent guideline updates, landmark trial results, and practice-changing evidence. "
+        "Skip foundational explanations unless specifically asked."
+    ),
+    "advanced": (
+        "The user is an advanced clinician or researcher. Provide expert-level detail "
+        "including study design, statistical methodology, effect sizes, and confidence intervals. "
+        "Discuss limitations of the evidence and areas of active investigation. "
+        "Reference primary literature where possible."
+    ),
+}
 
 @router.post("/{conversation_id}/messages")
 async def send_message(
     conversation_id: UUID,
     body: SendMessageRequest,
     user: AuthUser = Depends(get_current_user),
+    db: AsyncSession = Depends(get_db),
 ):
     user_id = str(user.id)
     chat_id = str(conversation_id)
@@ -260,13 +295,23 @@ async def send_message(
             detail="Conversation not found",
         )
 
+    # Look up the user's experience level from the DB
+    user_settings = await db.scalar(
+        select(UserSettings).where(
+            UserSettings.user_id == user_id,
+        )
+    )
+    experience = user_settings.experience if user_settings else ""
+    prefix = EXPERIENCE_PROMPTS.get(experience, "")
+    content = f"{prefix}\n\n{body.content}" if prefix else body.content
+
     result = await rag_request(
         "POST",
         "/chat",
         user_id,
         payload={
             "conversation_id": chat_id,
-            "message": body.content,
+            "message": content,
         },
     )
 
