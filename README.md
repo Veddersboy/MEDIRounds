@@ -2,23 +2,47 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+On a fresh install, these are the following steps to running the MediRounds app locally:
 
+### 1. **Create necessary environment files.**
+- There are three .env.example files: one in the parent MEDIRounds directory, one in frontend, and one in backend
+- We need to copy the .env.example files over into real .env files that the docker containers. Create three .env files in these directories, and copy the .env.example content from each of those directories into those files
+- Set each instance of BETTER_AUTH_SECRET in the .env files to the same, randomly generated value. The following command can be used to generate this value:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+openssl rand -base64 32
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 2. **Run the application through docker**
+- The docker compose YAML manifest is configured to run all necessary parts of the application with a single command.
+```bash
+docker compose up -d
+```
+- On first run, this will automatically propogate the database with the necessary tables. If you've previously ran the application with an out of date database version, you may have to rebuild your images and volumes. If you run into errors, try the following:
+```bash
+docker compose down -v
+docker compose up --build
+```
+### 3. **IF RUNNING THROUGH DOCKER DOESN'T WORK**
+- On computers with memory restrictions, it is possible running the docker composes will create a WSL out of memory error
+- If you encounter this error, instead of running all application components through docker we can run some on our computer to free up WSL memory. It is recommended to also create a python virtual environment to keep libraries for this app isolated.
+- Clear any previous medirounds containers and volumes with
+```bash
+docker compose down -v
+``` 
+- Afterwords, run only the pgadmin, postgres, and mailpit containers with 
+```bash
+docker compose up -d postgres pgadmin mailpit
+```
+- from the backend directory, install the required python libraries, override the powershell session's environment to run with localhost (instead of a docker container), and start the application. 
+```bash
+pip install -r requirements.txt
+$env:DATABASE_URL = "postgresql+asyncpg://medirounds_app:pasword123@localhost:5432/medirounds_db"
+uvicorn app.main:app --reload --port 8000
+```
+- from the frontend directory, with nodejs installed, run the frontend:
+```bash
+npm install
+npm run dev
+```
 
 ## Learn More
 
