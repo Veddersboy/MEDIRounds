@@ -9,6 +9,8 @@ __pycache__/
 # Environment variables
 .env
 .env.*
+# EXCLUDE .env.example
+!.env.example
 
 # Testing / tooling
 .pytest_cache/
