@@ -9,6 +9,7 @@ import {
   BookOpen,
   Check,
   Clipboard,
+  FileText,
   Plus,
   Stethoscope,
 } from "lucide-react";
@@ -18,6 +19,7 @@ import remarkGfm from "remark-gfm";
 
 import { useApp } from "./app-provider";
 import { repository } from "@/lib/repository";
+import { exportChatAsPdf } from "./pdf-export";
 import { ChatSession, Message } from "@/lib/types";
 
 export function ChatView({ id }: { id?: string }) {
@@ -176,6 +178,17 @@ export function ChatView({ id }: { id?: string }) {
     URL.revokeObjectURL(url);
   }
 
+  // Export conversation as PDF
+  async function exportPdf() {
+    if (!session) return;
+
+    try {
+      await exportChatAsPdf(session);
+    } catch (e) {
+      setError(e instanceof Error ? e.message : "Failed to export PDF");
+    }
+  }
+
   // Copy assistant response
   async function copy(m: Message) {
     await navigator.clipboard.writeText(m.content);
@@ -199,14 +212,27 @@ export function ChatView({ id }: { id?: string }) {
         </div>
 
         {session && messages.length > 0 && (
-          <button
-            className="outline-btn"
-            onClick={exportChat}
-          >
-            <BookOpen size={15} />
-            Export
-            <ArrowDown size={14} />
-          </button>
+          <div className="header-actions">
+            <button
+              className="outline-btn"
+              onClick={exportChat}
+              disabled={sending}
+            >
+              <BookOpen size={15} />
+              Markdown
+              <ArrowDown size={14} />
+            </button>
+
+            <button
+              className="outline-btn"
+              onClick={() => void exportPdf()}
+              disabled={sending}
+            >
+              <FileText size={15} />
+              PDF
+              <ArrowDown size={14} />
+            </button>
+          </div>
         )}
       </header>
 
