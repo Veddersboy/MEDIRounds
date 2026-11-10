@@ -20,6 +20,15 @@ import { useApp } from "./app-provider";
 import { repository } from "@/lib/repository";
 import { ChatSession, Message } from "@/lib/types";
 
+function cleanUserContent(content: string) {
+  // If the prompt ends with a double newline before user content:
+  const doubleNewline = content.indexOf("\n\n");
+  if (content.startsWith("The user is a") && doubleNewline !== -1) {
+    return content.slice(doubleNewline + 2);
+  }
+  return content;
+}
+
 export function ChatView({ id }: { id?: string }) {
   const router = useRouter();
   const { settings, refresh } = useApp();
@@ -157,7 +166,9 @@ export function ChatView({ id }: { id?: string }) {
     const body = session.messages
       .map(
         (m) =>
-          `## ${m.role === "user" ? "User" : "Rounds"}\n\n${m.content}`
+          `## ${m.role === "user" ? "User" : "Rounds"}\n\n${
+            m.role === "user" ? cleanUserContent(m.content) : m.content
+          }`
       )
       .join("\n\n---\n\n");
 
@@ -295,7 +306,7 @@ export function ChatView({ id }: { id?: string }) {
                       {m.content}
                     </ReactMarkdown>
                   ) : (
-                    m.content
+                    cleanUserContent(m.content)
                   )}
                 </div>
 

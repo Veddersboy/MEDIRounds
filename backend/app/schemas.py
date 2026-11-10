@@ -48,6 +48,7 @@ class UserSettingsSchema(BaseModel):
     specialty: str = ""
     showDisclaimer: bool = True
     enterToSend: bool = True
+    experience: Literal["", "student", "resident", "fellow", "attending", "advanced"] = ""
 
 
 class CurrentUserSchema(BaseModel):

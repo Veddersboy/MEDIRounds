@@ -319,11 +319,14 @@ export const apiRepository: ChatRepository = {
   },
 
   async getSettings() {
-    return mockRepository.getSettings();
+    return request<Settings>("/api/v1/settings");
   },
 
   async saveSettings(settings) {
-    return mockRepository.saveSettings(settings);
+    await request<Settings>("/api/v1/settings", {
+      method: "PUT",
+      body: JSON.stringify(settings),
+    });
   },
 };
 
