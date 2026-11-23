@@ -1,0 +1,1141 @@
+{
+  "pmcid": "PMC10511073",
+  "pmid": "37729132",
+  "doi": "10.1371/journal.pone.0284337",
+  "title": "Effectiveness of acupuncture as adjunctive therapy in type 2 diabetic: Study protocol for a randomized controlled trial",
+  "journal": "PLOS ONE",
+  "issn": "1932-6203",
+  "authors": [
+    {
+      "name": "Yean Chin Cheok",
+      "affiliation_ids": [
+        "aff001"
+      ],
+      "affiliations": [
+        "1 Department of Nutrition and Dietetics, Faculty of Medicine and Health Sciences, Universiti Putra Malaysia, Selangor, Malaysia"
+      ]
+    },
+    {
+      "name": "Zalilah Mohd Shariff",
+      "affiliation_ids": [
+        "aff001"
+      ],
+      "affiliations": [
+        "1 Department of Nutrition and Dietetics, Faculty of Medicine and Health Sciences, Universiti Putra Malaysia, Selangor, Malaysia"
+      ]
+    },
+    {
+      "name": "Yoke Mun Chan",
+      "affiliation_ids": [
+        "aff001"
+      ],
+      "affiliations": [
+        "1 Department of Nutrition and Dietetics, Faculty of Medicine and Health Sciences, Universiti Putra Malaysia, Selangor, Malaysia"
+      ]
+    },
+    {
+      "name": "Ooi Chuan Ng",
+      "affiliation_ids": [
+        "aff002"
+      ],
+      "affiliations": [
+        "2 Department of Medicine, Faculty of Medicine and Health Sciences, Universiti Putra Malaysia, Selangor, Malaysia"
+      ]
+    },
+    {
+      "name": "Ping Yein Lee",
+      "affiliation_ids": [
+        "aff003"
+      ],
+      "affiliations": [
+        "3 Department of Family Medicine, Faculty of Medicine and Health Sciences, Universiti Putra Malaysia, Selangor, Malaysia"
+      ]
+    }
+  ],
+  "publication_date": "2023-9-20",
+  "keywords": [],
+  "abstract": "IntroductionThe incidence of type 2 diabetes mellitus is increasing worldwide. The literature suggests that acupuncture is a possible complementary therapy for type 2 diabetes mellitus. This study aims to determine the effectiveness of acupuncture as an adjunctive therapy on homeostasis model assessment-insulin resistance (HOMA-IR), and health-related quality of life (HRQoL) in patients with type 2 diabetes mellitus.Materials and methodsThis randomized, double-blind, placebo controlled, and parallel design trial will be carried out in a public university teaching hospitals in Malaysia. Eligible type 2 diabetes mellitus subjects will be randomly assigned to receive either acupuncture (n = 30) or a placebo (n = 30). The intervention is carried out using press needle or press placebo on abdomen area (10 sessions of treatment). Both groups will continue with their routine diabetes care. Primary outcome of HOMA-IR will be measured at the time of recruitment (-week 0), and after completion of 10 sessions (week 7) of the treatment. Additionally, secondary outcome of HRQoL will be measured at the time of recruitment (-week 0), after completion of 5 sessions (week 3/4), and 10 sessions (week 7) of the treatment. Any adverse event will be recorded at every visit.DiscussionThe findings of this study will provide important clinical evidence for the effect of acupuncture as adjunctive therapy on HOMA-IR, adiposity and HRQoL of type 2 diabetes mellitus.Trial registration numberNCT04829045.",
+  "body": [
+    {
+      "heading": "Introduction",
+      "paragraphs": [
+        "Globally, approximately 537 million people are living with diabetes mellitus [ 1 ] with most are type 2 diabetes mellitus [ 2 , 3 ]. Type 2 diabetes mellitus involves a decline in b-cell function and increase in insulin resistance [ 4 , 5 ]. Long term insulin resistance is associated with many complications [ 6 , 7 ] which will adversely affect quality of life [ 8 ]. Currently, among the several mechanism-based drugs available for treatment of type 2 diabetes mellitus, only insulin sensitizers such as biguanides and thiazolidinediones have direct effects on insulin resistance [ 9 , 10 ]. However, pharmacological agents have limitations related to patient’s poor adherence or resistance to intensify treatment and clinical inertia [ 5 , 11 ]. These may be associated with the fear of side-effects of the medications [ 11 ]. Complementary and alternative medicine (CAM) may provide a beneficial adjunctive therapy for diabetes mellitus due to its perceived less adverse effect and culturally more acceptable in Asian population. Among the CAM, acupuncture is one of the most widely used combined therapies with conventional treatment for type 2 diabetes mellitus [ 12 ]. Additionally, the United States National Institutes of Health (NIH) has acknowledged that acupuncture can be used as adjunctive treatment for diabetes mellitus [ 13 ] with minimum adverse effect [ 14 , 15 ] by a well-trained practitioner [ 16 ].",
+        "Acupuncture is a technique involving the insertion of very fine needles into specific points to affect the flow of body’s qi [ 17 ], or vital energy. According to the theory of traditional Chinese medicine (TCM), acupuncture can regulate qi and blood and have a direct impact on bioavailability of substances of the body [ 18 ]. In the past 20 years, several randomized controlled trials (RCTs) have been conducted on the effectiveness of acupuncture on diabetes mellitus and its complications [ 19 – 21 ]. It has been demonstrated that acupuncture may improve insulin sensitivity [ 18 , 22 ] and c-peptide levels through effective treatment against metabolic disturbances such as hyperglycaemia [ 21 , 23 , 24 ], overweight [ 24 , 25 ], inflammation [ 26 ], while improving lipid metabolism [ 27 ]. Equally, systematic reviews have also confirmed the benefits of acupuncture in patients with diabetes mellitus [ 28 – 30 ]. In addition, acupuncture could control co-morbidity conditions such as obesity [ 31 , 32 ], pain [ 33 , 34 ], anxiety, depression [ 35 ], stress [ 36 ], sleeping disorder [ 37 , 38 ] and hence improves quality of life [ 39 , 40 ]. However, multiple methodological flaws with substantial risk of bias have been identified in many of these RCTs [ 40 , 41 ]. Therefore, this double-blind, placebo controlled clinical trial is designed to investigate the effectiveness of acupuncture as adjuvant therapy in patients with type 2 diabetes mellitus in accordance with the Consolidated Standards for Reporting of Trials Statement 2010 (CONSORT 2010) [ 42 ] and revised Standards for Reporting Interventions Controlled Trials of Acupuncture 2010 (STRICTA 2010) [ 43 ] guidelines."
+      ],
+      "subsections": []
+    },
+    {
+      "heading": "Materials and methods",
+      "paragraphs": [],
+      "subsections": [
+        {
+          "heading": "Objectives",
+          "paragraphs": [
+            "This study aims to determine the effectiveness of acupuncture treatments on homeostasis model assessment-insulin resistance (HOMA-IR), and health-related quality of life (HRQoL) in patients with type 2 diabetes mellitus."
+          ],
+          "subsections": []
+        },
+        {
+          "heading": "Trial design",
+          "paragraphs": [
+            "This is a randomized, double-blinded (patients and practitioners), placebo and two-arm parallel controlled clinical trial. This study will be conducted at a public university teaching hospital in Malaysia. The reporting of the protocol will adhere to the Standard Protocol Items: Recommendations for Interventional Trials (SPIRIT) [ 44 ] ( S1 Table ; S1 File ) and STRICTA [ 43 ] guidelines ( S2 Table )."
+          ],
+          "subsections": []
+        },
+        {
+          "heading": "Ethics approval",
+          "paragraphs": [
+            "The trial protocol has been approved by the Universiti Putra Malaysia Ethics Committee for Research Involving Human Subjects (JKEUPM-2018-294) ( S2 File ), and registered in ClinicalTrial.gov ( NCT04829045 ). The study is performed according to Declaration of Helsinki and the guidelines for Good Clinical Practice. Permission to carry out the study will be obtained from the relevent hospital before conducting the research."
+          ],
+          "subsections": []
+        },
+        {
+          "heading": "Sample-size calculation",
+          "paragraphs": [
+            "Based on the previous study by Firouzjaei et al. [ 18 ], it was assumed that the mean differences of HOMA-IR and standard deviation (SD) between the acupuncture group and control group were 1.23 and 1.25, respectively. For the mean comparison method of two-sample t-test model, a significance level of 5% z (1-∂/2) = 1.96 and a power of 90% z (1-ß) = 1.28 will be utilized to calculate the required sample size.",
+            "For equal allocation of the two groups, the total sample size required when considering a dropout rate of 30% shall be 60 participants, with 30 participants in each group."
+          ],
+          "subsections": []
+        },
+        {
+          "heading": "Methods of recruitment",
+          "paragraphs": [
+            "Subject recruitment is conducted at a public university teaching hospital in Malaysia by an endocrinologist and a TCM practitioner through patients’ routine medical check-up schedules. Patients will be provided study brochure and information sheet if they express interest to participate in the study. Patients are requested to fill up a screening form to assess the eligibility. For screening purpose, type 2 diabetes mellitus is defined as one abnormal fasting plasma glucose (FPG) ≥ 7.0 mmol/L (126 mg/dL), random venous plasma glucose ≥ 11.0 mmol/L (200 mg/dL), two hour plasma glucose measurement ≥ 11.0 mmol/L (200 mg/dL) or glycated haemoglobin (HbA1c) ≥ 6.5% based on subjects’ self-reported or through their diabetes mellitus book, medications packages, and clinic follows up cards. Potential subjects will be invited for a blood test screening session. Type 2 diabetes mellitus is confirmed with subject’s HbA1c ≥ 6.5% or morning FPG ≥ 7.0 mmol/L (126 mg/dL)(fasting at least 10 hours) based on American Diabetes Association recommendation [ 45 ]. Patients are required to sign a written informed consent form once they fulfil all the study criteria and agree to participate in the study."
+          ],
+          "subsections": []
+        },
+        {
+          "heading": "Eligibility criteria",
+          "paragraphs": [
+            "The subject eligibility criteria for the study include Malaysian, age between 30–69 years old, have had type 2 diabetes mellitus (FPG ≥ 7.0 mmol/L [126 mg/dL] or HbA1c ≥ 6.5% for more than one year and with body mass index (BMI) ≤ 40.0 kg/m 2 ; receive oral anti-diabetic agents on a stable dose over the previous 3 months. Patients with any of the following criteria will be excluded: 1) under insulin therapy; 2) with other acute or chronic health problems (eg. chronic kidney disease [stage 4 and 5]/heart/liver failure, cancer, cardiovascular disease, stroke, physical disability, mental illness, nephrotic syndrome, decompensated congestive heart failure and oedema on the abdomen); 3) needle phobia or allergy to adhesive plaster; 4) planning to move out from Malaysia within 4 months’ and 5) being pregnant, planning for pregnancy or lactating women."
+          ],
+          "subsections": []
+        },
+        {
+          "heading": "Randomization and allocation strategy",
+          "paragraphs": [
+            "Blocked randomization with block size of 2 will be performed in a 1:1 allocation ratio to minimise between-group differences on HOMA-IR level and BMI. The press needles and placebos are identical in appearance. They are repacked in similar plastic containers and consecutively numbered for each subject according to the randomization schedule. Each subject is assigned an order number. The containers will be distributed to the principle investigator at the site and practitioner will receive the corresponding containers. Randomization sequence and allocation will be concealed to all subjects, acupuncturist, laboratory personnel and researchers. Sequentially numbered, sealed opaque envelopes will be used to conceal treatment procedures. The randomisation sequence will remain concealed until the end of the study."
+          ],
+          "subsections": []
+        },
+        {
+          "heading": "Compliance",
+          "paragraphs": [
+            "Adherence to the protocol is assessed at every follow-up session, and evaluation of intervention adherence will be assessed at post intervention."
+          ],
+          "subsections": []
+        },
+        {
+          "heading": "Intervention",
+          "paragraphs": [
+            "Subjects will receive 10 sessions of acupuncture treatment using press needles or press placebos. During the treatments, all subjects are required to take supine position. The acupuncture points will be disinfected with a disposable 70% isopropyl alcohol cotton. After all the devices are fixed, acupoints will be pressed for at least three times (at 0, 15 and after 30 minutes) for about 30 seconds, with the degree that can be tolerated by the subject. The press needle or placebo is inserted according to the acupoints selection sequence, the product directions and following same procedures [ 46 ]. The validity and credibility of the device have been well demonstrated in other studies [ 47 , 48 ].",
+            "In this study, an irradiating needling sensation ( de qi ) does not have to be achieved. De qi is a tingling, numbness, and heaviness feelings that occur after an acupuncture needle had been inserted in the body [ 49 ]. During the 45 minutes device retention period, subject’s abdomen will be covered to prevent exposure. If the subjects are sick or not feeling well on that day, they will not be given any treatment and are requested to come on other day. Likewise, if subject reports discomfort or encounter any adverse effect during intervention, therapy is discontinued and the treatment for that particular session will not be included.",
+            "The study period is 7 weeks with intervention period for 6 weeks and follow-up for any adverse event for 1 week ( Fig 1 ). The participants will be treated twice weekly in the first four weeks then once a week for the next two weeks. In certain circumstances, once-a-week treatment or a three-time per week treatment is permitted, but 10 treatments must be completed within 6 weeks. For those who are under drug(s) or other treatments during intervention, they are required to continue with their existing treatment regimens. All medication and doses received by the subjects are recorded and monitored during the course of the study to ensure the drugs are maintained throughout the study. All pharmacology agents that are allowed in this study are oral anti-diabetic drugs, hypertensive and hyperlipidaemia medications. Medication that are not allowed in this study are all the insulin; all the Glucagon-like peptide-1 receptor agonists such as Liraglutide, Exenatide, Dulaglutide, Semaglutide, and thiazolidinediones (for example: Pioglitazone and Rosiglitazone). There will be no change in other treatment as long as patients are clinically stable. Subjects are also advised to notify the practitioners immediately if there are any changes in their current treatments/circumstances such as personal details, medication or pregnancy (for woman) during the study. Subject’s is considered drop-outs if they have missed their appointments for more than three times, they do not attend the baseline or assessment session (cause missing data), they become pregnant (for women), inability to comply with protocol requirements, withdrawal of his/her own decision or advised by the researcher (for example participant increase 20% doses of diabetes mellitus medication or using acupuncture at other clinic during intervention). Any changes in the treatment regimen will be documented. Safety or adverse event in each session will also be recorded in a case record form."
+          ],
+          "subsections": [
+            {
+              "heading": "Treatment group",
+              "paragraphs": [
+                "The treatment group will receive real acupuncture treatments using new, disposable, sterilized, stainless-steel press needles (PYONEX ø0.20×1.5mm made by Seirin Corporation). A standardized acupoints formula with 6–10 needles on abdomen area such as Zhongwan (Ren-12), Xiawan (Ren-10), Qihai (Ren-6), Guanyuan (Ren-4), Tian Shu (St-25), Daheng (Sp-15), Shangqu, Jinhe (M-HN)/Qixue (Kd-13), Shuidao (St-28) and Liang Men (St-21) are selected based on the theory of abdominal acupuncture of CAM, the literature reviews [ 18 , 22 , 50 , 51 ], and recommendation by international experts. The compulsory acupoints for all participants are Ren 12, Ren 10, Ren 6 (men) or Ren 4 (women), and ST25; others acupoints will be incorporated based on the four diagnostic criteria of the TCM which includes observation, smelling, listening, inquiring, and palpations [ 52 ]. The number and name of acupuncture points used in each session will be documented."
+              ],
+              "subsections": []
+            },
+            {
+              "heading": "Control group",
+              "paragraphs": [
+                "Subjects will receive the same treatment as in the intervention group. However, subject is given press placebos (made by Seirin Corporation) which is identical to the press needle in all aspects except the needle element is lacking [ 48 , 53 ] ( Fig 2 )."
+              ],
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "heading": "Practitioner’ background",
+          "paragraphs": [
+            "Interventions are administered by a qualified TCM practitioner and acupuncturist. She has a master’s degree in a relevant field and with significant clinical experience. She has been a member of British Acupuncture Council, United Kingdom since 2012. She has attended abdominal acupuncture seminar in year 2008."
+          ],
+          "subsections": []
+        },
+        {
+          "heading": "Measurements",
+          "paragraphs": [
+            "Socio-demographic backgrounds of patients which include patients’ age, gender, ethnicity, marital status, educational level, personal monthly income, duration of diabetes mellitus, and family history of diabetes mellitus will be obtained through a questionnaire at recruitment. The primary outcome and secondary outcomes of body mass index (BMI), and waist circumference will be measured at baseline (-week 0), and after the treatment (week 7). The secondary outcome of HRQoL will be measured at baseline, during and after the treatment is completed. Data will be collected at the time of recruitment (-week 0), after completion of 5 sessions (week 3/4) and 10 sessions (week 7) of the treatment."
+          ],
+          "subsections": [
+            {
+              "heading": "Primary outcome",
+              "paragraphs": [
+                "The primary outcome of this trial is the change in HOMA-IR between and/or within group(s) after treatment. Fasting insulin and glucose concentrations will be used to derive the HOMA-IR [fasting serum insulin (μU/ml)×fasting plasma glucose (mmol l-1)/22.5] [ 54 ]. Fasting insulin levels and fasting glucose will be analyzed using heparin tubes and sodium fluoride tubes respectively by an enzyme-linked immunosorbent assay, also called ELISA or EIA. Peripheral blood will be drawn from the antecubital veins of the subjects at baseline and at week 7 after a 10 hour overnight fasting. A total of 10 ml/L of venous blood will be obtained using venipuncture method. These blood samples are then centrifuged for 10 minutes at the speed of 3500rpm to separate the blood serum. Subsequently, serum will be put in an Eppendorf tubes for preservation. The serum is preserved in a low temperature freezer which shall maintain at a temperature of -70 Celsius."
+              ],
+              "subsections": []
+            },
+            {
+              "heading": "Secondary outcomes",
+              "paragraphs": [
+                "The secondary outcomes are changes in HRQoL. The HRQoL of subject will be assessed using a validated World Health Organization Quality of Life Assessment: Brief Version (WHOQoL-BREF [English/Malay]) questionnaire [ 55 , 56 ]. Anthropometry measurements will be measured according to the standard procedure. Subjects will be measured for weight in kilogram to the nearest 0.1 kilogram, using a digital scale TANITA model HD-382 weighing machine in a standing position. Height will be measured using SECA body meter model 208 to the nearest 0.05 centimetre. Body mass index is calculated weight in kilogram divided by height in meters squared (BMI = Weight(kg)/Height 2 (m 2 ). Waist circumference will be measured midway between the lowest rib and the iliac crest using SECA measuring tape to the nearest 0.05 centimetre. Central obesity for Asian population is defined as having a waist circumference ≥ 90cm for men and ≥ 80cm for women based on WHO/IASO/IOTF criteria [ 57 ]."
+              ],
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "heading": "Statistical analysis",
+          "paragraphs": [
+            "Data will be analyzed using SPSS Statistics 26.0 (IBM Corp., New York, USA). Comparisons of baseline continuous variables between acupuncture and control group will be examined using independent t test, while for categorical variables the Chi-squared test will be used. The primary outcome is the change in HOMA-IR from baseline to 7 weeks. The secondary outcome measure is the change of HRQoL from baseline to week 3/4 and week 7. This will be done using a linear mixed model. The model included treatment group (acupuncture or control), time (baseline, week 3/4, and week 7), age, gender, and their interaction as fixed effects. Random intercepts for each subject are also being included in the model to account for individual variability within the data. Intention-to-treat analysis (ITT) will be performed, and all patients enrolled will be included in the analysis, irrespective of compliance. The significant level is set at P<0.05."
+          ],
+          "subsections": []
+        },
+        {
+          "heading": "Safety assessments",
+          "paragraphs": [
+            "Safety or adverse event suspected related to the treatment, through the symptoms reported by the patients, and observations by researcher at every visit are collected. Adverse event is defined as any unfavourable and unintended sign, symptom, or disease temporally associated with the use of a medical treatment or procedure that may or may not be considered related to the medical treatment or procedure [ 49 ]. Possible adverse events related to acupuncture are bruising, nausea, temporary pain, dizziness or faintness, or discomfort [ 58 ]. Details about the event time, severity, and duration, causal relationship with the treatment, other treatments or medications that are suspected to cause the adverse event will be recorded."
+          ],
+          "subsections": []
+        },
+        {
+          "heading": "Data management",
+          "paragraphs": [
+            "Data will be entered into computer by a study investigator (Yean Chin Cheok). All study-related physical files will be stored in a secure place. The data will be kept at Setia Chinese Medical Centre for five years after the data collection."
+          ],
+          "subsections": []
+        },
+        {
+          "heading": "Quality assurance",
+          "paragraphs": [
+            "To maintain the overall quality and legitimacy of the clinical trial, code breaks should occur only upon the occurrence of adverse event occurred. The site investigators (Yean Chin Cheok, Ooi Chuan Ng) must record all code breaks with reason on the corresponding CRF. To ensure the practitioner is masked to the group allocation, she is requested not to check for the presence of a sharp tip below the plaster during the intervention. She will also be briefed about risk management of the trial during the training. The Ethics Committee for Research Involving Human Subjects of Universiti Putra Malaysia (JKEUPM), Universiti Putra Malaysia will conduct random trial audit, if necessary."
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "heading": "Discussion",
+      "paragraphs": [
+        "Diabetes mellitus is increasing rapidly globally, particularly in low-and middle-income countries [ 59 ]. According to the International Diabetes Federation (IDF), Malaysia had an estimated 4.4 million adults aged between 20–79 living with diabetes in 2021, making it one of the countries with the highest rates of diabetes mellitus in the world [ 60 ]. This represents a prevalence rate of approximately 19.0% among adults in Malaysia [ 60 ], with the Indians having the highest prevalence of diabetes mellitus at 18.5%, followed by the Malays (11.0%), Chinese (8.5%), and Bumiputra Sarawak (7.9%) [ 61 ]. It is estimated that up to 49.0% of people with diabetes mellitus in Malaysia were undiagnosed, which means they were not aware of their condition and were not receiving treatment [ 60 ]. In addition, it has been estimated that 15.5% of the Malaysian population had impaired glucose tolerance [ 60 ]. Impaired glucose tolerance is a condition where blood glucose levels are higher than normal but not high enough to be classified as diabetes mellitus. Diabetes mellitus increased the risk of cardiovascular diseases, and substantially accounted for 35% in total Malaysian mortality [ 62 ]. Type 2 diabetes mellitus was historically considered to be a disease that primarily affected middle-aged and elderly people. However, in recent years, there has been a rising prevalence of the disease among children and young people in Malaysia. The prevalence of type 2 diabetes mellitus among children and young people under the age of 24 in Malaysia was estimated to be around 2.81% [ 63 ], which is a significant increase from previous estimates. By 2025, diabetes mellitus is expected to affect 7 million Malaysian adults aged 18 and older [ 64 ]. It is reported that the major risk factors for diabetes mellitus in Malaysia include physical inactivity (51.6%), overweight (37.3%) and obesity (12.9%) [ 65 ].",
+        "Obese people have high levels of non-esterified fatty, acids, cytokines, glycerol, pro-inflammatory markers, hormones and other substances that are actively involved in development of insulin resistance [ 66 ]. In 2019, it was revealed that one in two adults in Malaysia was overweight, obese or with abdominal obesity [ 67 ]. By genders and ethnicity, more females than males were overweight or obese (54.7%), and had abdominal obesity (64.8%) while Indian has the highest prevalence of overweight or obese (63.9%), and abdominal obesity (68.3%). Apart from that, 55–59 years old age group had the highest prevalence of overweight or obesity (60.9%) whereas 60–64 years old age group had the highest prevalence of abdominal obesity (71.5%) [ 67 ]. Therefore, the increasing trend of overweight to a concomitant rise of type 2 diabetes mellitus is expected in Malaysia. Several studies have reported that acupuncture may improve insulin sensitivity [ 22 , 27 ] and is effective against metabolic disturbances including obesity [ 32 ].",
+        "Acupuncture has been utilized extensively for the treatment of many different medical conditions [ 68 ]. Abdominal acupuncture, a traditionally based system of acupuncture is an innovative treatment in the field of CAM in which acupuncturists choose specific abdomen acupoints to treat various diseases [ 69 ]. Abdominal acupuncture is believed to be able to activate Prenatal or Congenital Channel System that radiates from the umbilicus [ 70 ]. An important characteristic of the system is that it is very close to the surface of the abdominal wall [ 70 ]. Hence, needling is performed on a more superficial level [ 70 ]. The mechanism by which acupuncture helps to reduce obesity and insulin resistance remains unclear. As such, it is pertinent to determine the treatment effect of acupuncture which may offer more insights on the prevention and management of patients with type 2 diabetes mellitus.",
+        "Treatment with shallow insertion using press needles have been described and recommended [ 48 , 53 ]. It is generally more practical, safe and scientifically approved as they are away from internal organ [ 53 ]. Press needle with shallow insertion can reduce the side effects of pain, traumatic, bleeding, haematoma, or pneumothorax during intervention [ 53 ]. Safety is one of the most important issues in the use of acupuncture in clinical practice, especially for diabetes mellitus. Nevertheless, according to various studies in China, Korea, Japan, Germany and the United Kingdom, serious adverse event associated with acupuncture is rare [ 14 , 15 , 71 ] where the incidence rate is about 0.004%. Therefore, acupuncture appears to be a safe modality to complement the existing therapy for type 2 diabetes mellitus.",
+        "Diabetes mellitus is a significant healthcare burden worldwide, and the annual global healthcare spending on diabetes mellitus was estimated to be around USD 966 billion in 2021 [ 72 ]. Similarly, the economic burden of diabetes mellitus in Malaysia is high. The estimated cost of diabetes mellitus in Malaysia is around 600 million USD per year [ 73 ]. The high cost of diabetes mellitus places a significant challenge on healthcare systems, as resources are required to manage and treat the disease effectively. Therefore, this is the first double-blind, placebo controlled, acupuncture clinical trial in Malaysia to investigate the effectiveness of acupuncture as adjuvant therapy in patients with type 2 diabetes mellitus. The findings of this study can be used to develop evidence-based recommendations of acupuncture as adjunct therapy on HOMA-IR and/or HRQoL of type 2 diabetes mellitus patients, and will contribute to our understanding of the mechanisms of acupuncture in relation to type 2 diabetes mellitus."
+      ],
+      "subsections": []
+    },
+    {
+      "heading": "Supporting information",
+      "paragraphs": [],
+      "subsections": []
+    }
+  ],
+  "has_full_text": true,
+  "is_stub_body": false,
+  "alternate_renditions": [
+    {
+      "content_type": "pmc-pdf",
+      "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10511073/pone.0284337.pdf",
+      "text": ""
+    },
+    {
+      "content_type": "pdf",
+      "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10511073/pone.0284337.pdf",
+      "text": ""
+    }
+  ],
+  "body_external_links": [
+    {
+      "href": "NCT04829045",
+      "text": "NCT04829045"
+    }
+  ],
+  "references": [
+    {
+      "id": "pone.0284337.ref001",
+      "authors": [],
+      "title": null,
+      "source": null,
+      "year": null,
+      "doi": null
+    },
+    {
+      "id": "pone.0284337.ref002",
+      "authors": [],
+      "title": null,
+      "source": null,
+      "year": null,
+      "doi": null
+    },
+    {
+      "id": "pone.0284337.ref003",
+      "authors": [
+        "Goyal R",
+        "Jialal I"
+      ],
+      "title": null,
+      "source": "StatPearls",
+      "year": "2020",
+      "doi": null
+    },
+    {
+      "id": "pone.0284337.ref004",
+      "authors": [
+        "Olokoba Obateru",
+        "Olokoba"
+      ],
+      "title": "Type 2 diabetes mellitus: a review of current trends",
+      "source": "Oman Medical Journal",
+      "year": "2012",
+      "doi": "10.5001/omj.2012.68"
+    },
+    {
+      "id": "pone.0284337.ref005",
+      "authors": [
+        "Reach G",
+        "Pechtner V",
+        "Gentilella R",
+        "Corcos A",
+        "Ceriello A"
+      ],
+      "title": "Clinical inertia and its impact on treatment intensification in people with type 2 diabetes mellitus",
+      "source": "Diabetes & Metabolism",
+      "year": "2017",
+      "doi": "10.1016/j.diabet.2017.06.003"
+    },
+    {
+      "id": "pone.0284337.ref006",
+      "authors": [
+        "María M.",
+        "Andany A",
+        "Calder RF",
+        "Fernandez CF",
+        "Rodríguez EA",
+        "Montero AD"
+      ],
+      "title": "Subclinical vascular disease in patients with diabetes is associated with insulin resistance",
+      "source": "Diabetes & Metabolic Syndrome: Clinical Research & Reviews",
+      "year": "2019",
+      "doi": "10.1016/j.dsx.2019.05.025"
+    },
+    {
+      "id": "pone.0284337.ref007",
+      "authors": [
+        "Ekblad LL",
+        "Rinne JO",
+        "Puukka P",
+        "Laine H",
+        "Ahtiluoto S",
+        "Sulkava R"
+      ],
+      "title": "Insulin resistance predicts cognitive decline: an 11-year follow-up of a nationally representative adult population sample",
+      "source": "Diabetes Care",
+      "year": "2017",
+      "doi": "10.2337/dc16-2001"
+    },
+    {
+      "id": "pone.0284337.ref008",
+      "authors": [
+        "Trikkalinou A",
+        "Papazafiropoulou AK",
+        "Melidonis A"
+      ],
+      "title": "Type 2 diabetes and quality of life",
+      "source": "World Journal of Diabetes",
+      "year": "2017",
+      "doi": "10.4239/wjd.v8.i4.120"
+    },
+    {
+      "id": "pone.0284337.ref009",
+      "authors": [
+        "Olefsky JM",
+        "Saltiel AR"
+      ],
+      "title": "PPARγ and the treatment of insulin resistance",
+      "source": "Trends in Endocrinology and Metabolism",
+      "year": "2000",
+      "doi": "10.1016/s1043-2760(00)00306-4"
+    },
+    {
+      "id": "pone.0284337.ref010",
+      "authors": [
+        "Fonseca V",
+        "Desouza C",
+        "Asnani S",
+        "Jialal I"
+      ],
+      "title": "Nontraditional risk factors for cardiovascular disease in diabetes",
+      "source": "Endocr Rev",
+      "year": "2004",
+      "doi": "10.1210/er.2002-0034"
+    },
+    {
+      "id": "pone.0284337.ref011",
+      "authors": [
+        "Kassahun A",
+        "Gashe F",
+        "Mulisa E",
+        "Rike WA"
+      ],
+      "title": "Nonadherence and factors affecting adherence of diabetic patients to anti-diabetic medication in Assela General Hospital, Oromia Region, Ethiopia",
+      "source": "J Pharm Bioallied Sci",
+      "year": "2016",
+      "doi": "10.4103/0975-7406.171696"
+    },
+    {
+      "id": "pone.0284337.ref012",
+      "authors": [
+        "Chen C",
+        "Liu J",
+        "Sun M",
+        "Liu W",
+        "Han J",
+        "Wang H"
+      ],
+      "title": "Acupuncture for type 2 diabetes mellitus: A systematic review and meta-analysis of randomized controlled trials",
+      "source": "Complement Ther Clin Pract",
+      "year": "2019",
+      "doi": "10.1016/j.ctcp.2019.04.004"
+    },
+    {
+      "id": "pone.0284337.ref013",
+      "authors": [
+        "Takahashi H."
+      ],
+      "title": "Effects of Acupuncture on Terminal Cancer Patients in the Home Care Setting",
+      "source": "Medical Acupuncture",
+      "year": "2009",
+      "doi": null
+    },
+    {
+      "id": "pone.0284337.ref014",
+      "authors": [
+        "Witt CM",
+        "Pach D",
+        "Reinhold T",
+        "Wruck K",
+        "Brinkhaus B",
+        "Mank S"
+      ],
+      "title": "Treatment of the adverse effects from acupuncture and their economic impact: A prospective study in 73,406 patients with low back or neck pain",
+      "source": "Eur J Pain",
+      "year": "2011",
+      "doi": "10.1016/j.ejpain.2010.06.008"
+    },
+    {
+      "id": "pone.0284337.ref015",
+      "authors": [
+        "Birch S",
+        "Alraek T",
+        "Norheim AJ"
+      ],
+      "title": "Acupuncture adverse events in China: a glimpse of historical and contextual aspects",
+      "source": "The Journal of Alternative and Complementary Medicine",
+      "year": "2013",
+      "doi": "10.1089/acm.2012.0639"
+    },
+    {
+      "id": "pone.0284337.ref016",
+      "authors": [
+        "MacPherson H",
+        "Hammerschlag R",
+        "Lewith G",
+        "Schnyer R"
+      ],
+      "title": null,
+      "source": "Acupuncture Researh, Strategies for Establishing an Evidence Base",
+      "year": "2008",
+      "doi": null
+    },
+    {
+      "id": "pone.0284337.ref017",
+      "authors": [],
+      "title": null,
+      "source": null,
+      "year": null,
+      "doi": null
+    },
+    {
+      "id": "pone.0284337.ref018",
+      "authors": [
+        "Firouzjaei A",
+        "Li GC",
+        "Wang N",
+        "Liu WX",
+        "Zhu BM"
+      ],
+      "title": "Comparative evaluation of the therapeutic effect of metformin monotherapy with metformin and acupuncture combined therapy on weight loss and insulin sensitivity in diabetic patients",
+      "source": "Nutrition & Diabetes",
+      "year": "2016",
+      "doi": "10.1038/nutd.2016.16"
+    },
+    {
+      "id": "pone.0284337.ref019",
+      "authors": [
+        "Shen PF",
+        "Kong L"
+      ],
+      "title": "Effects of acupuncture on mood and glucose metabolism in the patient of type 2 diabetes",
+      "source": "Zhongguo Zhen Jiu",
+      "year": "2007",
+      "doi": null
+    },
+    {
+      "id": "pone.0284337.ref020",
+      "authors": [
+        "Zhang ZL",
+        "Ji XQ",
+        "Zhao SH",
+        "Zhang JJ",
+        "Kang T",
+        "Yang XJ"
+      ],
+      "title": "Randomized controlled study on effects of the needling method for regulating spleen-stomach on coronary heart disease complicated by type 2 diabetes mellitus complicated",
+      "source": "Zhongguo Zhen Jiu",
+      "year": "2008",
+      "doi": null
+    },
+    {
+      "id": "pone.0284337.ref021",
+      "authors": [
+        "Peplow PV",
+        "Baxter GD"
+      ],
+      "title": "Electroacupuncture for control of blood glucose in diabetes: literature review",
+      "source": "J Acupunct Meridian Study",
+      "year": "2012",
+      "doi": "10.1016/j.jams.2011.11.018"
+    },
+    {
+      "id": "pone.0284337.ref022",
+      "authors": [
+        "Lin RT",
+        "Pai HC",
+        "Lee YC",
+        "Tzeng CY",
+        "Chang CH",
+        "Hung PH"
+      ],
+      "title": "Electroacupuncture and rosiglitazone combined therapy as a means of treating insulin resistance and type 2 diabetes mellitus: a randomized controlled trial",
+      "source": "Evidence-Based Complementary and Alternative Medicine",
+      "year": null,
+      "doi": "10.1155/2013/969824"
+    },
+    {
+      "id": "pone.0284337.ref023",
+      "authors": [
+        "Tjipto BW",
+        "Saputra K",
+        "Sutrisno TC"
+      ],
+      "title": "Effectiveness of acupuncture as an adjunctive for diabetes mellitus: A randomized controlled trial",
+      "source": "Medical Acupuncture",
+      "year": "2014",
+      "doi": "10.1089/acu.2014.1058"
+    },
+    {
+      "id": "pone.0284337.ref024",
+      "authors": [
+        "Tur FC",
+        "E Kilic TY",
+        "Temizyurek Z"
+      ],
+      "title": "Therapeutic effects of acupuncture on obesity and HbA1c",
+      "source": "European Journal of Integrative Medicine",
+      "year": "2014",
+      "doi": null
+    },
+    {
+      "id": "pone.0284337.ref025",
+      "authors": [
+        "Zhang K",
+        "Zhou S",
+        "Wang C",
+        "Xu H",
+        "Zhang L"
+      ],
+      "title": "Acupuncture on obesity: clinical evidence and possible neuroendocrine mechanisms",
+      "source": "Evidence-Based Complementary and Alternative Medicine",
+      "year": "2018",
+      "doi": "10.1155/2018/6409389"
+    },
+    {
+      "id": "pone.0284337.ref026",
+      "authors": [
+        "Wei Y",
+        "Dong M",
+        "Zhang H",
+        "Lv Y",
+        "Liu J",
+        "Wei K"
+      ],
+      "title": "Acupuncture attenuated inflammation and inhibited Th17 and treg activity in experimental asthma",
+      "source": "Evidence-Based Complementary and Alternative Medicine",
+      "year": "2015",
+      "doi": "10.1155/2015/340126"
+    },
+    {
+      "id": "pone.0284337.ref027",
+      "authors": [
+        "Liang F",
+        "Koya D"
+      ],
+      "title": "Acupuncture: is it effective for treatment of insulin resistance",
+      "source": "Diabetes. Obesity and Metabolism",
+      "year": "2009",
+      "doi": "10.1111/j.1463-1326.2009.01192.x"
+    },
+    {
+      "id": "pone.0284337.ref028",
+      "authors": [
+        "Cai Peng"
+      ],
+      "title": "Meta analysis on acupuncture treatment of diabetes",
+      "source": "Chinese Archives of Traditional Chinese Medicine",
+      "year": "2010",
+      "doi": null
+    },
+    {
+      "id": "pone.0284337.ref029",
+      "authors": [
+        "Yang MX",
+        "Li XM",
+        "Liu SH"
+      ],
+      "title": "Meta-analysis of acupuncture for relieving non-organic dyspeptic symptoms suggestive of diabetic gastroparesis",
+      "source": "BMCcomplementary and alternative medicine",
+      "year": "2013",
+      "doi": "10.1186/1472-6882-13-311"
+    },
+    {
+      "id": "pone.0284337.ref030",
+      "authors": [
+        "Dimitrova A",
+        "Murchison C",
+        "Oken B"
+      ],
+      "title": "Acupuncture for the Treatment of Peripheral Neuropathy: A Systematic Review and Meta-Analysis",
+      "source": "J Altern Complement Med",
+      "year": "2017",
+      "doi": "10.1089/acm.2016.0155"
+    },
+    {
+      "id": "pone.0284337.ref031",
+      "authors": [
+        "Zhang RQ",
+        "Tan J",
+        "Li FY",
+        "Ma YH",
+        "Han LX",
+        "Yang XL"
+      ],
+      "title": "Acupuncture for the treatment of obesity in adults: a systematic review and meta-analysis",
+      "source": "Postgrad Med J",
+      "year": "2017",
+      "doi": "10.1136/postgradmedj-2017-134969"
+    },
+    {
+      "id": "pone.0284337.ref032",
+      "authors": [
+        "Zhong YM",
+        "Luo XC",
+        "Chen Y",
+        "Lai DL",
+        "Lu WT",
+        "Shang YN"
+      ],
+      "title": "Acupuncture versus sham acupuncture for simple obesity: a systematic review and meta-analysis",
+      "source": "Postgrad Med J",
+      "year": "2020",
+      "doi": "10.1136/postgradmedj-2019-137221"
+    },
+    {
+      "id": "pone.0284337.ref033",
+      "authors": [
+        "Manyanga T",
+        "Froese M",
+        "Zarychanski R",
+        "Abou-Setta A",
+        "Friesen C",
+        "Tennenhouse M"
+      ],
+      "title": "Pain management with acupuncture in osteoarthritis: a systematic review and meta-analysis",
+      "source": "BMC Complement Altern Med",
+      "year": "2014",
+      "doi": "10.1186/1472-6882-14-312"
+    },
+    {
+      "id": "pone.0284337.ref034",
+      "authors": [
+        "Helianthi DR",
+        "Simadibratai C",
+        "Srilestari A",
+        "Wahyudi ER",
+        "Hidayat R"
+      ],
+      "title": "Pain reduction after Laser Acupuncture treatment in geriatric patients with knee osteoarthritis: a randomized controlled trial",
+      "source": "Acta Med Indon-Indon J Intern Med",
+      "year": "2016",
+      "doi": null
+    },
+    {
+      "id": "pone.0284337.ref035",
+      "authors": [
+        "David P",
+        "Sniezek DC",
+        "FAAMA",
+        "Siddiqui Imran J"
+      ],
+      "title": "Acupuncture for Treating Anxiety and Depression in Women: A Clinical Systematic Review",
+      "source": "Medical Acupuncture",
+      "year": "2013",
+      "doi": "10.1089/acu.2012.0900"
+    },
+    {
+      "id": "pone.0284337.ref036",
+      "authors": [
+        "Mishra S",
+        "Archana R",
+        "Sailesh KS",
+        "Bhasetti S",
+        "Jose J",
+        "Reddy UK"
+      ],
+      "title": "Stress management through manual-acupuncture in type-2 diabetic patients",
+      "source": "Journal of Chemical and Pharmaceutical Sciences",
+      "year": "2017",
+      "doi": null
+    },
+    {
+      "id": "pone.0284337.ref037",
+      "authors": [
+        "Cao H",
+        "Pan H",
+        "Liu J"
+      ],
+      "title": "Acupuncture for treatment of insomnia: a systematic review of randomized controlled trials",
+      "source": "Journal of Alternative and Complementary Medicine",
+      "year": "2009",
+      "doi": "10.1089/acm.2009.0041"
+    },
+    {
+      "id": "pone.0284337.ref038",
+      "authors": [
+        "Dong B",
+        "Chen Z",
+        "Yin X",
+        "Li D",
+        "Ma J",
+        "Ying P"
+      ],
+      "title": "The efficacy of acupuncture for treating depression-related insomnia compared with a control group: a systematic review and meta-analysis",
+      "source": "BioMed Research International",
+      "year": "2017",
+      "doi": "10.1155/2017/9614810"
+    },
+    {
+      "id": "pone.0284337.ref039",
+      "authors": [
+        "Vinjamury PS",
+        "Li JZ",
+        "Hsiao E",
+        "Huang C",
+        "Hawk C",
+        "Miller J"
+      ],
+      "title": "Effects of acupuncture for cancer pain and quality of life–a case series",
+      "source": "BioMed Central",
+      "year": "2013",
+      "doi": "10.1186/1749-8546-8-15"
+    },
+    {
+      "id": "pone.0284337.ref040",
+      "authors": [
+        "Xiong WJ",
+        "Feng X",
+        "Liu JP",
+        "Chen W"
+      ],
+      "title": "Electroacupuncture for treatment of diabetic peripheral neuropathy: a systematic review of randomized controlled trials",
+      "source": "Journal of Traditional Chinese Medical Sciences",
+      "year": "2016",
+      "doi": null
+    },
+    {
+      "id": "pone.0284337.ref041",
+      "authors": [
+        "Bo C",
+        "Xue Z",
+        "Yi G",
+        "Zelin C",
+        "Yang B",
+        "Zixu W"
+      ],
+      "title": "Assessing the quality of reports about randomized controlled trials of acupuncture treatment on diabetic peripheral neuropathy",
+      "source": "PloS One",
+      "year": "2012",
+      "doi": "10.1371/journal.pone.0038461"
+    },
+    {
+      "id": "pone.0284337.ref042",
+      "authors": [
+        "Schulz KF",
+        "Altman DG",
+        "Moher D"
+      ],
+      "title": "CONSORT 2010 Statement: updated guidelines for reporting parallel group randomised trials",
+      "source": "BMJ",
+      "year": "2010",
+      "doi": "10.3736/jcim20100702"
+    },
+    {
+      "id": "pone.0284337.ref043",
+      "authors": [
+        "MacPherson H",
+        "Altman DG",
+        "Hammerschlag R",
+        "Youping Li",
+        "Taixiang Wu",
+        "White A"
+      ],
+      "title": "Revised STandards for Reporting Interventions in Clinical Trials of Acupuncture (STRICTA): extending the CONSORT statement",
+      "source": "PLoS Med",
+      "year": "2010",
+      "doi": "10.1371/journal.pmed.1000261"
+    },
+    {
+      "id": "pone.0284337.ref044",
+      "authors": [
+        "Chan AW",
+        "Tetzlaff JM",
+        "Gøtzsche PC",
+        "Altman DG",
+        "Mann H",
+        "Berlin J"
+      ],
+      "title": "SPIRIT 2013 Explanation and Elaboration: Guidance for protocols of clinical trials",
+      "source": "BMJ",
+      "year": "2013",
+      "doi": "10.1136/bmj.e7586"
+    },
+    {
+      "id": "pone.0284337.ref045",
+      "authors": [],
+      "title": null,
+      "source": "Diabetes Care",
+      "year": "2021",
+      "doi": "10.2337/dc21-Sint"
+    },
+    {
+      "id": "pone.0284337.ref046",
+      "authors": [
+        "Miyazaki S",
+        "Hagihara A",
+        "Kanda R",
+        "Mukaino Y",
+        "Nobutomo K"
+      ],
+      "title": "Applicability of press needles to a double-blind trial: a randomized, double-blind, placebo-controlled trial",
+      "source": "The Clinical Journal of Pain",
+      "year": "2009",
+      "doi": "10.1097/AJP.0b013e318193a6e1"
+    },
+    {
+      "id": "pone.0284337.ref047",
+      "authors": [
+        "Bai Y",
+        "Chen S",
+        "Chen L",
+        "Wang B"
+      ],
+      "title": "Postoperative pain of mixed hemorrhoid treated by embedding needles in Erbai",
+      "source": "World Journal of Acupuncture-Moxibustion (WJAM)",
+      "year": "2015",
+      "doi": null
+    },
+    {
+      "id": "pone.0284337.ref048",
+      "authors": [
+        "Schroder S",
+        "Meyer-Hamme G",
+        "Friedemann T",
+        "Kirch S",
+        "Hauck M",
+        "Plaetke R"
+      ],
+      "title": "Immediate pain relief in adhesive capsulitis by acupuncture- a randomized controlled double-blinded study",
+      "source": "Pain Medicine",
+      "year": "2017",
+      "doi": "10.1093/pm/pnx052"
+    },
+    {
+      "id": "pone.0284337.ref049",
+      "authors": [],
+      "title": null,
+      "source": null,
+      "year": null,
+      "doi": null
+    },
+    {
+      "id": "pone.0284337.ref050",
+      "authors": [
+        "Kim KW",
+        "Yoo HH",
+        "Cho JH",
+        "Yang YC",
+        "Kim JI",
+        "Kim SY"
+      ],
+      "title": "Effects of acupuncture on serum metabolic parameters in premenopausal obese women: study protocol for a randomized controlled trial",
+      "source": "Trials",
+      "year": "2015",
+      "doi": "10.1186/s13063-015-0867-y"
+    },
+    {
+      "id": "pone.0284337.ref051",
+      "authors": [
+        "Zhong LD",
+        "Kun W",
+        "Lam TF",
+        "Zhang SP",
+        "Yang JJ",
+        "Ziea TC"
+      ],
+      "title": "The combination effects of body acupuncture and auricular acupressure compared to sham acupuncture for body weight control: study protocol for a randomized controlled trial",
+      "source": "Trials",
+      "year": "2016",
+      "doi": "10.1186/s13063-016-1458-2"
+    },
+    {
+      "id": "pone.0284337.ref052",
+      "authors": [
+        "Aung KH",
+        "Chen PD"
+      ],
+      "title": null,
+      "source": "Clinical introduction of medical Acupuncture",
+      "year": "2006",
+      "doi": null
+    },
+    {
+      "id": "pone.0284337.ref053",
+      "authors": [
+        "Fleckenstein J",
+        "Baeumler PI",
+        "Gurschler C",
+        "Weissenbacher T",
+        "Simang M",
+        "Annecke T"
+      ],
+      "title": "Acupuncture for post anaesthetic recovery and postoperative pain: study protocol for a randomized controlled trial",
+      "source": "Trials",
+      "year": "2014",
+      "doi": "10.1186/1745-6215-15-292"
+    },
+    {
+      "id": "pone.0284337.ref054",
+      "authors": [
+        "Matthews DR",
+        "Hosker JP",
+        "Rudenski AS",
+        "Naylor BA",
+        "Treacher DF",
+        "Turner RC"
+      ],
+      "title": "Homeostasis model assessment: Insulin resistance and beta-cell function from fasting plasma glucose and insulin concentrations in man",
+      "source": "Diabetologia",
+      "year": "1985",
+      "doi": "10.1007/BF00280883"
+    },
+    {
+      "id": "pone.0284337.ref055",
+      "authors": [],
+      "title": null,
+      "source": null,
+      "year": null,
+      "doi": null
+    },
+    {
+      "id": "pone.0284337.ref056",
+      "authors": [
+        "Hasanah CI",
+        "Naing L",
+        "Rahman ARA"
+      ],
+      "title": "World Health Organization Quality of Life Assessment: Brief Version in Bahasa Malaysia",
+      "source": "Med J Malaysia",
+      "year": "2003",
+      "doi": null
+    },
+    {
+      "id": "pone.0284337.ref057",
+      "authors": [],
+      "title": null,
+      "source": null,
+      "year": null,
+      "doi": null
+    },
+    {
+      "id": "pone.0284337.ref058",
+      "authors": [],
+      "title": null,
+      "source": null,
+      "year": null,
+      "doi": null
+    },
+    {
+      "id": "pone.0284337.ref059",
+      "authors": [],
+      "title": null,
+      "source": null,
+      "year": null,
+      "doi": null
+    },
+    {
+      "id": "pone.0284337.ref060",
+      "authors": [],
+      "title": null,
+      "source": null,
+      "year": null,
+      "doi": null
+    },
+    {
+      "id": "pone.0284337.ref061",
+      "authors": [],
+      "title": null,
+      "source": null,
+      "year": null,
+      "doi": null
+    },
+    {
+      "id": "pone.0284337.ref062",
+      "authors": [
+        "Rahim FF",
+        "Abdulrahman SA",
+        "Kader Maideen SF",
+        "Rashid A"
+      ],
+      "title": "Prevalence and factors associated with prediabetes and diabetes in fishing communities in Penang, Malaysia: A cross-sectional study",
+      "source": "PLoS One",
+      "year": "2020",
+      "doi": "10.1371/journal.pone.0228570"
+    },
+    {
+      "id": "pone.0284337.ref063",
+      "authors": [],
+      "title": null,
+      "source": null,
+      "year": null,
+      "doi": null
+    },
+    {
+      "id": "pone.0284337.ref064",
+      "authors": [
+        "Akhtar S",
+        "Nasir JA",
+        "Ali A",
+        "Asghar M",
+        "Majeed R",
+        "Sarwar A"
+      ],
+      "title": "Prevalence of type-2 diabetes and prediabetes in Malaysia: A systematic review and meta-analysis",
+      "source": "PLoS One",
+      "year": "2022",
+      "doi": "10.1371/journal.pone.0263139"
+    },
+    {
+      "id": "pone.0284337.ref065",
+      "authors": [],
+      "title": null,
+      "source": null,
+      "year": null,
+      "doi": null
+    },
+    {
+      "id": "pone.0284337.ref066",
+      "authors": [
+        "Al-Goblan AS",
+        "Al-Alfi MA",
+        "Khan MZ"
+      ],
+      "title": "Mechanism linking diabetes mellitus and obesity",
+      "source": "Diabetes Metab Syndr Obes",
+      "year": "2014",
+      "doi": "10.2147/DMSO.S67400"
+    },
+    {
+      "id": "pone.0284337.ref067",
+      "authors": [],
+      "title": null,
+      "source": null,
+      "year": null,
+      "doi": null
+    },
+    {
+      "id": "pone.0284337.ref068",
+      "authors": [
+        "Zhan J",
+        "Xiong BH",
+        "Zhang PM",
+        "Wang YQ",
+        "Tang YY",
+        "Zhan LC"
+      ],
+      "title": "Abdominal acupuncture as an adjunctive therapy for the recovery motor function after stroke: a systematic review and meta-analysis of randomized controlled trials",
+      "source": "Frontiers in Neurology",
+      "year": "2021",
+      "doi": "10.3389/fneur.2021.705771"
+    },
+    {
+      "id": "pone.0284337.ref069",
+      "authors": [],
+      "title": null,
+      "source": null,
+      "year": null,
+      "doi": null
+    },
+    {
+      "id": "pone.0284337.ref070",
+      "authors": [],
+      "title": null,
+      "source": null,
+      "year": null,
+      "doi": null
+    },
+    {
+      "id": "pone.0284337.ref071",
+      "authors": [
+        "He WJ",
+        "Zhao X",
+        "Li Y",
+        "Xi Q",
+        "Guo Y"
+      ],
+      "title": "Adverse events following acupuncture: A systematic review of the Chinese literature for the years 1956–2010",
+      "source": "J Altern Complement Med",
+      "year": "2012",
+      "doi": "10.1089/acm.2011.0825"
+    },
+    {
+      "id": "pone.0284337.ref072",
+      "authors": [],
+      "title": null,
+      "source": null,
+      "year": null,
+      "doi": null
+    },
+    {
+      "id": "pone.0284337.ref073",
+      "authors": [
+        "Ganasegeran K",
+        "Hor CP",
+        "Jamil MF",
+        "Loh HC",
+        "Noor JM",
+        "Hamid NA"
+      ],
+      "title": "A Systematic Review of the Economic Burden of Type 2 Diabetes in Malaysia",
+      "source": "International journal of environmental research and public health",
+      "year": "2020",
+      "doi": "10.3390/ijerph17165723"
+    }
+  ],
+  "full_text_source": "xml",
+  "pdf_url": null,
+  "pdf_text": null
+}

@@ -1,0 +1,97 @@
+{
+  "pmcid": "PMC13266498",
+  "pmid": "42249941",
+  "doi": "10.3310/ASDB8011",
+  "title": "PERsonalised Medicine for Intensification of Treatment (PERMIT) in type 2 diabetes mellitus: a target trial emulation from routine data.",
+  "journal": "Health Technology Assessment (Winchester, England)",
+  "issn": "1366-5278",
+  "authors": [
+    {
+      "name": "David G Lugo-Palacios",
+      "affiliation_ids": [],
+      "affiliations": []
+    },
+    {
+      "name": "Patrick Bidulka",
+      "affiliation_ids": [],
+      "affiliations": []
+    },
+    {
+      "name": "Paul Charlton",
+      "affiliation_ids": [],
+      "affiliations": []
+    },
+    {
+      "name": "Bill Huston",
+      "affiliation_ids": [],
+      "affiliations": []
+    },
+    {
+      "name": "Anna Carnegie",
+      "affiliation_ids": [],
+      "affiliations": []
+    },
+    {
+      "name": "Orlagh Carroll",
+      "affiliation_ids": [],
+      "affiliations": []
+    },
+    {
+      "name": "Stephen O'Neill",
+      "affiliation_ids": [],
+      "affiliations": []
+    },
+    {
+      "name": "Amanda I Adler",
+      "affiliation_ids": [],
+      "affiliations": []
+    },
+    {
+      "name": "Anirban Basu",
+      "affiliation_ids": [],
+      "affiliations": []
+    },
+    {
+      "name": "Richard J Silverwood",
+      "affiliation_ids": [],
+      "affiliations": []
+    },
+    {
+      "name": "Andrew H Briggs",
+      "affiliation_ids": [],
+      "affiliations": []
+    },
+    {
+      "name": "Liam Smeeth",
+      "affiliation_ids": [],
+      "affiliations": []
+    },
+    {
+      "name": "Ian J Douglas",
+      "affiliation_ids": [],
+      "affiliations": []
+    },
+    {
+      "name": "Kamlesh Khunti",
+      "affiliation_ids": [],
+      "affiliations": []
+    },
+    {
+      "name": "Richard Grieve",
+      "affiliation_ids": [],
+      "affiliations": []
+    }
+  ],
+  "publication_date": "2026-6",
+  "keywords": [],
+  "abstract": "BACKGROUNDEvidence is required on the relative effectiveness of sulphonylureas, dipeptidyl peptidase-4 inhibitors or sodium-glucose cotransporter 2 inhibitors added to metformin for people with type 2 diabetes mellitus.OBJECTIVESTo assess disparities in the initiation of second-line antidiabetic treatments prescribed among people with type 2 diabetes mellitus in England according to ethnicity and social deprivation. To compare the effectiveness of sulphonylureas, dipeptidyl peptidase-4 inhibitors and sodium-glucose cotransporter 2 inhibitors added to metformin for people with type 2 diabetes mellitus who require second-line treatment in routine clinical practice. To examine heterogeneity in the comparative short-term (12 months) effectiveness of sulphonylureas versus dipeptidyl peptidase-4 inhibitors combined with metformin on levels of glycated haemoglobin across the entire target population and subpopulations of decision-making relevance. To assess the comparative effectiveness of sulphonylureas, dipeptidyl peptidase-4 inhibitors or sodium-glucose cotransporter 2 inhibitors added to metformin according to individual risk-factor profiles of multiple long-term conditions. To calibrate the RAPIDS microsimulation model to UK data and then use the resultant RAPIDS-UK model to predict probabilities of long-term complications for people with type 2 diabetes mellitus in England after second-line treatment with sulphonylureas, dipeptidyl peptidase-4 inhibitors or sodium-glucose cotransporter 2 inhibitors added to metformin.METHODSWe included adults with type 2 diabetes mellitus who initiated second-line antidiabetic treatment with sulphonylureas, dipeptidyl peptidase-4 inhibitors or sodium-glucose cotransporter 2 inhibitors added to metformin monotherapy. We used data from the Clinical Practice Research Datalink linked to Hospital Episode Statistics and the Office of National Statistics. We applied target trial emulation and instrumental variable analyses to reduce the risks of biases, including confounding. The primary outcome was change in mean glycated haemoglobin (mmol/mol) at 1-year follow-up. Secondary outcomes: change in mean body mass index, systolic blood pressure, estimated glomerular filtration rate and time to major adverse kidney event, major adverse cardiovascular event, heart failure hospitalisation, eye disease, amputation and all-cause mortality. We assessed treatment effect heterogeneity according to multiple long-term conditions. We used a microsimulation model to report the impact on long-term complications.RESULTSAfter the instrumental variable analysis, the mean 95% confidence interval differences in glycated haemoglobin change between baseline and 1 year were: -2.5 mmol/mol (-3.7 to -1.3) for sodium-glucose cotransporter 2 inhibitors versus sulphonylureas, and -3.2 mmol/mol (-4.6 to -1.8) for sodium-glucose cotransporter 2 inhibitors versus dipeptidyl peptidase-4 inhibitors. Sodium-glucose cotransporter 2 inhibitors were more effective in reducing body mass index and systolic blood pressure compared to either sulphonylureas or dipeptidyl peptidase-4 inhibitors. Sodium-glucose cotransporter 2 inhibitors were also more effective at reducing mean glycated haemoglobin at 2-year follow-up, at reducing body mass index and systolic blood pressure at 1- and 2-year follow-ups and at reducing the hazards of heart failure hospitalisation (vs. dipeptidyl peptidase-4 inhibitors) and ≥ 40% decline in estimated glomerular filtration rate (vs. sulphonylureas). We did not find evidence of treatment effect heterogeneity by baseline cardiovascular disease status or multiple long-term condition profiles. The microsimulation model found that sodium-glucose cotransporter 2 inhibitors led to lower predicted incidence of end-stage kidney disease, heart failure and eye disease. Public and patient involvement translation workshop participants provided valuable insights on how best to share our findings.LIMITATIONSWe could only partially evaluate the main instrumental variable assumptions.CONCLUSIONSWe found that sodium-glucose cotransporter 2 inhibitors were better than dipeptidyl peptidase-4 inhibitors and sulphonylureas at improving important risk factors and at reducing the risk of complications among a general population of people with type 2 diabetes mellitus.FUTURE WORKNewer antidiabetic treatments should be evaluated.FUNDINGThis synopsis presents independent research funded by the National Institute for Health and Care Research (NIHR) Health Technology Assessment programme as award number NIHR128490.",
+  "body": [],
+  "has_full_text": false,
+  "is_stub_body": false,
+  "alternate_renditions": [],
+  "body_external_links": [],
+  "references": [],
+  "full_text_source": null,
+  "pdf_url": null,
+  "pdf_text": null
+}

@@ -1,0 +1,1551 @@
+{
+  "pmcid": "PMC12090506",
+  "pmid": "40390070",
+  "doi": "10.1186/s13287-025-04369-4",
+  "title": "Glucagon-like peptide-1: a new potential regulator for mesenchymal stem cells in the treatment of type 2 diabetes mellitus and its complication",
+  "journal": "Stem Cell Research & Therapy",
+  "issn": "1757-6512",
+  "authors": [
+    {
+      "name": "Zi’an Shao",
+      "affiliation_ids": [
+        "Aff1"
+      ],
+      "affiliations": [
+        "https://ror.org/01eq10738 grid.416466.7 0000 0004 1757 959X Department of Plastic and Cosmetic Surgery, Nanfang Hospital, Southern Medical University, 1838 Guangzhou North Road, Guangzhou, Guangdong 510515 P. R. China"
+      ]
+    },
+    {
+      "name": "Xiaoguang Zhang",
+      "affiliation_ids": [
+        "Aff1"
+      ],
+      "affiliations": [
+        "https://ror.org/01eq10738 grid.416466.7 0000 0004 1757 959X Department of Plastic and Cosmetic Surgery, Nanfang Hospital, Southern Medical University, 1838 Guangzhou North Road, Guangzhou, Guangdong 510515 P. R. China"
+      ]
+    },
+    {
+      "name": "Junrong Cai",
+      "affiliation_ids": [
+        "Aff1"
+      ],
+      "affiliations": [
+        "https://ror.org/01eq10738 grid.416466.7 0000 0004 1757 959X Department of Plastic and Cosmetic Surgery, Nanfang Hospital, Southern Medical University, 1838 Guangzhou North Road, Guangzhou, Guangdong 510515 P. R. China"
+      ]
+    },
+    {
+      "name": "Feng Lu",
+      "affiliation_ids": [
+        "Aff1"
+      ],
+      "affiliations": [
+        "https://ror.org/01eq10738 grid.416466.7 0000 0004 1757 959X Department of Plastic and Cosmetic Surgery, Nanfang Hospital, Southern Medical University, 1838 Guangzhou North Road, Guangzhou, Guangdong 510515 P. R. China"
+      ]
+    }
+  ],
+  "publication_date": "2025-5-19",
+  "keywords": [
+    "Glucagon-like peptide-1",
+    "Mesenchymal stem cells",
+    "Type 2 diabetes mellitus",
+    "Stem cell therapy",
+    "Hormonal regulation"
+  ],
+  "abstract": "Glucagon-like peptide-1 is an enteric proinsulin hormone secreted by intestinal L-cells that orchestrates insulin secretion in a glucose-dependent manner. Renowned for preserving pancreatic β-cell mass, glucagon-like peptide-1 facilitates β-cell proliferation and inhibits apoptosis, while concurrently suppressing glucagon secretion from pancreatic α-cells, thereby exerting hypoglycemic effects.Recent in vitro and in vivo studies have clarified the benefits of combination therapy with glucagon-like peptide-1 and stem cells in Type 2 diabetes mellitus. Glucagon-like peptide-1 enhances the repair of type 2 diabetes mellitus-afflicted tissues and organs by modulating sourced mesenchymal stem cell differentiation, proliferation, apoptosis, and migration. Importantly, glucagon-like peptide-1 overcomes the detrimental effects of the diabetic microenvironment on transplanted mesenchymal stem cells by increasing the number of localized cells in stem cell therapy and the unstable efficacy of stem cell therapy.This review elucidates the molecular and cellular mechanisms through which glucagon-like peptide-1 regulates mesenchymal stem cells in the type 2 diabetes mellitus context and discuss its therapeutic prospects for type 2 diabetes mellitus and its associated complications, proposing a novel and comprehensive treatment paradigm.",
+  "body": [
+    {
+      "heading": "Introduction",
+      "paragraphs": [
+        "Diabetes, a prevalent metabolic disease, is projected by the World Health Organization (WHO), to affect 643 million individuals globally by 2030, representing 7.7% of the adult population [ 1 ]. As the leading cause of mortality worldwide in 2019, type 2 diabetes mellitus (T2DM) accounts for over 90% of diabetes-related cases globally [ 2 ]. Characterized by insulin resistance (IR) and hyperglycemia, T2DM arises from both genetic and lifestyle factors, including obesity, high-calorie diets, and sedentary behavior. Chronic hyperglycemia in T2DM can lead to pathological changes across multiple organ systems, including the kidneys, bones, lungs, and cardiovascular system [ 3 ]. Consequently, rigorous glycemic control is paramount in both preventing and managing diabetic complications [ 4 ].",
+        "Conventional treatment for T2DM often begins with lifestyle interventions and the use of glucose-lowering medications, but 14–25% of patients still require exogenous insulin to maintain blood glucose levels [ 5 ]. There are many treatments for T2DM and they are constantly being updated. Currently, the mainstream oral drugs include biguanides, α-glucosidase inhibitors (AGIs), sulfonylureas, glinides, and sodium-glucose cotransporter-2 (SGLT-2) inhibitors. The main function of biguanides is to reduce hepatic glycogen output and improve peripheral IR [ 6 ]. Both sulfonylureas and glinides can lower blood glucose by stimulating insulin secretion in different time frames [ 7 , 8 ]. The use of AGIs delays the absorption of carbohydrates in the upper part of the small intestine and reduces postprandial blood glucose [ 9 ]. Miglitol is a special type of AGIs because it enters the bloodstream directly [ 10 ]. SGLT-2 inhibitors reduce HbA1c by inhibiting urinary glucose reabsorption in proximal renal tubules [ 11 ]. However, long-term use of these hypoglycemic medications may increase the risk of hypoglycemia and weight gain [ 12 ]; therefore, optimizing the use of these drugs is essential for minimizing such adverse effects.",
+        "Increasing evidence demonstrates that glucagon-like peptide-1 receptor agonists (GLP-1 RA), a novel class of glucose-lowering agents, are significantly more effective than traditional non-insulin antidiabetic medications in reducing glycated hemoglobin levels [ 13 ]. An outstanding advantage of GLP-1 is that the extended half-life supports a dosing interval of up to a week, significantly reducing the frequency of dosing. In addition to enhancing pancreatic islet function and ameliorating systemic tissue dysfunction, GLP-1 RA also potentially reduce the risk of complications and address underlying causes of T2DM by improving obesity outcomes, reducing cardiovascular risk, and modulating lipid metabolism [ 14 – 16 ].",
+        "Recently, mesenchymal stem cells (MSCs) infusion has become a new therapy for the treatment of diseases, which plays an important role in the control of diabetes blood sugar by lowering the level of inflammation, ameliorating oxidative stress, modulating lipid metabolism, reversing IR and other pathways [ 17 , 18 ]. Notably, recent studies have illuminated the significant role of glucagon-like peptide-1 (GLP-1) in modulating MSCs, pivotal in the pathophysiology of diabetes and its associated complications. In the skeletal system, GLP-1 RA ameliorate osteoporosis by modulating the proliferation and differentiation of bone marrow mesenchymal stem cells (BMSCs) [ 19 ]. In the context of adipose tissue, GLP-1 affects whole-body energy metabolism by regulating the proliferation and differentiation of adipose-derived mesenchymal stem cells (ADSCs) and by stimulating the thermogenesis of brown adipose tissue [ 20 , 21 ].",
+        "The effect of GLP-1 on ADSCs and BMSCs has been demonstrated in many studies, providing novel approaches for the treatment of diabetes and its complications. Nonetheless, more experimental model creation is required to enhance and optimize the GLP-1 combined MSCs therapy. In this review, we highlighted the modulatory impact of GLP-1 on various MSCs populations, discussing both the regulatory mechanisms and the therapeutic advancements in treating T2DM and its complications."
+      ],
+      "subsections": []
+    },
+    {
+      "heading": "Physiological function of GLP-1 and GLP-1 receptor agonist",
+      "paragraphs": [
+        "GLP-1 is a peptide hormone consisting of 30 amino acids secreted by small intestinal L cells with a short half-life [ 22 ]. The GLP-1 receptor (GLP-1R) belongs to the G-protein-coupled receptors (GPCRs) and is widely distributed in the pancreas, liver, gastrointestinal tract, skeleton, central nervous system (CNS), adipose tissue, lungs, heart, and other organs. In the pancreas, GLP-1 exerts its effects by directly and indirectly stimulating α, β and δ islet cells, thereby controlling insulin secretion [ 23 ].",
+        "The last few decades have seen a rapid development of GLP-1-based medications due to the physiological effects of GLP-1 being diverse and substantial. GLP-1RAs include exenatide, liraglutide, and semaglutide. These agonists have a long half-life by altering the structure of the peptide chain [ 22 ]. Today, these modified GLP-1RAs are widely used in the clinical management of T2DM, obesity, and other metabolic disorders, underscoring their therapeutic importance [ 13 ](Fig. 1 ).",
+        "Fig. 1 Therapeutic perspectives of GLP-1 combined with MSCs in T2DM and Its Complications GLP-1 modulates MSCs derived from various tissues and organs of the body by means of pre-treatment of MSCs, gene editing, embedding in biomaterials and peptide chain modification. This combination of treatments has been shown to be effective in injuries to the liver, kidneys, heart, lungs, skin and bone"
+      ],
+      "subsections": []
+    },
+    {
+      "heading": "Regulatory effects of GLP-1 ON MSCS",
+      "paragraphs": [
+        "Mesenchymal stem cells are a kind of plastic adhesion of spindle cells and pluripotent, can differentiate into a variety of cell types, such as adipocytes, osteocytes, chondrocytes, myocytes, endothelial cells and insulin-producing cells [ 24 , 25 ]. Recently, GLP-1 or GLP-1 analogs have been shown to play an important role in the regulation of differentiation, transdifferentiation, survival and proliferation of various MCSs, which provides a new perspective for the study of GLP-1-related preparations [ 25 – 27 ](Fig. 2 ).",
+        "Fig. 2 Mechanisms of GLP-1 regulates MSCs differentiation GLP-1 promotes osteogenic differentiation of MSCs through the Wnt and BMP signaling pathways and increases the migration of BMSCs to the bone surface through M2 macrophage polarization. GLP-1 promotes the differentiation of preadipocytes into small adipocytes and avoids hypertrophy of mature adipocytes through the Wnt, MAPK/ERK and PI3K/AKT signaling pathways, and promotes white adipose browning through increased expression of Nos, NPs, STAT1, and SIRT1. GLP-1 increases insulin and C-peptide expression by promoting the differentiation of MSCs into IPCs and facilitating the cellular development of IPCs"
+      ],
+      "subsections": [
+        {
+          "heading": "GLP-1 modulates adipose-derived mesenchymal stem cells (ADSCs)",
+          "paragraphs": [],
+          "subsections": [
+            {
+              "heading": "Effects of GLP-1 on osteogenic differentiation of ADSCs",
+              "paragraphs": [
+                "GLP-1R gene expression is elevated during the osteogenic differentiation of adipose stem cells (ADSCs), as evidenced by the in vitro osteogenic induction of ADSCs harvested during plastic surgery [ 28 – 30 ]. These findings suggest that GLP-1 may play a facilitate role in osteogenic differentiation within bone tissues. Research by Lee et al. indicates that ADSCs isolated from adult adipose tissue and treated with GLP-1 exhibit a significant suppression in mRNA levels of specific lipogenic markers [ 31 ]. AIn addition, exendin-4 promotes osteogenic differentiation of ADSCs, partially mediated through the receptor activator of nuclear factor κB (RANK)/ receptor activator of nuclear factor κB ligand (RANKL)/osteoprotegerin (OPG) axis and Mitogen-Activated Protein Kinase (MAPK) pathway [ 29 , 32 – 34 ]. Phenotypic analyses of ADSCs, differentiated from adipose tissue of the epididymal testis in exendin-4-treated rats, revealed elevated levels of runt-related transcription factor-2 (RUNX2), osteocalcin, and forkhead box protein O-1 (FOXO1), as well as OPG in the supernatant. Concurrently, decreases were observed in the levels of lipogenic markers such as peroxisome proliferator-activated receptor-γ (PPAR-γ), RANK, and RANKL, alongside elevated levels of GLP-1 RA [ 29 , 32 – 34 ]. These findings suggest that exendin-4 promotes osteoblast rather than osteoclast activity, facilitating osteogenic differentiation of ADSCs [ 29 ]."
+              ],
+              "subsections": []
+            },
+            {
+              "heading": "GLP-1 promotes ADSCs proliferation and anti ADSCs apoptotic",
+              "paragraphs": [
+                "Hypoxia and oxidative stress are significant challenges to the survival of transplanted stem cells, with many being lost post-transplantation.Studies have shown that GLP-1 could not only regulate the proliferation of ADSCs via the MAPK/ERK 1/2, protein kinase B (AKT)/glycogen synthase kinase-3β (GSK-3β), and protein kinase A (PKA)/ cAMP-response element binding protein (CREB) signaling pathways, but also mitigate ADSCs apoptosis by increasing GLP-1R expression in MSCs [ 14 , 35 ]. Furthermore, exendin-4, a GLP-1RA, significantly enhances the survival of ADSCs by modulating key apoptotic regulators [ 35 ]. Specifically, exendin-4 decreases caspase-3 activity, upregulates Bcl-2 expression, and downregulates Bax expression via the endogenous mitochondrial pathway. In an in vitro model of hydrogen peroxide-induced apoptosis in ADSCs, the mitochondrial apoptotic pathway involved in caspase-9 was found to be inhibited by an increased expression of the anti-apoptotic proteins Bcl-2 and c-IAP 1/2, and a decreased expression of the pro-apoptotic proteins Bax and cytochrome c [ 14 , 36 ]. These findings suggest that exendin-4 pretreatment may reduce apoptosis in ADSCs through the PI3K/ Secreted Frizzled Related Protein 2 (SFRP2) pathway [ 14 , 36 ] (Fig. 3 ).",
+                "Fig. 3 GLP-1 protects MSCs numbers and avoids apoptosis MSCs promotes proliferation of SAT and VAT small adipocytes and avoids hypertrophy of ectopic adipose tissue mature adipocytes through the ERK1/2, AKT/GSK-3β, PKA/CREAB pathways and enhances MSCs migration to the injury sites through an increase in CXCR4 expression on the MSCs surface. GLP-1 also reduces MSCs apoptosis through the mitochondrial pathway and reduction of ROS. GLP-1 also regulates PI3K/AKT-Sfos and reduces ROS. GLP-1 reduces MSCs apoptosis through the mitochondrial pathway and decreases ROS. GLP-1 also reduces MSCs and β-cell apoptosis by modulating the PI3K/AKT-Sfrp2, ASK 1/JNK/BAX and PKA/cAMP pathways"
+              ],
+              "subsections": []
+            },
+            {
+              "heading": "Effects of GLP-1 on ADSC lipidogenic differentiation",
+              "paragraphs": [
+                "Recent studies exploring the impact of exendin-4 on human adipose mesenchymal stem cells (hADSCs) isolated from the omentum have demonstrated thatexendin-4 can enhance adipogenic differentiation while preventing hypertrophy in mature adipocytes, this effect is mediated through the activation of the MAPK/extracellular signal-regulated kinases 1/2 (ERK 1/2) pathways, and is associated with the up-regulation of pro-adipogenic genes [ 35 ]. This effect appears to be related to the up-regulation of pro-adipogenic gene expression brought on by GLP-1R’s tissue specificity in omental adiposity, which in turn influences the course of the cell cycle [ 35 ]. Additionally, research by Liu et al. has revealed that the proliferation of ADSCs triggered by exendin-4 is mediated via the phosphatidylinositol 3-kinase (PI3K)/ AKT and Wingless/Integrated (WNT)/β-catenin signaling pathways [ 37 ]. Moreover, multiple studies have shown that treatment of mouse preadipocytes (3 T3-L1) with liraglutide not only enhances their proliferation and differentiation but also inhibits apoptosis [ 38 , 39 ].",
+                "Although GLP-1R expression in adipocytes and preadipocytes is relatively low, numerous studies have demonstrated that GLP-1 can enhance the functionality of beige or brown adipose tissue [ 40 , 41 ]. This enhancement is likely related to the differentiation of ADSCs into brown adipose tissue, thereby positioning GLP-1 as a direct modulator of adipose dynamics [ 40 ]. White adipose tissue (WAT) encompasses subcutaneous adipose tissue (SAT), visceral adipose tissue (VAT), and ectopic fat components [ 42 ]. Conversely, brown adipose tissue (BAT) represents a distinct type of adipose tissue [ 42 ].",
+                "These findings collectively suggest that GLP-1 promotes ADSCs adipogenic differentiation of ADSCs within certain visceral fat depots, increasing adipocyte number, while concurrently restricting adipocyte hypertrophy and hyperplasia in ectopic fat to promote the accumulation of “healthy” fat. There is a growing body of evidence suggesting that suppression of adipogenesis is associated with increased IR, whereas visceral adipogenesis is linked to improved glucose metabolism [ 43 ]. Consequently, by augmenting the storage capacity of VAT, GLP-1 may prevent the formation of ectopic fat and improve systemic insulin sensitivity. In lipid metabolism, a proliferation of smaller adipocytes is associated with heightened insulin sensitivity [ 43 ]. Numerous studies have demonstrated that adipocyte size is generally reduced in all white fat depots following liraglutide therapy [ 44 ]. Notably, compared to VAT, SAT exhibits greater insulin sensitivity and a resistance to lipolysis, attributable to a larger population of small adipocytes and elevated expression of insulin receptor substrate-1 (IRS-1) [ 44 , 45 ]."
+              ],
+              "subsections": []
+            },
+            {
+              "heading": "Induction of browning of ADSCs by GLP-1",
+              "paragraphs": [
+                "Recent advancements highlight a growing interest in the transmigration capabilities of adult adipocytes, particularly ADSCs. It has been previously demonstrated that GLP-1 induces browning of WAT, thereby enhancing body thermogenesis—a process that is beneficial in managing metabolic abnormalities in T2DM patients [ 44 ]. The mechanism underlying this transformation involves GLP-1R signaling in both the central nervous system (CNS) and WAT, notably in SAT. Notably, central administration of GLP-1 has been shown to reduce fat storage in WAT and promote browning via alterations in AMP-activated protein kinase (AMPK) in the ventral medial nucleus (VMH). This process is coupled with increased thermogenesis in BAT, mediated by peroxisome proliferator-activated receptor-gamma coactivator 1α (PGC 1α)/uncoupling protein 1 (UCP-1), leading to notable reduction in body weight [ 46 ]. Additionally, numerous signaling pathways and transcription factors, including the neuropeptide S pathway, the sirtuins 1 (SIRT1) pathway, and the signal transducer and activator of the transcription 3 (STAT3) pathway, have been linked to the adipose differentiation process of WAT [ 20 , 47 , 48 ]. Furthermore, GLP-1 also facilitates the tissue uptake of fatty acids derived from plasma triglycerides by decreasing hypothalamic AMPK phosphorylation and activating sympathetic neurons. Further studies reveal that the PI3K/AKT and mechanistic target of the rapamycin (mTOR) signaling pathways are instrumental in GLP-1RA-mediated lipogenic differentiation of ADSCs into BATs, and this is evidenced by an increase in the expression of mitochondrial genes, increased mitochondrial DNA (mtDNA), and enhanced adipogenesis [ 49 ]. Collectively, these findings underscore the multifaceted role of GLP-1 in mediating direct and CNS-dependent differentiation of ADSCs and WAT, promoting a transition towards beige and brown fat, and amplifying the thermogenic effects of BAT, with a notably stronger browning effect on SAT compared to VAT [ 50 , 51 ]."
+              ],
+              "subsections": []
+            },
+            {
+              "heading": "GLP-1 induces differentiation of ADSCs into insulin-producing cells (IPCs)",
+              "paragraphs": [
+                "ADSCs present a promising, ethically viable source of MSCs, free from the immunogenicity that often triggers autoimmune reactions. Recent studies have illustrated that GLP-1 not only regulates the in vitro survival of insulin-producing cells (IPCs) but also influences the extent of differentiation of ADSCs into IPCs. Khorsandi et al. discovered that IPCs induced by exendin-4 exhibited morphological characteristics strikingly similar to pancreatic islet cells, particularly under high glucose (25 mM) conditions, and exendin-4-treated ADSCs showed approximately a 2.5-fold increase in insulin production and a nearly 4-fold increase in the proportion of insulin-positive cells compared to controls without exendine-4 treatment [ 52 ]. Additionally, it was observed that IPCs derived from GLP-1-treated ADSCs were smaller than typical human pancreatic cells but exhibited larger r membrane particle sizes and increased surface in vitro [ 53 ]. Importantly, the physiological functions of GLP-1-induced IPCs closely resembled those of normal human pancreatic β-cells, suggesting that GLP-1 enhances both the functional and ultrastructural similarities between these cell types [ 53 ]. Further, multiple studies have demonstrated that the combination of exendin-4 with ADSCs upregulated the expression levels of specific β markers, including v-maf musculoaponeurotic fibrosarcoma oncogene homologue A (MafA), NK homeobox 6.1 (NKX6.1), insulin, pancreatic and duodenal homeobox gene-1 (Pdx1), neurogenin 3 (Ngn3), paired box 4 (Pax4), and glucose transporter 2 (GLUT2), thus suggesting that GLP-1 can significantly enhance the in vitro differentiation of ADSCs into the IPC spectrum [ 54 , 55 ]. Subsequent research has shown that exendin-4 facilitated the differentiation of ADSCs, thereby improving the insulin sensitivity and insulin secretion capabilities of IPCs through the positive regulation of the p38/MAPK pathway [ 56 ]."
+              ],
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "heading": "GLP-1 modulates bone marrow mesenchymal stem cells (BMSCs)",
+          "paragraphs": [],
+          "subsections": [
+            {
+              "heading": "Effect of GLP-1 on osteogenic differentiation of BMSCs",
+              "paragraphs": [
+                "T2DM is frequently associated with osteoporosis and consequential bone loss [ 57 ]. GLP-1 therapies have demonstrated effects on BMSC and osteoporosis with or without T2DM in both in vitro and in vivo investigations [ 58 ]. In vivo experiments revealed that exendin-4 increased the differentiation of osteoblast precursors derived from T2DM-affected BMSCs, decreased the expression of β-Catenin and histone deacetylase 1 (HDAC 1), and increased the expression of Wingless/Integrated‌ 3 (WNT3) and RUNX2[ 59 – 61 ]. These findings suggest that that GLP-1 influences bone metabolism positively by modulating the WNT signaling pathway, pivotal in osteogenic differentiation, specifically, while promoting osteogenesis, GLP-1 concurrently suppresses the WNT pathway’s influence on lipogenesis, highlighting its potential impact on the gut-fat-bone axis [ 59 – 61 ].",
+                "Wang et al. reported that GLP-1 induced M2 macrophage polarization in BMSCs through the Smad 2 signaling pathway, this modulation results in elevated levels of transforming growth factor-β1 (TGF-β1) in the bone marrow, which subsequently led to an increase in CD31 (+) endomucin (+) endothelial cells and an increase in CD29 + Sca-1 + BMSCs migration to the bone surface [ 60 ].The corresponding study provided additional confirmation that liraglutide promoted BMSCs osteogenesis via the Smad/RUNX2 signaling pathway and bone morphogenic protein 2 (BMP-2) [ 62 ]. Future researches are necessary to explore whether exendin-4 b alone can initiate osteogenic differentiation of BMSCs through the PI3K/AKT pathway or mechanisms, and promote M2 macrophage polarization [ 60 , 63 ]."
+              ],
+              "subsections": []
+            },
+            {
+              "heading": "GLP-1 improves survival and activity of BMSCs",
+              "paragraphs": [
+                "Conversely, a number of studies have demonstrated that GLP-1 direct regulation of BMSCs by GLP-1 can ameliorate the adverse pathology induced by the hyperglycemic milieu associated with T2DM [ 34 , 64 ]. This innovative therapeutic strategy not only fosters osteogenic growth and β-cell protection but also enhances cell quantity and vitality at the transplantation site. Mesenchymal stem cells engineered with exendin-4 (MSC-Ex-4) mitigate pancreatic β-cell senescence and apoptosis via endocytosis. High glucose exposure frequently compromises intestinal stem cell markers and the count of GLP-1 positive cells, pivotal components in the pathophysiology of T2DM [ 65 ].",
+                "This innovative therapeutic strategy not only fosters osteogenic growth and β-cell protection but also enhances cell quantity and vitality at the transplantation site. Mesenchymal stem cells (MSCs) engineered with exendin-4 (MSC-Ex-4) inhibited pancreatic β-cell senescence and apoptosis through endocytosis, whereas MSC-Ex-4-secreted bioactive factors (such as insulin-like growth factor 2 (IGFBP-2) and Apolipoprotein M (ApoM)) enhances insulin sensitivity and reduces lipid accumulation in hepatocytes under high-glycemic stess [ 66 ]. Additionally, exendin-4 prevented rat BMSCs from dying under conditions of hyperoxia, hyperglycemia, or serum deprivation by stimulating the PKA/cAMP pathway and suppressing the endoplasmic reticulum stress signaling pathway [ 67 ]. In hydrogen peroxide-induced apoptosis, exendin-4 protects mitochondrial function by scavenging oxygen species (OS) and balancing the expression of anti-apoptotic and pro-apoptotic proteins, thereby increasing BMSC survival, and PI3K/AKT may be a potential pathway mediating exendin-4 to promote BMSCs survival and mobilization [ 66 , 67 ]. Not only that, GLP-1 enhanced BMSCs migration by increasing the expression of CXC motif chemokine receptor 4 (CXCR4) while improving BMSCs survival after transplantation, thereby increasing the number of BMSCs at the transplantation site [ 68 ]."
+              ],
+              "subsections": []
+            },
+            {
+              "heading": "GLP-1 combined with BMSCs inhibits IR and inflammatory response and enhances autophagy",
+              "paragraphs": [
+                "Studies have shown that severe IR occurs in rats with STZ-induced T2DM in the untreated high fat diet (HFD) group, possibly due to increased oxidative stress, inflammation, apoptosis and autophagy inhibition [ 69 , 70 ]. After treatment with exendin-4 in combination with BMSCs, insulin sensitivity was increased, apoptosis was reduced, inflammation level was lowered, and autophagy was enhanced, for example, decreased serum tumor necrosis factor-α (TNF-α), cysteinyl asparagine-3 and nuclear factor-κ B (NF-κB) gene expression and Janus kinase (JNK) protein expression and up-regulation of Beclin and light chain 3 (LC3), as well as increased PGC-1α gene expression in adipose tissue [ 71 ]. These changes attenuate clinical symptoms corresponding to T2DM. Additionally, Exendin-4 was shown to prevent apoptosis in a prior work by modifying the expression of apoptotic genes and protecting mitochondrial function by scavenging reactive ROS [ 68 ]. Further research is still needed to determine whether GLP-1 can increase the expression of IRS-1 or boost the activity of IPCs derived from MSCs in a manner similar to GLP-1 combined with ADSCs, thereby improving insulin sensitivity and reducing IR in BMSCs following treatment [ 68 ]."
+              ],
+              "subsections": []
+            },
+            {
+              "heading": "GLP-1 promotes BMSCS proliferation",
+              "paragraphs": [
+                "Abdulmalik’s study demonstrated that exendin-4 substrate boosted the levels of sulphated glycosaminoglycans, tendon-related genes, and ECM-related genes while stimulating rat BMSCs with GLP-1 stem [ 72 , 73 ]. Histological analysis revealed that in the initial stages following exendin-4 intervention, tendon neovascularization was markedly increased, and this may be linked to high expression of anti-inflammatory markers in subsequent stages [ 72 ]. In the future, the exact role of GLP-1 combined with BMSCs application in tendon healing needs to be explored by further probing the concentration levels of pro-inflammatory and anti-inflammatory factors at different times in tendon repair [ 72 , 74 ]."
+              ],
+              "subsections": []
+            },
+            {
+              "heading": "GLP-1 promotes BMSCs differentiation to IPCs",
+              "paragraphs": [
+                "Abdulmalik et al. observed that exendin-4 enhanced the differentiation capabilities of BMSCs, highlighting the potential of these cells to differentiate multidirectionally into IPCs in T2DM in vivo [ 75 ]. Following differentiation, these IPCs were transplanted into the subperitoneal space of nude mice with streptozotocin (STZ)-induced T2DM, which shows that the transplanted IPCs consistently expressed insulin, C-peptide, and pancreatic and Pdx1 without significant apoptosis [ 76 ]. However, there are issues with this direct transplantation such as increased recipient injury and difficulty preventing host immune system rejection [ 76 , 77 ]."
+              ],
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "heading": "Modulation effects of GLP-1 on other MSCs",
+          "paragraphs": [],
+          "subsections": [
+            {
+              "heading": "GLP-1 modulates umbilical cord mesenchymal stem cells (UC-MSCs)",
+              "paragraphs": [
+                "UC-MSCs are isolated from various anatomical compartments of the umbilical cord, including venous, arterial, subamniotic and perivascular regions [ 78 ]. Subsequent research revealed that islet cells derived from exendin-4-stimulated UC-MSCs were functional and capable of secreting insulin post-transplantation in rats [ 79 ]. However, this finding suggests that islet cells in previous studies might have exhibited inadequate differentiation, potentially due to insufficient in vivo factor stimulation. Remarkably, exendin-4 promotes the differentiation of Wharton’s jelly MSCs into insulin-secreting cells by activating multiple β-markers, which indicates a differential sensitivity among UC-MSCs to GLP-1-mediated differentiation into IPCs, which are then capable of expressing insulin [ 79 – 81 ]."
+              ],
+              "subsections": []
+            },
+            {
+              "heading": "GLP-1 modulates periodontal ligament stem cells (PDLSCs)",
+              "paragraphs": [
+                "Periodontal ligament stem cells (PDLSCs) are regarded as an optimal cell source for the regeneration of periodontal and alveolar bone tissues. T2DM negatively impacts osteogenic differentiation and accelerates the degradation of periodontal tissues [ 82 , 83 ]. Previous studies have highlighted that GLP-1 may promote osteogenic development in MSCs, as evidenced BMSCs and ADSCs [ 28 , 60 ]. PDLSCs are considered an ideal source of cells for periodontal and alveolar bone tissue regeneration [ 84 ]. Recent research has shown that exenatide-4 fosters proliferation, migration, and osteogenic differentiation of human PDLSCs. Furthermore, exenatide-4 enhances the osteogenic differentiation of PDLSCs in T2DM by modulating the conventional MAPK and WNT signaling pathways and alleviates osteogenic inhibition in a high-glucose environment, which implies that GLP-1 stimulates osteogenic differentiation of distinct MSCs, possibly primarily via the WNT and MAPK signaling pathways [ 84 , 85 ]. Additionally, another study indicated that exenatide-4 improves the osteogenic milieu of PDLSCs in T2DM by reducing oxidative stress [ 85 , 86 ]. Notably, by downregulating the expression of protein kinase C (PKC) β and phospho-PKC-β (pPKC-β), GLP-1 could reverse the suppression of osteogenic differentiation of T2DM caused by advanced glycation end-products (AGEs), which implies that MSCs are subject to a potent and sustained pro-osteogenic differentiation impact from GLP-1 [ 87 ]."
+              ],
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Therapeutic potential of GLP-1-MSCs combination in T2DM and its complications",
+      "paragraphs": [
+        "Recent advancements in the study of MSCs for diabetes and its complications have shown encouraging results. MSCs infusion not only enhances long-term glycemic control and C-peptide levels in patients with T2DM but also reduces the dependence on exogenous insulin [ 88 , 89 ]. Nevertheless, for MSC-based therapies to become a clinically viable and safe option, several limitations must be overcome. The biological response to MSCs is influenced by factors such as the tissue source, administration timing and route, dosage, and donor characteristics [ 90 ]. These variables significantly impact the therapeutic efficacy of MSCs, resulting in substantial variability in clinical outcomes among people with diabetes and a relatively short duration of effectiveness [ 89 ]. To address these issues, several innovative strategies have been explored, including preconditioning, genetic modification, combination therapies, and the direct use of MSC-derived exosomes [ 25 ]. Here, we focus on the progress in research concerning the combination of GLP-1 and MSCs in the treatment of diabetes and its associated complications."
+      ],
+      "subsections": [
+        {
+          "heading": "Therapeutic potential of GLP-1- MSCs combination in T2DM",
+          "paragraphs": [
+            "Immune rejection and a lack of sufficient insulin-producing tissue are the two main obstacles to islet transplantation for the treatment of T2DM [ 36 , 71 ]. These limitations can be avoided and local immunoprotective areas for graft survival are produced when human bone marrow MSCs are differentiated into IPCs for autologous transplantation [ 91 ]. Insulin C-peptide was regularly expressed by functioning IPCs into the subperitoneal area of the kidney in nude mice with T2DM, as shown by immunofluorescence, which also markedly reduced hyperglycemia. Furthermore, L-type Ca 2+ channel activity was seen in 43% of transplanted IPCs, which is comparable to intracellular Ca 2+ increases seen in pancreatic β-cells in response to glucose-stimulated insulin release [ 77 ]. Although IPCs derived from MSCs have shown some potential in reversing T2DM hyperglycemia in animal models, further exploration and standardization are needed to determine whether they can exert efficacy and safety equivalent to normal pancreatic islets in humans [ 52 , 76 , 91 ].",
+            "One characteristic that sets GLP-1-regulated ADSCs apart from other MSCs is increased BAT. BAT sympathetic innervation facilitates glucose transporter 1’s (GLUT1) absorption and utilization of glucose, and this process mostly depends on norepinephrine (NE) activation rather than insulin signaling to reduce blood glucose levels [ 49 , 92 ]. Furthermore, it seems that GLP-1 has a stronger browning impact on SAT than it does on BAT [ 93 ]. The precise browning mechanisms, targets, and potency of the action, however, are still unclear and need more investigation. The browning of adipocytes is inhibited in T2DM, while beige fat and brown fat improve lipid metabolism and thermogenesis, which contribute to the treatment of T2DM and obesity [ 92 , 94 – 97 ]. Therefore, GLP-1 provides a new approach to overcome the loss of browning ability in T2DM [ 92 , 94 – 97 ]."
+          ],
+          "subsections": []
+        },
+        {
+          "heading": "Therapeutic potential of GLP-1 and MSCs combination in diabetic nephropathy",
+          "paragraphs": [
+            "Diabetic nephropathy is a microvascular complication of diabetes mellitus [ 98 ]. Studies found that in early secondary nephropathy in T2DM, exenatide in combination with ADSCs similarly significantly improved renal function and renal structural changes. These studies suggests that the co-administration of glucagon-like GLP-1 with ADSCs can improve renal structure and function by reducing inflammatory levels and oxidative stress after renal damage induced by hemodynamic abnormalities related to diabetes or other conditions [ 15 , 16 , 99 ]. Moreover, studies showed that the inhibition of dipeptidyl peptidase (DPP-4) augments GLP-1 signaling and enhances stromal cell-derived factor-1 (SDF-1) [ 100 ]. Currently, there is no standardized protocol for transplantation sites of GLP-1 combined with MSCs for diabetic nephropathy, with options including subperitoneal space or intraperitoneal or intraventricular [ 15 , 101 ]."
+          ],
+          "subsections": []
+        },
+        {
+          "heading": "Therapeutic potential of GLP-1 and MSCs combination in diabetic cardiovascular disease",
+          "paragraphs": [
+            "Cardiovascular disease is independently associated with diabetes mellitus, which disrupts not only glucose metabolism but also protein and lipid metabolic pathways [ 102 , 103 ]. A 2016 study demonstrated that ischemic human cardiomyocytes treated with MSCs in GLP-1 conditioned media displayed significant anti-apoptotic effects and reduced collagen scar formation [ 104 ]. Further studies indicated that exendin-4 decreased the MSCs apoptotic rate in an ischemic and high-glycemic environment, improving MSCs survival and activity, thus potentially maximizing the therapeutic benefits of MSCs in myocardial infarction, which suggests that GLP-1 combined with MSCs can improve myocardial vascular lesions through the same anti-inflammatory effects as those that improve microangiopathy, in addition to improving MSCs survival through anti-apoptotic effects and thus better exerting its anti-inflammatory effects [ 67 , 105 – 108 ]."
+          ],
+          "subsections": []
+        },
+        {
+          "heading": "Therapeutic potential of GLP-1 and MSCs combination in diabetic foot ulcer (DFU)",
+          "paragraphs": [
+            "The pathogenesis of DFU is complex, primarily driven by diabetic peripheral neuropathy and vasculopathy [ 109 ]. Notably, GLP-1 significantly improves diabetic foot-related lower limb amputation risk in clinical applications [ 110 , 111 ]. Furthermore, it is worth noting that GLP-1 induced subcutaneous fat browning contributes to wound healing [ 94 ]. GLP-1 has the effect of promoting the migration of MSCs to the wound site in T2DM, which compensates for the impaired function of MSCs in a high glucose environment [ 106 , 112 , 113 ]. A study by Li et al. found that ADSCs transplanted via the femoral vein have the ability to migrate to the wound area, validating the potential for specific localization of ADSCs in rat with T2DM models [ 114 ]. Specific localization may play a key role in GLP-1 facilitating the migration of MSCs to the wound region and reducing other blood flow organ adverse effects [ 114 ]. Therefore, enhancing the management of diabetic foot ulcers by the use of GLP-1 in conjunction with MSCs is crucial [ 114 ]."
+          ],
+          "subsections": []
+        },
+        {
+          "heading": "Therapeutic potential of GLP-1 and MSCs combination in diabetic osteoporosis",
+          "paragraphs": [
+            "Osteoporosis and associated fractures have been recognized as an important complication of T2DM in the elderly [ 57 ]. The combination of GLP-1 and BMSCs has shown promise in improving osteoporosis in diabetic mice, suggesting a new strategy to treat osteoporosis in diabetes [ 62 , 115 ]. A study demonstrated that GLP-1 primarily stimulates the conventional WNT pathway to increase bone formation in MSCs under diabetic conditions and controls it through many signaling molecules, including GSK-3β, β-catenin, and HDAC1 [ 60 , 116 , 117 ]. Further, studies suggest that GLP-1-induced transplantation of PDLSCs may tend to migrate to areas of bone loss and active osteogenesis rather than being restricted to the oral skeleton partially [ 85 ]. Additionally, the endochondral osteogenesis (ECO) process based on cartilage templates is critical for the repair of large-sized bone defects [ 118 ]. Remarkably, a study by Lin et al. found that MSC-ex-4 exhibited superior chondrogenic and hypertrophic differentiation and enhanced ECO cells fates by single-cell sequencing analysis [ 119 ]. These studies suggest the promise of using overexpression of MSC-ex-4 within bone tissue engineering (BTE) to treat severe bone defects via endochondral osteogenesis [ 119 ]."
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "heading": "Drug delivery of GLP-1 and MSC-ex-4",
+      "paragraphs": [
+        "Enhancing the homing efficiency of MSCs to targeted tissues during intravenous infusion is critical. Equally important is protecting MSCs and other biologically active components, such as GLP-1, from immune destruction [ 33 , 106 , 112 , 113 ]. Further investigations into the distinct mechanisms and therapeutic efficacy of combining GLP-1 with MSCs transplantation are vital for both pancreatic and extra-pancreatic targets (Table 1 ).",
+        "Table 1 Protection measures of GLP-1 and MSC-ex-4 Category Measure MSCs Animal model Efficacy Reference Biomaterials Alginate encapsulation BMSCs (MSC-ex-4) Pig Improved cardiac remodeling post-MI [ 105 ] Alginate encapsulation hMSCs (MSC-ex-4) Pig Reduced inflammation, decreased apoptosis in the infarct zone and enhanced angiogenesis [ 126 ] Col-I hMSCs (MSC-ex-4) Rat Treating significant bone defects leveraging the intrinsic ECO process [ 121 ] 3D gelatin hMSCs (MSC-ex-4) Mice Extended the therapeutic effect for 3 months by enhancing the self-persistence and antidiabetic activity of the modified MSCs [ 67 ] Gene editing Lentiviral transduction system MSC-FGF21 + GLP Mice Ameliorated the changes in blood glucose and weight, promoted the secretion of insulin [ 127 ] Lentiviral transduction system hMSCs (MSC-ex-4) Mice Improved survival under high glucose stress and suppressed senescence and apoptosis of pancreatic β cells [ 47 ] Lentiviral Transduction system hMSCs (MSC-ex-4) Mice Enhanced insulin sensitivity and reduces the accumulation of lipid [ 121 ] Retroviral vector transduction system BMSCs (MSC-ex-4) Pig Improved cardiac remodeling post-MI [ 105 ] Peptide chain modification Polymer of GLP-1 BMSCs Mice Facilitated the migration of BMSCs and caused increased numbers of CD 31 (+) Endomucin (+) endothelial cells in bone marrow that promoted bone formation [ 35 ]",
+        "Microencapsulation is a technique wherein small droplets and particles of liquid or solid material are encapsulated within a continuous polymeric membrane [ 120 ]. Typically, the diameter of most microcapsules ranges from several micrometers to a few millimeters. Initially employed in 1980 by Lim and Sun, this method involved the encapsulation of rat pancreatic islets within sodium alginate-polylysine-alginate (APA) microcapsules as a therapeutic intervention for experimental diabetes mellitus [ 121 , 122 ]. This foundational work provides a significant theoretical basis for the microgel-mediated delivery of GLP-1 and MSCs in treating tissue and organ damage associated with T2DM [ 121 , 122 ].",
+        "In vivo experiments have highlighted that MSCs and GLP-1 encapsulated in encapsulating materials such as alginate exhibited the potential to play key roles in myocardial infarction and heart failure such as reducing inflammation, promoting vascular regeneration, and decreasing apoptosis of cardiomyocytes [ 104 , 123 , 124 ]. This also provides an important theoretical basis for microgel delivery of GLP-1 and MSCs for the treatment of tissue and organ damage caused by T2DM [ 104 , 124 ]. Another study showed that exendin-4 and MSCs encapsulated with collagen I (Col-I) sponge could induce endochondral osteogenesis [ 125 , 126 ]. All the above studies show the importance of embedding materials for the persistence of GLP-1 combined with MSCs therapy [ 66 ].",
+        "Due to the short half-life of GLP-1, it can be degraded by DPP-4 in minutes in vivo, which makes it difficult to exert therapeutic effects on MSCs in a sustained manner [ 15 ]. Based on the discovery that MSCs expresses GLP-1R, Du et al. constructed exendin-4 engineered MSCs and transfected MSC-ex-4 cells through a lentiviral transduction system [ 66 ]. Notably, the survival time of MSC-ex-4 cells under high glucose stress was prolonged by continuous autocrine exendin-4 action with the AMPK signaling pathway [ 66 ]. In a similar study, MSCs were not only transfected with the GLP-1 gene, but also transfected with fibroblast growth factor 21 (FGF21) via lentiviral particles to enable GLP-1-expressing MSCs to regenerate tissues and organs such as liver, adipose tissue, skeletal muscle, pancreas [ 127 ]. This exerted a synergistic effect with GLP-1 and MSCs to improve lipid metabolism and reduce blood glucose in mice with T2DM [ 127 ].",
+        "Recently, pharmaceutical and biomaterials studies have focused on increasing GLP-1’s resistance in order to protect it from the damaging effects of DPP-4. Due to the structural characteristics of a single polypeptide chain in its repeating sequence, a new GLP-1 polymer, also called PolyGLP-1, is progressively digested in vivo by specific endonucleases, resulting in the gradual release of active GLP-1 [ 33 , 128 ]. Interestingly, PolyGLP-1 administered intraperitoneally, as opposed to intravenously, significantly aided in the healing of bone in mice with femoral lesions, which implies that PolyGLP-1 maintains a long enough half-life while suppressing the expression of appropriate biological activity [ 33 ]."
+      ],
+      "subsections": []
+    },
+    {
+      "heading": "Conclusions",
+      "paragraphs": [
+        "GLP-1 plays a crucial role in the therapeutic landscape of T2DM through its regulatory effects on MSCs. GLP-1 promotes the repair and regeneration of tissues and organs damaged by T2DM and mitigates IR by attenuating inflammation and oxidative stress in MSCs in hyperglycemic conditions. GLP-1 could enhance MSCs repair by promoting MSCs chemotaxis to damaged sites. Additionally, the capacity of MSCs to promote proliferation and regeneration of various cell types, including osteoblasts, tenocytes, brown adipocyte and β-cells, is synergistically enhanced by GLP-1, making this axis a promising target for managing T2DM and its complications. Moreover, the development of multiple biomaterials has expanded the theoretical therapeutic potential of GLP-1 in combination with MSCs by protecting GLP-1 from degradation by digestive enzymes and evasion from immune surveillance. Nonetheless, most therapeutic strategies involving GLP-1-mediated regulation of MSCs remain in the preclinical phase, The safety and efficacy of these treatments f for human use have yet to be established, as evidenced by limited clinical trials. Therefore, it is urgent to effectively preserve and utilize GLP-1 activity for the treatment of T2DM."
+      ],
+      "subsections": []
+    }
+  ],
+  "has_full_text": true,
+  "is_stub_body": false,
+  "alternate_renditions": [
+    {
+      "content_type": "pmc-pdf",
+      "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12090506/13287_2025_Article_4369.pdf",
+      "text": ""
+    }
+  ],
+  "body_external_links": [],
+  "references": [
+    {
+      "id": "CR1",
+      "authors": [
+        "Ferrara A"
+      ],
+      "title": "Increasing prevalence of gestational diabetes mellitus: a public health perspective",
+      "source": "Diabetes Care",
+      "year": "2007",
+      "doi": "10.2337/dc07-s206"
+    },
+    {
+      "id": "CR2",
+      "authors": [
+        "Shaw JE",
+        "Sicree RA",
+        "Zimmet PZ"
+      ],
+      "title": "Global estimates of the prevalence of diabetes for 2010 and 2030",
+      "source": "Diabetes Res Clin Pract",
+      "year": "2010",
+      "doi": "10.1016/j.diabres.2009.10.007"
+    },
+    {
+      "id": "CR3",
+      "authors": [
+        "Roden M",
+        "Shulman GI"
+      ],
+      "title": "The integrative biology of type 2 diabetes",
+      "source": "Nature",
+      "year": "2019",
+      "doi": "10.1038/s41586-019-1797-8"
+    },
+    {
+      "id": "CR4",
+      "authors": [
+        "Del Prato S"
+      ],
+      "title": "Role of glucotoxicity and lipotoxicity in the pathophysiology of type 2 diabetes mellitus and emerging treatment strategies",
+      "source": "Diabet Med",
+      "year": "2009",
+      "doi": "10.1111/j.1464-5491.2009.02847.x"
+    },
+    {
+      "id": "CR5",
+      "authors": [
+        "Lipska KJ"
+      ],
+      "title": "Association of initiation of basal insulin analogs vs neutral Protamine Hagedorn insulin with Hypoglycemia-Related emergency department visits or hospital admissions and with glycemic control in patients with type 2 diabetes",
+      "source": "JAMA",
+      "year": "2018",
+      "doi": "10.1001/jama.2018.7993"
+    },
+    {
+      "id": "CR6",
+      "authors": [
+        "Madsen JF"
+      ],
+      "title": "Dorsomorphin inhibits AMPK, upregulates Wnt and Foxo genes and promotes the activation of dormant follicles",
+      "source": "Commun Biol",
+      "year": "2024",
+      "doi": "10.1038/s42003-024-06418-9"
+    },
+    {
+      "id": "CR7",
+      "authors": [],
+      "title": null,
+      "source": null,
+      "year": null,
+      "doi": "10.1001/jamainternmed.2024.0376"
+    },
+    {
+      "id": "CR8",
+      "authors": [
+        "Terauchi Y"
+      ],
+      "title": "Glycaemic control, hypoglycaemia, and weight change with insulin glargine 300 U/mL versus insulin glargine 100 U/mL in Japanese adults with type 2 diabetes: A 12-month comparison by concomitant sulphonylurea and/or glinide use",
+      "source": "Diabetes Obes Metab",
+      "year": "2018",
+      "doi": "10.1111/dom.13414"
+    },
+    {
+      "id": "CR9",
+      "authors": [
+        "Liang B"
+      ],
+      "title": "Novel thiosemicarbazide-based beta-carboline derivatives as alpha-glucosidase inhibitors: synthesis and biological evaluation",
+      "source": "Eur J Med Chem",
+      "year": "2024",
+      "doi": "10.1016/j.ejmech.2024.116595"
+    },
+    {
+      "id": "CR10",
+      "authors": [
+        "Sadeghi M",
+        "Miroliaei M",
+        "Ghanadian M"
+      ],
+      "title": "Drug repurposing for diabetes mellitus: in Silico and in vitro investigation of drugbank database for alpha-glucosidase inhibitors",
+      "source": "Int J Biol Macromol",
+      "year": "2024",
+      "doi": "10.1016/j.ijbiomac.2024.132164"
+    },
+    {
+      "id": "CR11",
+      "authors": [
+        "Gunes-Altan M"
+      ],
+      "title": "Is GFR decline induced by SGLT2 inhibitor of clinical importance?",
+      "source": "Cardiovasc Diabetol",
+      "year": "2024",
+      "doi": "10.1186/s12933-024-02223-0"
+    },
+    {
+      "id": "CR12",
+      "authors": [
+        "Shi Q"
+      ],
+      "title": "Benefits and harms of drug treatment for type 2 diabetes: systematic review and network meta-analysis of randomised controlled trials",
+      "source": "BMJ",
+      "year": "2023",
+      "doi": "10.1136/bmj-2022-074068"
+    },
+    {
+      "id": "CR13",
+      "authors": [
+        "Weghuber D"
+      ],
+      "title": "Once-Weekly semaglutide in adolescents with obesity",
+      "source": "N Engl J Med",
+      "year": "2022",
+      "doi": "10.1056/NEJMoa2208601"
+    },
+    {
+      "id": "CR14",
+      "authors": [
+        "Yang X"
+      ],
+      "title": "Mesenchymal stem cells combined with liraglutide relieve acute lung injury through apoptotic signaling restrained by PKA/beta-catenin",
+      "source": "Stem Cell Res Ther",
+      "year": "2020",
+      "doi": "10.1186/s13287-020-01689-5"
+    },
+    {
+      "id": "CR15",
+      "authors": [
+        "Habib HA",
+        "Heeba GH",
+        "Khalifa MMA"
+      ],
+      "title": "Effect of combined therapy of mesenchymal stem cells with GLP-1 receptor agonist, exenatide, on early-onset nephropathy induced in diabetic rats",
+      "source": "Eur J Pharmacol",
+      "year": "2021",
+      "doi": "10.1016/j.ejphar.2020.173721"
+    },
+    {
+      "id": "CR16",
+      "authors": [
+        "Chen CH"
+      ],
+      "title": "Combination therapy of exendin-4 and allogenic adipose-derived mesenchymal stem cell preserved renal function in a chronic kidney disease and sepsis syndrome setting in rats",
+      "source": "Oncotarget",
+      "year": "2017",
+      "doi": "10.18632/oncotarget.21727"
+    },
+    {
+      "id": "CR17",
+      "authors": [
+        "Sun Y"
+      ],
+      "title": "Human mesenchymal stem cell derived exosomes alleviate type 2 diabetes mellitus by reversing peripheral insulin resistance and relieving beta-Cell destruction",
+      "source": "ACS Nano",
+      "year": "2018",
+      "doi": "10.1021/acsnano.7b07643"
+    },
+    {
+      "id": "CR18",
+      "authors": [
+        "Arte PA"
+      ],
+      "title": "Treatment of type 2 diabetes mellitus with stem cells and antidiabetic drugs: a dualistic and future-focused approach",
+      "source": "Hum Cell",
+      "year": "2024",
+      "doi": "10.1007/s13577-023-01007-0"
+    },
+    {
+      "id": "CR19",
+      "authors": [
+        "Meng J"
+      ],
+      "title": "Activation of GLP-1 receptor promotes bone marrow stromal cell osteogenic differentiation through beta-Catenin",
+      "source": "Stem Cell Rep",
+      "year": "2016",
+      "doi": "10.1016/j.stemcr.2016.02.002"
+    },
+    {
+      "id": "CR20",
+      "authors": [
+        "Gutierrez AD"
+      ],
+      "title": "Anti-diabetic effects of GLP1 analogs are mediated by thermogenic interleukin-6 signaling in adipocytes",
+      "source": "Cell Rep Med",
+      "year": "2022",
+      "doi": "10.1016/j.xcrm.2022.100813"
+    },
+    {
+      "id": "CR21",
+      "authors": [
+        "Oliveira FCB"
+      ],
+      "title": "Liraglutide activates type 2 deiodinase and enhances beta3-Adrenergic-Induced thermogenesis in mouse adipose tissue",
+      "source": "Front Endocrinol (Lausanne)",
+      "year": "2021",
+      "doi": "10.3389/fendo.2021.803363"
+    },
+    {
+      "id": "CR22",
+      "authors": [
+        "Knudsen LB",
+        "Lau J"
+      ],
+      "title": "The discovery and development of liraglutide and semaglutide",
+      "source": "Front Endocrinol (Lausanne)",
+      "year": "2019",
+      "doi": "10.3389/fendo.2019.00155"
+    },
+    {
+      "id": "CR23",
+      "authors": [
+        "Shin S"
+      ],
+      "title": "CREB mediates the insulinotropic and anti-apoptotic effects of GLP-1 signaling in adult mouse beta-cells",
+      "source": "Mol Metab",
+      "year": "2014",
+      "doi": "10.1016/j.molmet.2014.08.001"
+    },
+    {
+      "id": "CR24",
+      "authors": [
+        "Pittenger MF"
+      ],
+      "title": "Mesenchymal stem cell perspective: cell biology to clinical progress",
+      "source": "NPJ Regen Med",
+      "year": "2019",
+      "doi": "10.1038/s41536-019-0083-6"
+    },
+    {
+      "id": "CR25",
+      "authors": [
+        "Li H"
+      ],
+      "title": "Mesenchymal stem Cell-Based therapy for diabetes mellitus: enhancement strategies and future perspectives",
+      "source": "Stem Cell Rev Rep",
+      "year": "2021",
+      "doi": "10.1007/s12015-021-10139-5"
+    },
+    {
+      "id": "CR26",
+      "authors": [
+        "Seo E"
+      ],
+      "title": "Exendin-4 in combination with adipose-derived stem cells promotes angiogenesis and improves diabetic wound healing",
+      "source": "J Transl Med",
+      "year": "2017",
+      "doi": "10.1186/s12967-017-1145-4"
+    },
+    {
+      "id": "CR27",
+      "authors": [
+        "Zhao C"
+      ],
+      "title": "The impact of Glucagon-Like Peptide-1 on bone metabolism and its possible mechanisms",
+      "source": "Front Endocrinol (Lausanne)",
+      "year": "2017",
+      "doi": "10.3389/fendo.2017.00098"
+    },
+    {
+      "id": "CR28",
+      "authors": [
+        "Jeon YK"
+      ],
+      "title": "Expression of Glucagon-Like peptide 1 receptor during osteogenic differentiation of Adipose-Derived stem cells",
+      "source": "Endocrinol Metab (Seoul)",
+      "year": "2014",
+      "doi": "10.3803/EnM.2014.29.4.567"
+    },
+    {
+      "id": "CR29",
+      "authors": [
+        "Deng B"
+      ],
+      "title": "Exendin–4 promotes osteogenic differentiation of adipose–derived stem cells and facilitates bone repair",
+      "source": "Mol Med Rep",
+      "year": "2019",
+      "doi": "10.3892/mmr.2019.10764"
+    },
+    {
+      "id": "CR30",
+      "authors": [
+        "Yamada C"
+      ],
+      "title": "The murine glucagon-like peptide-1 receptor is essential for control of bone resorption",
+      "source": "Endocrinology",
+      "year": "2008",
+      "doi": "10.1210/en.2007-1292"
+    },
+    {
+      "id": "CR31",
+      "authors": [
+        "Lee HM"
+      ],
+      "title": "Effect of Glucagon-like Peptide-1 on the differentiation of Adipose-derived stem cells into osteoblasts and adipocytes",
+      "source": "J Menopausal Med",
+      "year": "2015",
+      "doi": "10.6118/jmm.2015.21.2.93"
+    },
+    {
+      "id": "CR32",
+      "authors": [
+        "Habib SA"
+      ],
+      "title": "Exendin-4 enhances osteogenic differentiation of adipose tissue mesenchymal stem cells through the receptor activator of nuclear factor-kappa B and osteoprotegerin signaling pathway",
+      "source": "J Cell Biochem",
+      "year": "2022",
+      "doi": "10.1002/jcb.30236"
+    },
+    {
+      "id": "CR33",
+      "authors": [
+        "Wang N"
+      ],
+      "title": "Identification of a prolonged action molecular GLP-1R agonist for the treatment of femoral defects",
+      "source": "Biomater Sci",
+      "year": "2020",
+      "doi": "10.1039/C9BM01426H"
+    },
+    {
+      "id": "CR34",
+      "authors": [
+        "Sanz C"
+      ],
+      "title": "Signaling and biological effects of glucagon-like peptide 1 on the differentiation of mesenchymal stem cells from human bone marrow",
+      "source": "Am J Physiol Endocrinol Metab",
+      "year": "2010",
+      "doi": "10.1152/ajpendo.00460.2009"
+    },
+    {
+      "id": "CR35",
+      "authors": [
+        "He X"
+      ],
+      "title": "Exendin-4 modifies adipogenesis of human adipose-derived stromal cells isolated from omentum through multiple mechanisms",
+      "source": "Int J Obes (Lond)",
+      "year": "2018",
+      "doi": "10.1038/s41366-018-0024-2"
+    },
+    {
+      "id": "CR36",
+      "authors": [
+        "Zhou H"
+      ],
+      "title": "Exendin-4 protects adipose-derived mesenchymal stem cells from apoptosis induced by hydrogen peroxide through the PI3K/Akt-Sfrp2 pathways",
+      "source": "Free Radic Biol Med",
+      "year": "2014",
+      "doi": "10.1016/j.freeradbiomed.2014.09.033"
+    },
+    {
+      "id": "CR37",
+      "authors": [
+        "Ye X"
+      ],
+      "title": "Exendin-4 promotes proliferation of adipose-derived stem cells through PI3K/Akt-Wnt signaling pathways",
+      "source": "Neurosci Lett",
+      "year": "2018",
+      "doi": "10.1016/j.neulet.2018.06.028"
+    },
+    {
+      "id": "CR38",
+      "authors": [
+        "Challa TD"
+      ],
+      "title": "Regulation of adipocyte formation by GLP-1/GLP-1R signaling",
+      "source": "J Biol Chem",
+      "year": "2012",
+      "doi": "10.1074/jbc.M111.310342"
+    },
+    {
+      "id": "CR39",
+      "authors": [
+        "Liu R"
+      ],
+      "title": "Glucagon like Peptide-1 promotes adipocyte differentiation via the Wnt4 mediated sequestering of Beta-Catenin",
+      "source": "PLoS ONE",
+      "year": "2016",
+      "doi": "10.1371/journal.pone.0160212"
+    },
+    {
+      "id": "CR40",
+      "authors": [],
+      "title": null,
+      "source": null,
+      "year": null,
+      "doi": "10.2169/internalmedicine.3259-23"
+    },
+    {
+      "id": "CR41",
+      "authors": [
+        "Regmi A"
+      ],
+      "title": "Tirzepatide modulates the regulation of adipocyte nutrient metabolism through long-acting activation of the GIP receptor",
+      "source": "Cell Metab",
+      "year": "2024",
+      "doi": "10.1016/j.cmet.2024.05.010"
+    },
+    {
+      "id": "CR42",
+      "authors": [
+        "O’Rourke RW"
+      ],
+      "title": "Adipose tissue and the physiologic underpinnings of metabolic disease",
+      "source": "Surg Obes Relat Dis",
+      "year": "2018",
+      "doi": "10.1016/j.soard.2018.07.032"
+    },
+    {
+      "id": "CR43",
+      "authors": [
+        "Meissburger B"
+      ],
+      "title": "Tissue inhibitor of matrix metalloproteinase 1 (TIMP1) controls adipogenesis in obesity in mice and in humans",
+      "source": "Diabetologia",
+      "year": "2011",
+      "doi": "10.1007/s00125-011-2093-9"
+    },
+    {
+      "id": "CR44",
+      "authors": [
+        "Zhao L"
+      ],
+      "title": "The key role of a glucagon-like peptide-1 receptor agonist in body fat redistribution",
+      "source": "J Endocrinol",
+      "year": "2019",
+      "doi": "10.1530/JOE-18-0374"
+    },
+    {
+      "id": "CR45",
+      "authors": [
+        "Wan Y"
+      ],
+      "title": "Novel GLP-1 analog supaglutide reduces HFD-Induced obesity associated with increased Ucp-1 in white adipose tissue in mice",
+      "source": "Front Physiol",
+      "year": "2017",
+      "doi": "10.3389/fphys.2017.00294"
+    },
+    {
+      "id": "CR46",
+      "authors": [
+        "Bouchi R"
+      ],
+      "title": "Reduction of visceral fat by liraglutide is associated with ameliorations of hepatic steatosis, albuminuria, and micro-inflammation in type 2 diabetic patients with insulin treatment: a randomized control trial",
+      "source": "Endocr J",
+      "year": "2017",
+      "doi": "10.1507/endocrj.EJ16-0449"
+    },
+    {
+      "id": "CR47",
+      "authors": [
+        "Maiseyeu A"
+      ],
+      "title": "Plaque-targeted, proteolysis-resistant, activatable and MRI-visible nano-GLP-1 receptor agonist targets smooth muscle cell differentiation in atherosclerosis",
+      "source": "Theranostics",
+      "year": "2022",
+      "doi": "10.7150/thno.66456"
+    },
+    {
+      "id": "CR48",
+      "authors": [
+        "Boutant M"
+      ],
+      "title": "SIRT1 enhances glucose tolerance by potentiating brown adipose tissue function",
+      "source": "Mol Metab",
+      "year": "2015",
+      "doi": "10.1016/j.molmet.2014.12.008"
+    },
+    {
+      "id": "CR49",
+      "authors": [
+        "Wang X"
+      ],
+      "title": "GLP-1RA promotes brown adipogenesis of C3H10T1/2 mesenchymal stem cells via the PI3K-AKT-mTOR signaling pathway",
+      "source": "Biochem Biophys Res Commun",
+      "year": "2018",
+      "doi": "10.1016/j.bbrc.2018.10.197"
+    },
+    {
+      "id": "CR50",
+      "authors": [
+        "Frossing S"
+      ],
+      "title": "Effect of liraglutide on ectopic fat in polycystic ovary syndrome: A randomized clinical trial",
+      "source": "Diabetes Obes Metab",
+      "year": "2018",
+      "doi": "10.1111/dom.13053"
+    },
+    {
+      "id": "CR51",
+      "authors": [
+        "Roth CL"
+      ],
+      "title": "A phase 3 randomized clinical trial using a once-weekly glucagon-like peptide-1 receptor agonist in adolescents and young adults with hypothalamic obesity",
+      "source": "Diabetes Obes Metab",
+      "year": "2021",
+      "doi": "10.1111/dom.14224"
+    },
+    {
+      "id": "CR52",
+      "authors": [
+        "Khorsandi L"
+      ],
+      "title": "Effects of Exendine-4 on the differentiation of insulin producing cells from rat Adipose-Derived mesenchymal stem cells",
+      "source": "Cell J",
+      "year": "2016",
+      "doi": "10.22074/cellj.2016.3844"
+    },
+    {
+      "id": "CR53",
+      "authors": [
+        "Shi Q"
+      ],
+      "title": "GLP-1 could improve the similarity of IPCs and pancreatic beta cells in cellular ultrastructure and function",
+      "source": "J Cell Biochem",
+      "year": "2013",
+      "doi": "10.1002/jcb.24555"
+    },
+    {
+      "id": "CR54",
+      "authors": [],
+      "title": null,
+      "source": null,
+      "year": null,
+      "doi": "10.3791/63348"
+    },
+    {
+      "id": "CR55",
+      "authors": [
+        "Moshtagh PR",
+        "Emami SH",
+        "Sharifi AM"
+      ],
+      "title": "Differentiation of human adipose-derived mesenchymal stem cell into insulin-producing cells: an in vitro study",
+      "source": "J Physiol Biochem",
+      "year": "2013",
+      "doi": "10.1007/s13105-012-0228-1"
+    },
+    {
+      "id": "CR56",
+      "authors": [],
+      "title": null,
+      "source": null,
+      "year": null,
+      "doi": "10.3390/ijms20102458"
+    },
+    {
+      "id": "CR57",
+      "authors": [],
+      "title": null,
+      "source": null,
+      "year": null,
+      "doi": "10.3390/nu16081220"
+    },
+    {
+      "id": "CR58",
+      "authors": [
+        "Pereira M"
+      ],
+      "title": "Chronic administration of Glucagon-like peptide-1 receptor agonists improves trabecular bone mass and architecture in ovariectomised mice",
+      "source": "Bone",
+      "year": "2015",
+      "doi": "10.1016/j.bone.2015.08.006"
+    },
+    {
+      "id": "CR59",
+      "authors": [
+        "Pacheco-Pantoja EL"
+      ],
+      "title": "c-Fos induction by gut hormones and extracellular ATP in osteoblastic-like cell lines",
+      "source": "Purinergic Signal",
+      "year": "2016",
+      "doi": "10.1007/s11302-016-9526-3"
+    },
+    {
+      "id": "CR60",
+      "authors": [
+        "Deng Y"
+      ],
+      "title": "Exendin-4 promotes bone formation in diabetic States via HDAC1-Wnt/beta-catenin axis",
+      "source": "Biochem Biophys Res Commun",
+      "year": "2021",
+      "doi": "10.1016/j.bbrc.2021.01.039"
+    },
+    {
+      "id": "CR61",
+      "authors": [
+        "Kawabata T"
+      ],
+      "title": "Incretin accelerates platelet-derived growth factor-BB-induced osteoblast migration via protein kinase A: the upregulation of p38 MAP kinase",
+      "source": "Sci Rep",
+      "year": "2020",
+      "doi": "10.1038/s41598-020-59392-7"
+    },
+    {
+      "id": "CR62",
+      "authors": [
+        "Wang Y"
+      ],
+      "title": "The effect and mechanism of liraglutide on the biological functions of BMSCs in diabetic patients",
+      "source": "Oral Dis",
+      "year": "2024",
+      "doi": "10.1111/odi.14931"
+    },
+    {
+      "id": "CR63",
+      "authors": [],
+      "title": null,
+      "source": null,
+      "year": null,
+      "doi": "10.1111/odi.14931"
+    },
+    {
+      "id": "CR64",
+      "authors": [
+        "Pacheco-Pantoja EL"
+      ],
+      "title": "Receptors and effects of gut hormones in three osteoblastic cell lines",
+      "source": "BMC Physiol",
+      "year": "2011",
+      "doi": "10.1186/1472-6793-11-12"
+    },
+    {
+      "id": "CR65",
+      "authors": [],
+      "title": null,
+      "source": null,
+      "year": null,
+      "doi": "10.3390/ijms22136660"
+    },
+    {
+      "id": "CR66",
+      "authors": [],
+      "title": null,
+      "source": null,
+      "year": null,
+      "doi": "10.1126/sciadv.abi4379"
+    },
+    {
+      "id": "CR67",
+      "authors": [
+        "He J"
+      ],
+      "title": "Exendin-4 protects bone marrow-derived mesenchymal stem cells against oxygen/glucose and serum deprivation-induced apoptosis through the activation of the cAMP/PKA signaling pathway and the Attenuation of ER stress",
+      "source": "Int J Mol Med",
+      "year": "2016",
+      "doi": "10.3892/ijmm.2016.2509"
+    },
+    {
+      "id": "CR68",
+      "authors": [
+        "Zhou H"
+      ],
+      "title": "Effects of Exendin-4 on bone marrow mesenchymal stem cell proliferation, migration and apoptosis in vitro",
+      "source": "Sci Rep",
+      "year": "2015",
+      "doi": "10.1038/srep12898"
+    },
+    {
+      "id": "CR69",
+      "authors": [],
+      "title": null,
+      "source": null,
+      "year": null,
+      "doi": "10.3390/vetsci10070431"
+    },
+    {
+      "id": "CR70",
+      "authors": [
+        "Liu S"
+      ],
+      "title": "A new mouse model of type 2 diabetes mellitus established through combination of high-fat diet, streptozotocin and glucocorticoid",
+      "source": "Life Sci",
+      "year": "2021",
+      "doi": "10.1016/j.lfs.2021.120062"
+    },
+    {
+      "id": "CR71",
+      "authors": [
+        "Mesbah Mohamed M"
+      ],
+      "title": "Bone Marrow-Derived mesenchymal stem cells and Pioglitazone or Exendin-4 synergistically improve insulin resistance via multiple modulatory mechanisms in High-Fat Diet/Streptozotocin-Induced diabetes in rats",
+      "source": "Rep Biochem Mol Biol",
+      "year": "2023",
+      "doi": "10.52547/rbmb.12.1.42"
+    },
+    {
+      "id": "CR72",
+      "authors": [
+        "Abdulmalik S"
+      ],
+      "title": "Nanofiber matrix formulations for the delivery of Exendin-4 for tendon regeneration: in vitro and in vivo assessment",
+      "source": "Bioact Mater",
+      "year": "2023",
+      "doi": "10.1016/j.bioactmat.2023.01.013"
+    },
+    {
+      "id": "CR73",
+      "authors": [
+        "Abdulmalik S"
+      ],
+      "title": "The glucagon-like peptide 1 receptor agonist Exendin-4 induces tenogenesis in human mesenchymal stem cells",
+      "source": "Differentiation",
+      "year": "2021",
+      "doi": "10.1016/j.diff.2021.05.001"
+    },
+    {
+      "id": "CR74",
+      "authors": [
+        "Yu C"
+      ],
+      "title": "Morroniside promotes skin wound re-epithelialization by facilitating epidermal stem cell proliferation through GLP-1R-mediated upregulation of β-catenin expression",
+      "source": "Acta Biochim Biophys Sin (Shanghai)",
+      "year": "2024",
+      "doi": "10.3724/abbs.2024070"
+    },
+    {
+      "id": "CR75",
+      "authors": [
+        "Ngoc PK"
+      ],
+      "title": "Improving the efficacy of type 1 diabetes therapy by transplantation of immunoisolated insulin-producing cells",
+      "source": "Hum Cell",
+      "year": "2011",
+      "doi": "10.1007/s13577-011-0018-z"
+    },
+    {
+      "id": "CR76",
+      "authors": [
+        "Nejad-Dehbashi F"
+      ],
+      "title": "The effects of exendine-4 on insulin producing cell differentiation from rat bone marrow-derived mesenchymal stem cells",
+      "source": "Cell J",
+      "year": "2014",
+      "doi": null
+    },
+    {
+      "id": "CR77",
+      "authors": [
+        "Xin Y"
+      ],
+      "title": "Insulin-Producing cells differentiated from human bone marrow mesenchymal stem cells in vitro ameliorate Streptozotocin-Induced diabetic hyperglycemia",
+      "source": "PLoS ONE",
+      "year": "2016",
+      "doi": "10.1371/journal.pone.0145838"
+    },
+    {
+      "id": "CR78",
+      "authors": [
+        "Nagamura-Inoue T",
+        "He H"
+      ],
+      "title": "Umbilical cord-derived mesenchymal stem cells: their advantages and potential clinical utility",
+      "source": "World J Stem Cells",
+      "year": "2014",
+      "doi": "10.4252/wjsc.v6.i2.195"
+    },
+    {
+      "id": "CR79",
+      "authors": [
+        "El-Sherbiny M"
+      ],
+      "title": "Functional beta-cells derived from umbilical cord blood mesenchymal stem cells for curing rats with streptozotocin-induced diabetes mellitus",
+      "source": "Singap Med J",
+      "year": "2020",
+      "doi": "10.11622/smedj.2019120"
+    },
+    {
+      "id": "CR80",
+      "authors": [
+        "Kassem DH"
+      ],
+      "title": "Exendin-4 enhances the differentiation of Wharton’s jelly mesenchymal stem cells into insulin-producing cells through activation of various beta-cell markers",
+      "source": "Stem Cell Res Ther",
+      "year": "2016",
+      "doi": "10.1186/s13287-016-0374-4"
+    },
+    {
+      "id": "CR81",
+      "authors": [
+        "Kassem DH"
+      ],
+      "title": "Association of expression levels of pluripotency/stem cell markers with the differentiation outcome of Wharton’s jelly mesenchymal stem cells into insulin producing cells",
+      "source": "Biochimie",
+      "year": "2016",
+      "doi": "10.1016/j.biochi.2016.05.019"
+    },
+    {
+      "id": "CR82",
+      "authors": [
+        "Ziukaite L",
+        "Slot DE",
+        "Van der Weijden FA"
+      ],
+      "title": "Prevalence of diabetes mellitus in people clinically diagnosed with periodontitis: A systematic review and meta-analysis of epidemiologic studies",
+      "source": "J Clin Periodontol",
+      "year": "2018",
+      "doi": "10.1111/jcpe.12839"
+    },
+    {
+      "id": "CR83",
+      "authors": [
+        "Lalla E",
+        "Papapanou PN"
+      ],
+      "title": "Diabetes mellitus and periodontitis: a Tale of two common interrelated diseases",
+      "source": "Nat Rev Endocrinol",
+      "year": "2011",
+      "doi": "10.1038/nrendo.2011.106"
+    },
+    {
+      "id": "CR84",
+      "authors": [
+        "Wang M"
+      ],
+      "title": "Exendin-4 regulates the MAPK and WNT signaling pathways to alleviate the osteogenic Inhibition of periodontal ligament stem cells in a high glucose environment",
+      "source": "Open Med (Wars)",
+      "year": "2023",
+      "doi": "10.1515/med-2023-0692"
+    },
+    {
+      "id": "CR85",
+      "authors": [
+        "Guo Z"
+      ],
+      "title": "Exendin-4 relieves the inhibitory effects of high glucose on the proliferation and osteoblastic differentiation of periodontal ligament stem cells",
+      "source": "Arch Oral Biol",
+      "year": "2018",
+      "doi": "10.1016/j.archoralbio.2018.03.014"
+    },
+    {
+      "id": "CR86",
+      "authors": [
+        "Liang Q"
+      ],
+      "title": "Stromal cell-derived factor-1/Exendin-4 cotherapy facilitates the proliferation, migration and osteogenic differentiation of human periodontal ligament stem cells in vitro and promotes periodontal bone regeneration in vivo",
+      "source": "Cell Prolif",
+      "year": "2021",
+      "doi": "10.1111/cpr.12997"
+    },
+    {
+      "id": "CR87",
+      "authors": [
+        "Wang Z"
+      ],
+      "title": "GLP-1 inhibits PKCbeta2 phosphorylation to improve the osteogenic differentiation potential of hPDLSCs in the AGE microenvironment",
+      "source": "J Diabetes Complications",
+      "year": "2020",
+      "doi": "10.1016/j.jdiacomp.2019.107495"
+    },
+    {
+      "id": "CR88",
+      "authors": [
+        "Kamal MM",
+        "Kassem DH"
+      ],
+      "title": "Therapeutic potential of Wharton’s jelly mesenchymal stem cells for diabetes: achievements and challenges",
+      "source": "Front Cell Dev Biol",
+      "year": "2020",
+      "doi": "10.3389/fcell.2020.00016"
+    },
+    {
+      "id": "CR89",
+      "authors": [
+        "Zhang Y"
+      ],
+      "title": "The clinical efficacy and safety of stem cell therapy for diabetes mellitus: A systematic review and Meta-Analysis",
+      "source": "Aging Dis",
+      "year": "2020",
+      "doi": "10.14336/AD.2019.0421"
+    },
+    {
+      "id": "CR90",
+      "authors": [
+        "Saeedi P",
+        "Halabian R",
+        "Imani Fooladi AA"
+      ],
+      "title": "A revealing review of mesenchymal stem cells therapy, clinical perspectives and modification strategies",
+      "source": "Stem Cell Investig",
+      "year": "2019",
+      "doi": "10.21037/sci.2019.08.11"
+    },
+    {
+      "id": "CR91",
+      "authors": [
+        "Ben Nasr M"
+      ],
+      "title": "Co-transplantation of autologous MSCs delays islet allograft rejection and generates a local Immunoprivileged site",
+      "source": "Acta Diabetol",
+      "year": "2015",
+      "doi": "10.1007/s00592-015-0735-y"
+    },
+    {
+      "id": "CR92",
+      "authors": [
+        "Naren Q"
+      ],
+      "title": "Differential responses to UCP1 ablation in classical brown versus beige fat, despite a parallel increase in sympathetic innervation",
+      "source": "J Biol Chem",
+      "year": "2024",
+      "doi": "10.1016/j.jbc.2024.105760"
+    },
+    {
+      "id": "CR93",
+      "authors": [
+        "Martins FF"
+      ],
+      "title": "Semaglutide (GLP-1 receptor agonist) stimulates Browning on subcutaneous fat adipocytes and mitigates inflammation and Endoplasmic reticulum stress in visceral fat adipocytes of obese mice",
+      "source": "Cell Biochem Funct",
+      "year": "2022",
+      "doi": "10.1002/cbf.3751"
+    },
+    {
+      "id": "CR94",
+      "authors": [
+        "Cai J"
+      ],
+      "title": "The Browning and mobilization of subcutaneous white adipose tissue supports efficient skin repair",
+      "source": "Cell Metab",
+      "year": "2024",
+      "doi": "10.1016/j.cmet.2024.05.005"
+    },
+    {
+      "id": "CR95",
+      "authors": [
+        "Dewal RS"
+      ],
+      "title": "Transplantation of committed pre-adipocytes from brown adipose tissue improves whole-body glucose homeostasis",
+      "source": "iScience",
+      "year": "2024",
+      "doi": "10.1016/j.isci.2024.108927"
+    },
+    {
+      "id": "CR96",
+      "authors": [
+        "Mesa AM"
+      ],
+      "title": "Identification and characterization of novel abdominal and pelvic brown adipose depots in mice",
+      "source": "Adipocyte",
+      "year": "2022",
+      "doi": "10.1080/21623945.2022.2133415"
+    },
+    {
+      "id": "CR97",
+      "authors": [
+        "Mossenbock K"
+      ],
+      "title": "Browning of white adipose tissue uncouples glucose uptake from insulin signaling",
+      "source": "PLoS ONE",
+      "year": "2014",
+      "doi": "10.1371/journal.pone.0110428"
+    },
+    {
+      "id": "CR98",
+      "authors": [
+        "Wei S"
+      ],
+      "title": "The unique association between the level of plateletcrit and the prevalence of diabetic kidney disease: a cross-sectional study",
+      "source": "Front Endocrinol (Lausanne)",
+      "year": "2024",
+      "doi": "10.3389/fendo.2024.1345293"
+    },
+    {
+      "id": "CR99",
+      "authors": [
+        "Sung PH"
+      ],
+      "title": "Exendin-4-assisted adipose derived mesenchymal stem cell therapy protects renal function against co-existing acute kidney ischemia-reperfusion injury and severe sepsis syndrome in rat",
+      "source": "Am J Transl Res",
+      "year": "2017",
+      "doi": null
+    },
+    {
+      "id": "CR100",
+      "authors": [
+        "Nauck M"
+      ],
+      "title": "Incretin therapies: highlighting common features and differences in the modes of action of glucagon-like peptide-1 receptor agonists and dipeptidyl peptidase-4 inhibitors",
+      "source": "Diabetes Obes Metab",
+      "year": "2016",
+      "doi": "10.1111/dom.12591"
+    },
+    {
+      "id": "CR101",
+      "authors": [
+        "Luo Q"
+      ],
+      "title": "Role of Stromal-Derived Factor-1 in mesenchymal stem cell Paracrine-Mediated tissue repair",
+      "source": "Curr Stem Cell Res Ther",
+      "year": "2016",
+      "doi": "10.2174/1574888X11666160614102629"
+    },
+    {
+      "id": "CR102",
+      "authors": [
+        "Wang W"
+      ],
+      "title": "Association between the triglyceride-glucose index and in-hospital major adverse cardiovascular events in patients with acute coronary syndrome: results from the improving care for cardiovascular disease in China (CCC)-Acute coronary syndrome project",
+      "source": "Cardiovasc Diabetol",
+      "year": "2024",
+      "doi": "10.1186/s12933-024-02270-7"
+    },
+    {
+      "id": "CR103",
+      "authors": [
+        "Montesanto A"
+      ],
+      "title": "Physical performance strongly predicts all-cause mortality risk in a real-world population of older diabetic patients: machine learning approach for mortality risk stratification",
+      "source": "Front Endocrinol (Lausanne)",
+      "year": "2024",
+      "doi": "10.3389/fendo.2024.1359482"
+    },
+    {
+      "id": "CR104",
+      "authors": [
+        "Wright EJ"
+      ],
+      "title": "Combined MSC and GLP-1 therapy modulates collagen remodeling and apoptosis following myocardial infarction",
+      "source": "Stem Cells Int",
+      "year": "2016",
+      "doi": "10.1155/2016/7357096"
+    },
+    {
+      "id": "CR105",
+      "authors": [
+        "Liu J"
+      ],
+      "title": "Exendin-4 pretreated adipose derived stem cells are resistant to oxidative stress and improve cardiac performance via enhanced adhesion in the infarcted heart",
+      "source": "PLoS ONE",
+      "year": "2014",
+      "doi": "10.1371/journal.pone.0099756"
+    },
+    {
+      "id": "CR106",
+      "authors": [
+        "Zhou H"
+      ],
+      "title": "Exendin-4 enhances the migration of adipose-derived stem cells to neonatal rat ventricular cardiomyocyte-derived conditioned medium via the phosphoinositide 3-kinase/Akt-stromal cell-derived factor-1alpha/CXC chemokine receptor 4 pathway",
+      "source": "Mol Med Rep",
+      "year": "2015",
+      "doi": "10.3892/mmr.2015.3243"
+    },
+    {
+      "id": "CR107",
+      "authors": [
+        "Liu J"
+      ],
+      "title": "The stem cell adjuvant with Exendin-4 repairs the heart after myocardial infarction via STAT3 activation",
+      "source": "J Cell Mol Med",
+      "year": "2014",
+      "doi": "10.1111/jcmm.12272"
+    },
+    {
+      "id": "CR108",
+      "authors": [
+        "Wassef MAE"
+      ],
+      "title": "Mitochondrial dysfunction in diabetic cardiomyopathy: effect of mesenchymal stem cell with PPAR-gamma agonist or Exendin-4",
+      "source": "Exp Clin Endocrinol Diabetes",
+      "year": "2018",
+      "doi": "10.1055/s-0043-106859"
+    },
+    {
+      "id": "CR109",
+      "authors": [
+        "Zamani N"
+      ],
+      "title": "Engaging patients and caregivers to Establish priorities for the management of diabetic foot ulcers",
+      "source": "J Vasc Surg",
+      "year": "2021",
+      "doi": "10.1016/j.jvs.2020.08.127"
+    },
+    {
+      "id": "CR110",
+      "authors": [
+        "Werkman NCC"
+      ],
+      "title": "The use of sodium-glucose co-transporter-2 inhibitors or glucagon-like peptide-1 receptor agonists versus sulfonylureas and the risk of lower limb amputations: a nation-wide cohort study",
+      "source": "Cardiovasc Diabetol",
+      "year": "2023",
+      "doi": "10.1186/s12933-023-01897-2"
+    },
+    {
+      "id": "CR111",
+      "authors": [
+        "Dhatariya K"
+      ],
+      "title": "The impact of liraglutide on diabetes-Related foot ulceration and associated complications in patients with type 2 diabetes at high risk for cardiovascular events: results from the LEADER trial",
+      "source": "Diabetes Care",
+      "year": "2018",
+      "doi": "10.2337/dc18-1094"
+    },
+    {
+      "id": "CR112",
+      "authors": [
+        "Serena C"
+      ],
+      "title": "Obesity and type 2 diabetes alters the immune properties of human adipose derived stem cells",
+      "source": "Stem Cells",
+      "year": "2016",
+      "doi": "10.1002/stem.2429"
+    },
+    {
+      "id": "CR113",
+      "authors": [
+        "Onate B"
+      ],
+      "title": "Stem cells isolated from adipose tissue of obese patients show changes in their transcriptomic profile that indicate loss in stemcellness and increased commitment to an adipocyte-like phenotype",
+      "source": "BMC Genomics",
+      "year": "2013",
+      "doi": "10.1186/1471-2164-14-625"
+    },
+    {
+      "id": "CR114",
+      "authors": [
+        "Shi R"
+      ],
+      "title": "Localization of human adipose-derived stem cells and their effect in repair of diabetic foot ulcers in rats",
+      "source": "Stem Cell Res Ther",
+      "year": "2016",
+      "doi": "10.1186/s13287-016-0412-2"
+    },
+    {
+      "id": "CR115",
+      "authors": [
+        "Lu Y"
+      ],
+      "title": "Exendin-4 and eldecalcitol synergistically promote osteogenic differentiation of bone marrow mesenchymal stem cells through M2 macrophages polarization via PI3K/AKT pathway",
+      "source": "Stem Cell Res Ther",
+      "year": "2022",
+      "doi": "10.1186/s13287-022-02800-8"
+    },
+    {
+      "id": "CR116",
+      "authors": [
+        "Li Y"
+      ],
+      "title": "GLP-1 promotes osteogenic differentiation of human ADSCs via the Wnt/GSK-3beta/beta-catenin pathway",
+      "source": "Mol Cell Endocrinol",
+      "year": "2020",
+      "doi": "10.1016/j.mce.2020.110921"
+    },
+    {
+      "id": "CR117",
+      "authors": [
+        "Li C"
+      ],
+      "title": "Comparison of the therapeutic effects of mesenchymal stem cells derived from human dental pulp (DP), adipose tissue (AD), placental amniotic membrane (PM), and umbilical cord (UC) on postmenopausal osteoporosis",
+      "source": "Front Pharmacol",
+      "year": "2024",
+      "doi": "10.3389/fphar.2024.1349199"
+    },
+    {
+      "id": "CR118",
+      "authors": [],
+      "title": null,
+      "source": null,
+      "year": null,
+      "doi": "10.1002/adhm.202303532"
+    },
+    {
+      "id": "CR119",
+      "authors": [
+        "He Z"
+      ],
+      "title": "Enhanced bone regeneration via endochondral ossification using Exendin-4-modified mesenchymal stem cells",
+      "source": "Bioact Mater",
+      "year": "2024",
+      "doi": "10.1016/j.bioactmat.2023.12.007"
+    },
+    {
+      "id": "CR120",
+      "authors": [
+        "Kamble M"
+      ],
+      "title": "Effect of Gastrointestinal resistant encapsulate matrix on spray dried microencapsulated Lacticaseibacillus rhamnosus GG powder and its characterization",
+      "source": "Food Res Int",
+      "year": "2024",
+      "doi": "10.1016/j.foodres.2024.114804"
+    },
+    {
+      "id": "CR121",
+      "authors": [
+        "Lim F",
+        "Sun AM"
+      ],
+      "title": "Microencapsulated Islets as bioartificial endocrine pancreas",
+      "source": "Science",
+      "year": "1980",
+      "doi": "10.1126/science.6776628"
+    },
+    {
+      "id": "CR122",
+      "authors": [
+        "Mao AS"
+      ],
+      "title": "Programmable microencapsulation for enhanced mesenchymal stem cell persistence and Immunomodulation",
+      "source": "Proc Natl Acad Sci U S A",
+      "year": "2019",
+      "doi": "10.1073/pnas.1819415116"
+    },
+    {
+      "id": "CR123",
+      "authors": [
+        "Hosseini SR",
+        "Hashemi-Najafabadi S",
+        "Bagheri F"
+      ],
+      "title": "Differentiation of the mesenchymal stem cells to pancreatic beta-like cells in alginate/trimethyl Chitosan/alginate microcapsules",
+      "source": "Prog Biomater",
+      "year": "2022",
+      "doi": "10.1007/s40204-022-00194-7"
+    },
+    {
+      "id": "CR124",
+      "authors": [
+        "Wright EJ"
+      ],
+      "title": "Encapsulated glucagon-like peptide-1-producing mesenchymal stem cells have a beneficial effect on failing pig hearts",
+      "source": "Stem Cells Transl Med",
+      "year": "2012",
+      "doi": "10.5966/sctm.2012-0064"
+    },
+    {
+      "id": "CR125",
+      "authors": [
+        "Scotti C"
+      ],
+      "title": "Engineering of a functional bone organ through endochondral ossification",
+      "source": "Proc Natl Acad Sci U S A",
+      "year": "2013",
+      "doi": "10.1073/pnas.1220108110"
+    },
+    {
+      "id": "CR126",
+      "authors": [
+        "Osinga R"
+      ],
+      "title": "Generation of a bone organ by human Adipose-Derived stromal cells through endochondral ossification",
+      "source": "Stem Cells Transl Med",
+      "year": "2016",
+      "doi": "10.5966/sctm.2015-0256"
+    },
+    {
+      "id": "CR127",
+      "authors": [
+        "Xue B"
+      ],
+      "title": "Mesenchymal stem cells modified by FGF21 and GLP1 ameliorate lipid metabolism while reducing blood glucose in type 2 diabetic mice",
+      "source": "Stem Cell Res Ther",
+      "year": "2021",
+      "doi": "10.1186/s13287-021-02205-z"
+    },
+    {
+      "id": "CR128",
+      "authors": [
+        "Ma X"
+      ],
+      "title": "Poly-GLP-1, a novel long-lasting glucagon-like peptide-1 polymer, ameliorates hyperglycaemia by improving insulin sensitivity and increasing pancreatic beta-cell proliferation",
+      "source": "Diabetes Obes Metab",
+      "year": "2009",
+      "doi": "10.1111/j.1463-1326.2009.01070.x"
+    }
+  ],
+  "full_text_source": "xml",
+  "pdf_url": null,
+  "pdf_text": null
+}

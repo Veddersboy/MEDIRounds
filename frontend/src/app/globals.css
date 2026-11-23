@@ -475,6 +475,371 @@ html[data-theme="dark"] .main-nav a.selected {
   cursor: not-allowed
 }
 
+.upload-wrap {
+  position: relative;
+  display: flex;
+}
+
+.composer button.upload-button {
+  background: transparent;
+  color: var(--muted);
+}
+
+.composer button.upload-button:hover {
+  background: var(--hover);
+  color: var(--text);
+}
+
+.upload-popover {
+  position: absolute;
+  bottom: calc(100% + 8px);
+  right: 0;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 130px;
+  z-index: 20;
+}
+
+.composer .upload-popover button {
+  width: 100%;
+  height: 32px;
+  padding: 0 10px;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--text);
+  font-size: 13px;
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.composer .upload-popover button:hover {
+  background: var(--hover);
+}
+
+/* ================= PMC Scraper Modal ================= */
+.pmc-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 16px;
+  backdrop-filter: blur(2px);
+}
+
+.pmc-modal-window {
+  background: var(--panel);
+  color: var(--text);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  width: 100%;
+  max-width: 580px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  animation: pmcFadeIn 0.15s ease-out;
+}
+
+@keyframes pmcFadeIn {
+  from { opacity: 0; transform: scale(0.98); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.pmc-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 18px;
+  border-bottom: 1px solid var(--line);
+}
+
+.pmc-modal-header h2 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.pmc-close-btn {
+  background: transparent;
+  border: 0;
+  color: var(--muted);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.pmc-close-btn:hover {
+  background: var(--hover);
+  color: var(--text);
+}
+
+.pmc-modal-body {
+  padding: 16px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.pmc-instruction-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.pmc-rows-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-height: 220px;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.pmc-entry-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.pmc-entry-input {
+  flex: 1;
+  height: 34px;
+  padding: 0 10px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 13px;
+}
+
+.pmc-entry-input:focus {
+  outline: none;
+  border-color: #8bb9ac;
+}
+
+.pmc-remove-row-btn {
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--panel);
+  color: var(--muted);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pmc-remove-row-btn:hover:not(:disabled) {
+  background: var(--hover);
+  color: #c94a4a;
+}
+
+.pmc-remove-row-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.pmc-row-toolbar {
+  display: flex;
+  gap: 8px;
+}
+
+.pmc-subtle-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--panel);
+  color: var(--text);
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.pmc-subtle-btn:hover:not(:disabled) {
+  background: var(--hover);
+}
+
+.pmc-save-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+}
+
+.pmc-browse-btn {
+  white-space: nowrap;
+  height: 32px;
+}
+
+.pmc-save-row label {
+  white-space: nowrap;
+  font-weight: 500;
+}
+
+.pmc-save-input {
+  flex: 1;
+  height: 32px;
+  padding: 0 10px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 13px;
+}
+
+.pmc-progress-wrap {
+  height: 18px;
+  background: #e0e0e0;
+  border: 1px solid #bbbbbb;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.pmc-progress-bar {
+  height: 100%;
+  background: #2e9e44;
+  transition: width 0.3s ease;
+}
+
+.pmc-status-line {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.pmc-results-list {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 12px;
+  max-height: 120px;
+  overflow-y: auto;
+}
+
+.pmc-results-summary {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.pmc-results-list ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.pmc-error-banner {
+  background: rgba(220, 53, 69, 0.1);
+  border: 1px solid rgba(220, 53, 69, 0.3);
+  color: #c94a4a;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+.pmc-modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  padding-top: 8px;
+  border-top: 1px solid var(--line);
+}
+
+.pmc-primary-btn {
+  padding: 7px 16px;
+  background: var(--accent);
+  color: #fff;
+  border: 0;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.pmc-primary-btn:hover:not(:disabled) {
+  opacity: 0.9;
+}
+
+.pmc-primary-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pmc-secondary-btn {
+  padding: 7px 14px;
+  background: transparent;
+  color: var(--text);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.pmc-secondary-btn:hover:not(:disabled) {
+  background: var(--hover);
+}
+
+/* Paste subview */
+.pmc-paste-subview {
+  padding: 16px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.pmc-subview-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.pmc-paste-hint {
+  font-size: 12px;
+  color: var(--muted);
+  margin: 0;
+  line-height: 1.4;
+}
+
+.pmc-paste-textarea {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--text);
+  padding: 10px;
+  font-family: inherit;
+  font-size: 13px;
+  resize: vertical;
+}
+
+.pmc-paste-textarea:focus {
+  outline: none;
+  border-color: #8bb9ac;
+}
+
+.pmc-paste-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
 .disclaimer {
   color: var(--muted);
   text-align: center;

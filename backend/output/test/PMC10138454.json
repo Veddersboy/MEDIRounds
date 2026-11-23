@@ -1,0 +1,1451 @@
+{
+  "pmcid": "PMC10138454",
+  "pmid": "37108347",
+  "doi": "10.3390/ijms24087184",
+  "title": "The Effects of Cardioprotective Antidiabetic Therapy on Microbiota in Patients with Type 2 Diabetes Mellitus—A Systematic Review",
+  "journal": "International Journal of Molecular Sciences",
+  "issn": "1422-0067",
+  "authors": [
+    {
+      "name": "Ioana-Cristina Bica",
+      "affiliation_ids": [
+        "af1-ijms-24-07184"
+      ],
+      "affiliations": [
+        "1 The Doctoral School, “Carol Davila” University of Medicine and Pharmacy, 37 Dionisie Lupu, 020021 Bucharest, Romania; ioana-cristina.bica@drd.umfcd.ro (I.-C.B.);"
+      ]
+    },
+    {
+      "name": "Valeria-Anca Pietroșel",
+      "affiliation_ids": [
+        "af2-ijms-24-07184"
+      ],
+      "affiliations": [
+        "2 Department of Diabetes, “Prof. Dr. N.C. Paulescu” National Institute of Diabetes, Nutrition and Metabolic Diseases, 030167 Bucharest, Romania"
+      ]
+    },
+    {
+      "name": "Teodor Salmen",
+      "affiliation_ids": [
+        "af1-ijms-24-07184"
+      ],
+      "affiliations": [
+        "1 The Doctoral School, “Carol Davila” University of Medicine and Pharmacy, 37 Dionisie Lupu, 020021 Bucharest, Romania; ioana-cristina.bica@drd.umfcd.ro (I.-C.B.);"
+      ]
+    },
+    {
+      "name": "Cosmina-Theodora Diaconu",
+      "affiliation_ids": [
+        "af1-ijms-24-07184"
+      ],
+      "affiliations": [
+        "1 The Doctoral School, “Carol Davila” University of Medicine and Pharmacy, 37 Dionisie Lupu, 020021 Bucharest, Romania; ioana-cristina.bica@drd.umfcd.ro (I.-C.B.);"
+      ]
+    },
+    {
+      "name": "Carmen Fierbinteanu Braticevici",
+      "affiliation_ids": [
+        "af3-ijms-24-07184"
+      ],
+      "affiliations": [
+        "3 The Department of Gastroenterology, The Emergency University Hospital Bucharest, 050098 Bucharest, Romania"
+      ]
+    },
+    {
+      "name": "Roxana-Adriana Stoica",
+      "affiliation_ids": [
+        "af4-ijms-24-07184"
+      ],
+      "affiliations": [
+        "4 The Department of Diabetes, Nutrition and Metabolic Diseases, “Carol Davila” University of Medicine and Pharmacy, 050474 Bucharest, Romania"
+      ]
+    },
+    {
+      "name": "Andra Iulia Suceveanu",
+      "affiliation_ids": [
+        "af5-ijms-24-07184"
+      ],
+      "affiliations": [
+        "5 The Gastroenterology Department, Ovidius University, 900527 Constanta, Romania"
+      ]
+    },
+    {
+      "name": "Anca Pantea Stoian",
+      "affiliation_ids": [
+        "af4-ijms-24-07184"
+      ],
+      "affiliations": [
+        "4 The Department of Diabetes, Nutrition and Metabolic Diseases, “Carol Davila” University of Medicine and Pharmacy, 050474 Bucharest, Romania"
+      ]
+    }
+  ],
+  "publication_date": "2023-4-13",
+  "keywords": [
+    "microbiota",
+    "type 2 diabetes mellitus",
+    "GLP-1 RA",
+    "SGLT-2i",
+    "holistic approach"
+  ],
+  "abstract": "As the pathophysiologic mechanisms of type 2 diabetes mellitus (T2DM) are discovered, there is a switch from glucocentric to a more comprehensive, patient-centered management. The holistic approach considers the interlink between T2DM and its complications, finding the best therapies for minimizing the cardiovascular (CV) or renal risk and benefitting from the treatment‘s pleiotropic effects. Sodium-glucose cotransporter 2 inhibitors (SGLT-2i) and glucagon-like peptide-1 receptor agonists (GLP-1 RA) fit best in the holistic approach because of their effects in reducing the risk of CV events and obtaining better metabolic control. Additionally, research on the SGLT-2i and GLP-1 RA modification of gut microbiota is accumulating. The microbiota plays a significant role in the relation between diet and CV disease because some intestinal bacteria lead to an increase in short-chain fatty acids (SCFA) and consequent positive effects. Thus, our review aims to describe the relation between antidiabetic non-insulin therapy (SGLT-2i and GLP-1 RA) with CV-proven benefits and the gut microbiota in patients with T2DM. We identified five randomized clinical trials including dapagliflozin, empagliflozin, liraglutide, and loxenatide, with different results. There were differences between empagliflozin and metformin regarding the effects on microbiota despite similar glucose control in both study groups. One study demonstrated that liraglutide induced gut microbiota alterations in patients with T2DM treated initially with metformin, but another failed to detect any differences when the same molecule was compared with sitagliptin. The established CV and renal protection that the SGLT-2i and GLP-1 RA exert could be partly due to their action on gut microbiota. The individual and cumulative effects of antidiabetic drugs on gut microbiota need further research.",
+  "body": [
+    {
+      "heading": "1. Introduction",
+      "paragraphs": [
+        "Type 2 diabetes mellitus (T2DM) is a complex metabolic condition with an increasing incidence worldwide, with more than 500 million patients reported in 2021, according to the International Diabetes Federation (IDF) [ 1 ]. T2DM is a major cause of chronic kidney disease (CKD), blindness, and atherosclerotic cardiovascular disease (ASCVD) (which includes myocardial ischemia, a history of stroke, and lower limb arterial disease), significantly decreasing the quality of life in patients with hyperglycemia [ 2 ]. The Consensus Report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD), published in 2022, recommends a holistic patient-centered approach. The management of T2DM should include the treatment of hyperglycemia, weight control, and the assessment of cardiovascular risk (CV) factors, comorbidities, or complications, respectively [ 3 ]. The 2023 Standards of Care in Diabetes ADA guidelines advocate for GLP-1 RA or SGLT-2i use in patients with T2DM and ASCVD or CKD to reduce the risk of macro- and microvascular complications in this category of patients [ 4 ].",
+        "The Human Microbiome Project (HMP) investigates the microbial components of the human body and how different bacterial species influence health and predispose to various conditions [ 5 ]. In 2019, the Integrative HMP Research Network Consortium published results about the role of gut microbiota in inflammatory bowel diseases (IBD) and prediabetes [ 6 ].",
+        "Lately, the gut microbiota have been associated with different metabolic diseases, such as obesity [ 7 ] or T2DM [ 7 , 8 ], but also CV diseases (CVD) [ 9 ] and NAFLD [ 10 ]. In addition, dysbiosis, which includes various compositional and functional alterations of the microbiota, can be caused by genetic factors, infection, inflammation, diet, or some types of xenobiotics (drugs, food additives, antibiotics, or chlorinated water) [ 10 ].",
+        "Certain dysbioses have been described in modern conditions [ 11 ]. Researchers discovered that patients with obesity have an altered ratio between Bacterioidetes and Firmicutes , with a reduction in the first bacterial group and an elevation in the latter [ 12 ]. Moreover, patients with obesity who lost weight suffered from a change in the ratio between Bacteroidetes and Firmicutes , with improvement in favor of the first group [ 13 ]. Patients with T2DM and obesity have significantly higher amounts of Bifidobacterium spp. and fewer communities of Lactobacillus acidophilus , Lactobacillus plantarum , and Lactobacillus reuteri than controls [ 14 ]. Furthermore, a high-fat diet led to a decrease in Bacteroidetes and an increase in Firmicutes and Proteobacteria , independent of the nutritional status, highlighting the importance of diet in gut microbiota changes [ 15 ].",
+        "These changes in gut microbiota are described after analyzing the differences between groups using alpha- (within-sample) and beta-diversity (between-sample), respectively [ 16 ]. Alpha-diversity metrics are related to the richness, the distribution of abundances of the group, or both, indicating the variation within one sample [ 17 ]. Beta-diversity metrics determine which specimen is different from the other, indicating the variation between samples or treatment groups [ 18 ].",
+        "The microbiota have been demonstrated to have a significant role in CVD prevention through blood pressure control [ 19 ] or metabolic regulation, such as central appetite control [ 20 ], reducing inflammation [ 21 ], or altering the oxidation rate [ 22 ]. The composition and functional alterations in microbiota have been discovered to be linked to atherosclerosis. Bacteria from the Collinsella genus were correlated with symptomatic atherosclerosis in patients, while Eubacterium sp. and Roseburia sp. were increased/more prevalent in healthy individuals. Moreover, bacteria from the Clostridiales genus ( Clostridium sp.) were associated with a high level of inflammatory C-reactive protein [ 23 ].",
+        "Trimethylamine N-oxide (TMAO) is a metabolite derived from the gut microbiome. It has been supposed to be involved in ASCVD in patients with diabetes and CKD because of the impaired renal excretion ability to eliminate it, especially in patients with advanced CKD (before hemodialysis or before a kidney transplant) [ 24 ]. Researchers discovered differences in the gut microbial composition in patients with diabetic kidney disease (DKD) compared to patients less prone to DKD (non-DKD), with higher levels of bacteria from the Proteobacteria phylum in patients with DKD [ 25 ]. The DKD presents a specific signature in terms of the bacterial ( Lactobacillus sp., Enterobacteriaceae , Ruminococus sp., Prevotella sp., Faecalibacterium sp., Clostridium coccoides , Clostridium leptum ) and fungal microbiome when compared to healthy control individuals [ 26 ].",
+        "Novel antidiabetic non-insulin drugs (SGLT-2i and GLP-1 RA) are promising for reducing CV events through various mechanisms [ 27 , 28 , 29 , 30 , 31 , 32 ]. In addition, one of the studied mechanisms in the pathogenesis of ASCVD is mediated through TMAO secreted by the gut microbiota [ 33 ]. This new hypothesis opens further therapeutic targets, thus emphasizing molecular research.",
+        "This review highlights current research on the effect of SGLT-2i and GLP-1 RA drugs on the gut microbiota as a risk factor for ASCVD. It also addresses approaches for targeting correlations between microbiota and other well-established CV risk factors."
+      ],
+      "subsections": []
+    },
+    {
+      "heading": "2. Materials and Methods",
+      "paragraphs": [
+        "We developed a reproducible protocol for our study following the recommendations of Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) for the systematic review protocol checklist. Furthermore, we used the Population, Intervention, Comparison, Outcome, and Study (PICOS) Design strategy to guide the reasoning of our study and to carry out a clear, helpful, and systematic literature search. A systematic review of the literature was performed in January 2023 after CRD42022375026 PROSPERO’s registration number. We included only full-text articles, observational and randomized controlled trials, those on human adult populations (aged ≥ 18 years), those published in English, and those from the last ten years, with the following search criteria: “(type 2 diabetes mellitus OR diabetes OR diabetic) AND (microbiota OR microbiome) AND (SGLT-2i OR Empagliflozin OR Dapagliflozin OR Canagliflozin OR GLP-1 RA OR Dulaglutide OR Liraglutide OR Semaglutide OR Loxenatide)”. The inclusion criteria referred to patients diagnosed with T2DM who had received treatment with GLP-1 RA or SGLT-2i, in which microbiota were analyzed (using genomic DNA extraction and 16S rRNA gene amplicon sequencing). Forty-six articles were identified in the MEDLINE database, 71 in the Web of Science database, and 22 in the Cochrane database. Two researchers analyzed the titles and abstracts and selected five relevant articles. On the other hand, a third researcher intervened to resolve any problem in the selection process, as seen in Figure 1 ."
+      ],
+      "subsections": []
+    },
+    {
+      "heading": "3. Results",
+      "paragraphs": [],
+      "subsections": [
+        {
+          "heading": "3.1. The Gut–Cardio–Renal Axis",
+          "paragraphs": [
+            "We did not identify randomized controlled trials (RCTs) that had, as a primary outcome, the effect of gut microbiota diversity or its production of metabolites (TMAO, SCFA) on ASCVD in humans. The effect can be inferred from the RCTs on the microbiota that have been reviewed in the following."
+          ],
+          "subsections": []
+        },
+        {
+          "heading": "3.2. SGLT-2i Treatment and Gut Microbiota Interaction",
+          "paragraphs": [
+            "In a double-blind, randomized controlled trial (RCT) that included 44 patients with T2DM, neither dapagliflozin nor gliclazide affected the microbiome diversity or composition after 12 weeks of treatment. Although gliflozins (-i) have different metabolic activities, there were no changes in the fecal microbiome in any treatment step. The methods and outcomes van Bommel et al. used are presented in Table 1 . Using Bray–Curtis dissimilarity and multilevel principal component analysis, the authors detected a small shift in microbiome composition, but the compositional shift was not associated with treatment. However, dapagliflozin and gliclazide had opposite metabolic effects, the first leading to a reduction in fasting insulin levels, body mass index (BMI), fat mass percentage, and waist circumference [ 34 ].",
+            "Another randomized, open-label clinical trial investigated the effects of empagliflozin on the gut microbiota and plasma metabolites in patients with T2DM compared to metformin. Patients receiving empagliflozin had increased levels of sphingomyelin and reduced levels of glycochenodeoxycholate, cis-aconitate, and uric acid compared to metformin-treated patients. When analyzing Amplicon Sequence Variants (ASV), empagliflozin significantly improved ( p < 0.05) the host’s microbiota by tilting the scale in favor of short-chain fatty acid (SCFA)-producing bacteria, such as Eubacterium, Roseburia , and Faecalibacterium , and lowering the levels of damaging bacteria, such as Escherichia-Shigella , Bilophila , and Hungatella , after a three-month treatment. There was a significant shift in the gut microbiome after 4 weeks of empagliflozin treatment (that remained relatively stable) in the Principal Coordinate Analysis (PCoA) of the Bray–Curtis distance [ 35 ]."
+          ],
+          "subsections": []
+        },
+        {
+          "heading": "3.3. GLP-1 RA Treatment and the Effect on Gut Microbiota",
+          "paragraphs": [
+            "A 12-week, double-blind RCT by Smits et al. [ 36 ] investigated the effect of liraglutide and sitagliptin on the microbiota in patients with T2DM. They did not find any significant difference between liraglutide (1.8 mg subcutaneously weekly) and sitagliptin (100 mg daily) and the placebo in terms of alpha ( p = 0.22) or beta ( p = 0.23) microbiota diversity using PCoA. However, both liraglutide and sitagliptin increased fecal bile acid (deoxycholic acid, cholic acid, chenodeoxycholic acid, and ursodeoxycholic acid), in addition to lowering HbA1c by 1.3% (95% CI: −1.7 to −0.9) and by 0.8% (95% CI: −1.4 to −0.4), respectively. The methods and the number of patients are presented in Table 2 [ 36 ].",
+            "In contrast, another study demonstrated that liraglutide (1.2 mg subcutaneously weekly) induced gut microbiota alterations in patients with T2DM treated initially with metformin. As expected, after a 4-month treatment with liraglutide, the patients had lower HbA1c, BMI, and fasting and postprandial blood glucose levels and an improved lipid profile. In addition, researchers showed that a 4-month treatment with liraglutide positively correlated with specific microbial genera, especially Firmicutes and Bacteroidetes. The differences based on genomic characteristics were further investigated by LEfSe (Linear Discriminant analysis of Effect Size). Twenty-one species of bacteria were abundant in the pre-liraglutide-treatment group, and only 15 species were abundant in the post-liraglutide one. To compare the functional composition of the microbiome, KEGG (Kyoto Encyclopedia of Genes and Genomes) and COG (cluster of orthologous groups) were used. Three KEGG pathways (Glycolysis/Gluconeogenesis, G protein-coupled receptors, and Selenocompound metabolism) were enriched after treatment with liraglutide [ 37 ].",
+            "An 8-week trial investigated the effect of Polyethylene Glycol Loxenatide in one weekly injection in middle-aged and elderly patients with T2DM. Researchers assessed the intestinal flora at 0, 4, and 8 weeks in 12 patients with T2DM after one weekly injection of Polyethylene Glycol Loxenatide. After loxenatide, there was a trend of change in the number of genes, although it was not statistically significant ( p > 0.05): an upward and then downward trend at the genus, species, and subspecies levels. Regarding microbial diversity, the overall trend was rising and then declining. In particular, at the genus level, there was one significant difference at baseline, week 4, and week 8— Acinetobacter —and at the species level— Acinetobacter-unclassified . The improvement in vascular endothelial function (determined by the tissue factor, plasminogen activator inhibitor-1, Endothelin-1, von Willebrand factor, tissue type fibrinogen activator, Prostaglandin I2 (PGI2), and LDL-cholesterol) was positively associated with Bacteroides and Afebola and negatively correlated with Acinetobacter baumannii [ 38 ]."
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "heading": "4. Discussion",
+      "paragraphs": [
+        "Several studies showed that T2DM led to endothelial dysfunction, reduced nitric oxide (NO) expression, and impaired vasodilation [ 39 , 40 , 41 ]. In addition, research demonstrated that the microbiota play a significant role in the relation between diet and ASCVD because some intestinal bacteria lead to an increase in SCFA and consequent positive CV effects through food breaking down/biodegradation [ 42 ]."
+      ],
+      "subsections": [
+        {
+          "heading": "4.1. Gut Microbiota-Mediated CV Risk in Type 2 Diabetes",
+          "paragraphs": [
+            "Besides the mediator effect specified above, the microbiota could be used as a marker for CVD. Previous studies reported that the genera Bacteroides are present in the atherosclerotic plaque [ 43 ]. In the study of Tsai et al., published in 2021, the low abundance of Bacteroides was associated with left atrium enlargement and Firmicutes with a higher risk for left ventricular hypertrophy in T2DM subjects [ 41 ].",
+            "Still, there are several confounding factors in describing the relation between subclinical CVD and gut microbiota [ 41 , 44 ]. First, this relation varies over time, and the modifications of microbiota abundancy or diversity could have an accumulating effect [ 41 ]. Second, the number of patients included in studies is relatively small [ 41 , 42 ].",
+            "Third, it is difficult to separate the microbiota changes in T2DM described before [ 43 , 45 , 46 ] from those produced by other diseases. There is significant interest in the etiopathological role of microbiota in glycemic disturbances and insulin resistance. The mechanisms through which gut microbiota abnormalities lead to glycemic imbalance and T2DM rely mainly on the derived metabolites, the most widely known being SCFA (e.g., butyrate, propionate), bile acids, indoles, and lipopolysaccharide [ 45 , 46 ].",
+            "Finally, the microbiota co-evolves with the host and is influenced by the medication. The effects of antidiabetic drugs on dysbiosis have been reviewed without including the SGLT-2i class [ 47 ]. SCFA production is positively influenced by metformin and alpha glucosidase inhibitors [ 47 ]. The Consensus Report ADA-EASD 2022 recommends SGLT-2i or GLP-1 RA as first-line therapy, irrespective of the use of metformin, in addition to medical nutrition therapy (MNT) to reduce the cardio-renal risk in high-risk patients with T2DM [ 3 ]. In recent years, these two antidiabetic non-insulin classes have been studied for their beneficial impact on CV health [ 27 , 28 , 29 , 30 , 31 , 32 ], with increasing interest in their possible effects on the intestinal microbiota [ 34 , 35 , 36 , 37 , 38 ]. Additionally, the modulation of inflammation, including the possible mechanisms in SARS-CoV20-triggered cytokine response and the gut virome-bacterial microbiome interaction, needs further study [ 48 ]."
+          ],
+          "subsections": []
+        },
+        {
+          "heading": "4.2. Could the Cardioprotective Role of SGLT-2i Involve the Microbiota?",
+          "paragraphs": [
+            "The SGLT-2i class inhibits glucose reabsorption in the proximal convoluted tubule of the nephron, leading to glycosuria and concomitant natriuresis [ 49 ]. In addition to its well-established effects on glucose control in patients with T2DM [ 4 , 50 ], multiple conditions have been demonstrated to be improved in patients treated with SGLT-2i agents, such as NAFLD [ 51 , 52 ], atherosclerotic cardiovascular disease [ 53 ], and chronic kidney disease [ 54 ], with a possible interaction of SGLT-2i on microbiota with cardio-renal and metabolic outcomes.",
+            "Dapagliflozin, empagliflozin, and canagliflozin revealed favorable effects on microbiota with tight interactions with T2DM, metabolic syndrome, and CVD in studies on mice [ 55 , 56 , 57 , 58 ]. Researchers used different rat categories, from diet-induced mice to subjects with nephropathy, and this heterogeneity overburdened the challenge of analyzing the impact of SGLT-2i on the microbiota. In other animal studies, the treatment with dapagliflozin has altered microbial diversity, especially Bacteroidetes, and Proteobacteria, in diabetic mice, with little effect on control animals ( p < 0.05) [ 59 ]. Moreover, it was observed that the Firmicutes-to-Bacteroidetes ratio was significantly lower ( p < 0.05) among diabetic mice than among the control group individuals [ 59 ]. However, the results from mouse trials cannot be extrapolated in human treatment decisions [ 60 ].",
+            "When we reviewed the studies in humans, contradictory results were found. Adding dapagliflozin to metformin did not lead to significant changes in the microbiota in patients with T2DM, as compared to the gliclazide treatment, suggesting that metabolic benefits in terms of glucose control, weight loss, and CV protection are not linked to the treatment’s interaction with the host’s microbiota [ 34 ]. Moreover, metformin itself exerts effects on the composition of microbiota [ 60 , 61 ]; therefore, dapagliflozin and gliclazide may overlap their benefits for gut microbiota with metformin ones. Metformin therapy may impact the gut microbiota through the improvement of the inflammatory status, gut permeability, and glucose metabolism or reshape the SCFA-producing bacteria population [ 47 , 61 ].",
+            "However, in a study by Deng et al., another SGLT-2i, empagliflozin, improved CV risk factors and glucose control, in correlation with an increase in SCFA-releasing bacteria, when compared to metformin therapy [ 35 ]. These differences between empagliflozin and metformin regarding the effects on microbiota occurred despite similar glucose control in both study groups, suggesting that the established CV and renal protection [ 25 , 62 ] empagliflozin exerts may be partly due to its action on gut microbiota.",
+            "Metformin plays an important role in interpreting the data researchers reported on the SGLT-2i effects on the microbiota. Contradictory results could be linked to metformin association or the comparison to new antidiabetic classes [ 34 , 35 , 36 , 37 ]. Dapagliflozin and liraglutide demonstrated better effects on gut microbiota in patients with T2DM only when these new agents were compared to metformin, but not in association with this first-line therapy, thus leading to new hypotheses about the cumulative beneficial effects of antidiabetic drugs on microbiota architecture. In addition, metformin has been described to induce changes in the bacterial species in the upper part of the small intestine that improve the SGLT1-dependent glucose sensing process in the upper part of the small intestine and thereby control glucose homeostasis [ 63 ]."
+          ],
+          "subsections": []
+        },
+        {
+          "heading": "4.3. GLP-1 RA Administration and the Impact on Gut Microbiota",
+          "paragraphs": [
+            "GLP-1 RAs are potent antidiabetic drugs from the incretin mimetic class. Their hypoglycemic effect is based on increasing the pharmacologic level of GLP-1, which is altered in T2DM patients. Consequently, insulin secretion is stimulated in a glucose-dependent manner, while glucagon secretion is diminished. Furthermore, they possess anti-obesogenic properties, as they delay gastric emptying and promote satiety, hence decreasing alimentary intake. This effect may be explained by the aforementioned mechanism, as well as by the central mechanism [ 43 , 48 ]. GLP-1 RA directly interacts with receptors from the central nervous system, inducing the modulation of glutamatergic or GABA-ergic neurotransmission in brain cells, this mechanism being an explanation for their anorectic effect in patients with obesity and T2DM [ 64 ].",
+            "GLP-1 RAs possess pleiotropic actions. The protective CV effect resides in both direct anti-atherosclerotic effects as well as indirect mechanisms consisting of glucose control, weight reduction, lipid profile improvement, and, lastly, anti-inflammatory properties [ 14 , 48 ]. However, when investigating the specific role of microbiota in GLP-1 RA cardiovascular protective function, it was found that, when administering liraglutide to diabetic rats, it selectively enriched SCFAs-producing bacteria, such as Bacteroides , Lachnospiraceae , and Bifidobacterium [ 58 ].",
+            "The GLP-1 RA anti-inflammatory mechanisms are fairly complex and are still under investigation, as they involve various signaling pathways [ 65 ]. However, it is interesting to evaluate to what extent these immuno-modulatory properties are derived from either gut microbiota modification or a direct anti-inflammatory effect on the cardiovascular system [ 66 ]. Some microbiota dysbioses may alter the enteric nervous system, which may be the cause of GLP-1 resistance in patients with T2DM and a particular gut architecture signature [ 67 ]. GLP-1 has been demonstrated to decrease the hyperactivation of appetite- and reward-linked brain regions in patients with obesity, as compared to lean subjects [ 68 ].",
+            "Last but not least, liraglutide/GLP-1 RA may have beneficial effects on gut microbiota, preventing microbiome dysbiosis and endotoxemia, thus leading to a less severe form of coronavirus disease [ 48 ]. For the time being, we are still investigating the mechanisms by which GLP-1 RA agents promote beneficial metabolic effects, out of which the following are worth mentioning: glycemic control, weight loss, adipose tissue reduction, NAFLD improvement, and benefits on inflammatory status [ 69 ].",
+            "Liraglutide was studied for its impact on the gut microbiota in patients with T2DM, with contrasting results [ 36 , 37 ]. While Smits et al. [ 36 ] did not find any changes in alpha- or beta-diversity after 3 months, another 4-month treatment with a lower dose of liraglutide (1.8 mg vs. 1.2 mg subcutaneously daily) revealed positive effects on the microbial community, all correlated with better glucose control [ 37 ]. However, in the first case, the authors noticed that the lack of information and monitoring of the concomitant diet and associated medication may lead to different results [ 36 ]. Both studies admitted the reduced sample size, with an important effect on statistical significance. Moreover, none of them assessed the impact of diet composition and, therefore, diet change consequences on gut microbiota architecture. The concomitant use of metformin in the first study versus the switch from metformin to liraglutide in the latter may have an apparent role in the different results that both studies reported. The fact that metformin has been studied for its useful effects on the gut microbial composition should not be neglected [ 60 , 70 ].",
+            "Another argument for the positive effect of liraglutide on microbiota comes from a study on rodents. Liraglutide demonstrated a remarkable effect on obesity-related bacterial strains, decreasing the genera Roseburia and Parabacteroides (obesity-related) while increasing the genera Blautia and Coprococcus (weight loss-correlated) [ 71 ]. In another experiment on mice, the colonization of germ-free mice with gut microbiota from liraglutide-treated diabetic mice improved glucose-induced insulin secretion and regulated the intestinal immune system [ 72 ].",
+            "Another FDA-approved GLP-1 RA, loxenatide, demonstrated an impact on the intestinal microbial species, such as Acinetobacter , Eubacterium, and Bacteroides, in tight correlation with vascular endothelial function, metabolic control, and inflammatory status [ 38 ]. These GLP-1 RA cardio-metabolic protective effects may be based on their potential to inhibit the production of NO of TMAO and balance short-chain fatty acids (SCFA) production [ 73 , 74 , 75 ].",
+            "Kato et al. reported an interesting GLP-1 RA effect on the intestinal microbiota, with the activation of the sympathetic nervous system and consequent norepinephrine (NE) release in the intestinal lumen [ 76 ]. This mechanism explains the higher amount of E. coli in patients treated with GLP-1 RA, as reported in their study [ 76 ].",
+            "Incretin therapy has well-recognized gastrointestinal adverse effects (AE) [ 77 ], which may be involved in gut microbiota modulation in patients treated with GLP-1 RA. This new antidiabetic class can lead to nausea, vomiting, or diarrhea, with higher rates than for any other antihyperglycemic agents. These AE may be either one of the results of the gut microbiota-altering process or one of the possible pathways through which GLP-1 RA determines changes in the intestinal microbiota architecture. Future research is needed to clarify the link between GLP-1 RA tolerance/AE and their effects on gut microbiota."
+          ],
+          "subsections": []
+        },
+        {
+          "heading": "4.4. Could Gut Microbiota Influence the GLP-1 RA Therapy Response?",
+          "paragraphs": [
+            "While novel antidiabetic non-insulin therapies are studied for their potential effects on the gut microbiota, researchers focused on this relationship from the opposite point of view. Whereas there is tremendous interest in the GLP-1 RA effect on the human gut microbiota, some bacterial species have an important effect on GLP-1 RA metabolism. For example, gel-E, a secreted protease from Enterococcus faecalis , has been demonstrated to inhibit GLP-1 via direct cleavage [ 78 ]. This bacterial behavior would explain the difference in the efficacy of various antidiabetic classes. Moreover, this bi-directional relationship may have an impact on researchers in redirecting their attention toward the underestimated functions of the intestinal microbiome. Furthermore, acknowledging the relationship between microbiota and dietary and therapeutic molecules will help clinicians recommend an appropriate treatment plan for their T2DM patients.",
+            "Tsai et al. conducted a study that included patients treated with GLP-1 RA (liraglutide and dulaglutide), categorizing the host microbiota in responders to GLP-1 RA and in non-responders to therapy. They considered non-responder patients whose HbA1c and BMI did not significantly decrease after 12 weeks of GLP-1 RA treatment. While alpha-diversity did not differ among the responders and non-responders, as well as the Bacteroidetes/Firmicutes ratio (a hallmark of obesity), beta-diversity was the only significant marker. In one linear regression model, Mitsuokella multacida , Bacteroides dorei, Lachnoclostridium sp., and baseline HbA1c were significant predictors for an HbA1c decrease in T2DM patients treated with GLP-1 RA [ 71 ].",
+            "Besides treatment, associated complications influence the microbiota. He et al. demonstrated a different pattern regarding the intestinal microbiota in patients with DKD versus patients without DKD. Shigella, Bilophila, Escherichia coli, and Bacteroides plebeius were better represented in the DKD group, with Citrobacter farmeri and Syntrophaceticus schinkii being significantly and positively correlated with the urinary albumin creatinine ratio in the DKD group [ 62 ]. These results could give researchers and clinicians a better understanding of the underlying mechanisms of DKD. GLP-1 RAs are approved in DKD, and subsequent trials are needed to describe their effect on the microbiota of this category of vulnerable patients.",
+            "Our review is one of the few that investigate the effect of novel antidiabetic molecules, namely, GLP-1 RA and SGLT-2i, on the microbiota when administered to human subjects. However, this systematic review has encountered several limitations. The main drawback is the limited number of included studies and the small sample size, with important heterogeneity, as various antidiabetic molecules, different comparators, as well as diversely investigated and reported mediators, metabolic effects, and bacterial species were used. Taking all of this into account, it cannot be properly concluded if any of the mentioned effects are class-related. Furthermore, there is the probability that, in the case of the modification of the duration of treatment and the dose administered, other results may be achieved. Standardization is another important aspect that has to be considered, as the participants’ characteristics can also induce different baseline microbiota distributions. The differences between interspecies in terms of gut microbiota should not be overlooked, acknowledging the fact that the data from the studies on mice microbiota cannot be extrapolated to human subjects [ 56 , 57 , 58 , 59 ]. We have to consider the interracial differences in terms of the gut microbial architecture, because patients from different geographical areas may have different microbial signatures, partly because of genetic factors but also due to external factors, such as cultural patterns (different diet) or various environmental factors. Last but not least, it is extremely difficult to properly discriminate between the effects induced solely by the GLP-1 RA or the SGLT-2i on the microbiota and other confounding factors such as previous or concomitant antidiabetic treatment or simultaneous lifestyle modification (dietary, including sweetened beverages consumption, and physical activity), the latter being even harder to be quantified.",
+            "More comprehensive interventional studies are required to investigate the effect of novel antidiabetic molecules (GLP-1 RA and SGLT-2i) on microbiota, as well as the impact on metabolism and CVD from this perspective, and to consequently identify those actions as class effects or not."
+          ],
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "heading": "5. Conclusions",
+      "paragraphs": [
+        "The knowledge about the impact of therapeutic agents on microbiota in T2DM will improve the outcomes of patients, facilitate the choice between different types of therapies, and predict the response, but the high variability in microbial communities and the difficulties in identifying causality and in studying certain microbial taxa make this process arduous. The diversity of the gut–cardio–renal axis is only at the beginning of its description.",
+        "The SGLT-2i (empagliflozin) and GLP-1 RA (liraglutide and loxenatide) demonstrated beneficial effects on microbiota in patients with T2DM in terms of improving the colonies of Eubacterium, Roseburia , and Faecalibacterium and Firmicutes and Bacteroidetes , respectively, to the detriment of Escherichia-Shigella , Bilophila , Hungatella , and Acinetobacter baumannii in short-duration studies. However, liraglutide had contradictory results in a time- and dose-comparable RCT.",
+        "Subsequent investigations should include more details on SGLT-2i and GLP-1 RA activity regarding the intestinal flora and vice versa, with specific cardiovascular outcomes and longer follow-ups. Additionally, attention needs to be given to outcome standardization in future trials in order to properly compare homogenous results."
+      ],
+      "subsections": []
+    }
+  ],
+  "has_full_text": true,
+  "is_stub_body": false,
+  "alternate_renditions": [
+    {
+      "content_type": "pmc-pdf",
+      "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10138454/ijms-24-07184.pdf",
+      "text": ""
+    }
+  ],
+  "body_external_links": [],
+  "references": [
+    {
+      "id": "B1-ijms-24-07184",
+      "authors": [],
+      "title": null,
+      "source": null,
+      "year": "2021",
+      "doi": null
+    },
+    {
+      "id": "B2-ijms-24-07184",
+      "authors": [],
+      "title": "World Health Organization",
+      "source": null,
+      "year": null,
+      "doi": null
+    },
+    {
+      "id": "B3-ijms-24-07184",
+      "authors": [
+        "Davies M.J.",
+        "Aroda V.R.",
+        "Collins B.S.",
+        "Gabbay R.A.",
+        "Green J.",
+        "Maruthur N.M.",
+        "Rosas S.E.",
+        "Del Prato S.",
+        "Mathieu C.",
+        "Mingrone G."
+      ],
+      "title": "Management of Hyperglycemia in Type 2 Diabetes, 2022. A Consensus Report by the American Diabetes Association (ADA) and the European Association for the Study of Diabetes (EASD)",
+      "source": "Diabetes Care",
+      "year": "2022",
+      "doi": "10.2337/dci22-0034"
+    },
+    {
+      "id": "B4-ijms-24-07184",
+      "authors": [
+        "El Sayed N.",
+        "Aleppo G.",
+        "Aroda V.R.",
+        "Bannuru R.R.",
+        "Brown F.M.",
+        "Bruemmer D.",
+        "Collins B.S.",
+        "Das S.R.",
+        "Hilliard M.E.",
+        "Isaacs D."
+      ],
+      "title": "10. Cardiovascular Disease and Risk Management:Standards of Care in Diabetes—2023",
+      "source": "Diabetes Care",
+      "year": "2023",
+      "doi": "10.2337/dc23-S010"
+    },
+    {
+      "id": "B5-ijms-24-07184",
+      "authors": [
+        "Turnbaugh P.J.",
+        "Ley R.E.",
+        "Hamady M.",
+        "Fraser-Liggett C.M.",
+        "Knight R.",
+        "Gordon J.I."
+      ],
+      "title": "The Human Microbiome Project",
+      "source": "Nature",
+      "year": "2007",
+      "doi": "10.1038/nature06244"
+    },
+    {
+      "id": "B6-ijms-24-07184",
+      "authors": [],
+      "title": "The Integrative Human Microbiome Project",
+      "source": "Nature",
+      "year": "2019",
+      "doi": "10.1038/s41586-019-1238-8"
+    },
+    {
+      "id": "B7-ijms-24-07184",
+      "authors": [
+        "Scheithauer T.P.M.",
+        "Rampanelli E.",
+        "Nieuwdorp M.",
+        "Vallance B.A.",
+        "Verchere C.B.",
+        "van Raalte D.H.",
+        "Herrema H."
+      ],
+      "title": "Gut Microbiota as a Trigger for Metabolic Inflammation in Obesity and Type 2 Diabetes",
+      "source": "Front. Immunol.",
+      "year": "2020",
+      "doi": "10.3389/fimmu.2020.571731"
+    },
+    {
+      "id": "B8-ijms-24-07184",
+      "authors": [
+        "Gurung M.",
+        "Li Z.",
+        "You H.",
+        "Rodrigues R.",
+        "Jump D.B.",
+        "Morgun A.",
+        "Shulzhenko N."
+      ],
+      "title": "Role of gut microbiota in type 2 diabetes pathophysiology",
+      "source": "eBioMedicine",
+      "year": "2020",
+      "doi": "10.1016/j.ebiom.2019.11.051"
+    },
+    {
+      "id": "B9-ijms-24-07184",
+      "authors": [
+        "Witkowski M.",
+        "Weeks T.L.",
+        "Haze S.L."
+      ],
+      "title": "Gut Microbiota and Cardiovascular Disease",
+      "source": "Circ. Res.",
+      "year": "2020",
+      "doi": "10.1161/CIRCRESAHA.120.316242"
+    },
+    {
+      "id": "B10-ijms-24-07184",
+      "authors": [
+        "Hrncir T.",
+        "Hrncirova L.",
+        "Kverka M.",
+        "Hromadka R.",
+        "Machova V.",
+        "Trckova E.",
+        "Kostovcikova K.",
+        "Kralickova P.",
+        "Krejsek J.",
+        "Tlaskalova-Hogenova H."
+      ],
+      "title": "Gut Microbiota and NAFLD: Pathogenetic Mechanisms, Microbiota Signatures, and Therapeutic Interventions",
+      "source": "Microorganisms",
+      "year": "2021",
+      "doi": "10.3390/microorganisms9050957"
+    },
+    {
+      "id": "B11-ijms-24-07184",
+      "authors": [
+        "Khan A.",
+        "Ding Z.",
+        "Ishaq M.",
+        "Bacha A.S.",
+        "Khan I.",
+        "Hanif A.",
+        "Li W.",
+        "Guo X."
+      ],
+      "title": "Understanding the Effects of Gut Microbiota Dysbiosis on Non-alcoholic Fatty Liver Disease and the Possible Probiotics Role: Recent Updates",
+      "source": "Int. J. Biol. Sci.",
+      "year": "2021",
+      "doi": "10.7150/ijbs.56214"
+    },
+    {
+      "id": "B12-ijms-24-07184",
+      "authors": [
+        "Magne F.",
+        "Gotteland M.",
+        "Gauthier L.",
+        "Zazueta A.",
+        "Pesoa S.",
+        "Navarrete P.",
+        "Balamurugan R."
+      ],
+      "title": "The Firmicutes/Bacteroidetes Ratio: A Relevant Marker of Gut Dysbiosis in Obese Patients?",
+      "source": "Nutrients",
+      "year": "2020",
+      "doi": "10.3390/nu12051474"
+    },
+    {
+      "id": "B13-ijms-24-07184",
+      "authors": [
+        "Ley R.E.",
+        "Turnbaugh P.J.",
+        "Klein S.",
+        "Gordon J.I."
+      ],
+      "title": "Microbial ecology: Human gut microbes associated with obesity",
+      "source": "Nature",
+      "year": "2006",
+      "doi": "10.1038/4441022a"
+    },
+    {
+      "id": "B14-ijms-24-07184",
+      "authors": [
+        "Suceveanu A.I.",
+        "Stoian A.P.",
+        "Parepa I.",
+        "Voinea C.",
+        "Hainarosie R.",
+        "Manuc D.",
+        "Nitipir C.",
+        "Mazilu L.",
+        "Suceveanu A.P."
+      ],
+      "title": "Gut Microbiota Patterns in Obese and Type 2 Diabetes (T2D) Patients from Romanian Black Sea Coast Region",
+      "source": "Rev. Chim.",
+      "year": "2018",
+      "doi": "10.37358/RC.18.8.6512"
+    },
+    {
+      "id": "B15-ijms-24-07184",
+      "authors": [
+        "Hildebrandt M.A.",
+        "Hoffmann C.",
+        "Sherrill-Mix S.A.",
+        "Keilbaugh S.A.",
+        "Hamady M.",
+        "Chen Y.Y.",
+        "Knight R.",
+        "Ahima R.S.",
+        "Bushman F.",
+        "Wu G.D."
+      ],
+      "title": "High-fat diet determines the composition of the murine gut microbiome independently of obesity",
+      "source": "Gastroenterology",
+      "year": "2009",
+      "doi": "10.1053/j.gastro.2009.08.042"
+    },
+    {
+      "id": "B16-ijms-24-07184",
+      "authors": [
+        "Kers J.G.",
+        "Saccenti E."
+      ],
+      "title": "The Power of Microbiome Studies: Some Considerations on Which Alpha and Beta Metrics to Use and How to Report Results",
+      "source": "Front. Microbiol.",
+      "year": "2022",
+      "doi": "10.3389/fmicb.2021.796025"
+    },
+    {
+      "id": "B17-ijms-24-07184",
+      "authors": [
+        "Willis A.D."
+      ],
+      "title": "Rarefaction, alpha diversity, and statistics",
+      "source": "Front. Microbiol.",
+      "year": "2019",
+      "doi": "10.3389/fmicb.2019.02407"
+    },
+    {
+      "id": "B18-ijms-24-07184",
+      "authors": [
+        "Lozupone C.A.",
+        "Hamady M.",
+        "Kelley S.T.",
+        "Knight R."
+      ],
+      "title": "Quantitative and qualitative beta diversity measures lead to different insights into factors that structure microbial communities",
+      "source": "Appl. Environ. Microbiol.",
+      "year": "2007",
+      "doi": "10.1128/AEM.01996-06"
+    },
+    {
+      "id": "B19-ijms-24-07184",
+      "authors": [
+        "Roshanravan N.",
+        "Mahdavi R.",
+        "Alizadeh E.",
+        "Jafarabadi M.A.",
+        "Hedayati M.",
+        "Ghavami A.",
+        "Alipour S.",
+        "Alamdari N.M.",
+        "Barati M.",
+        "Ostadrahimi A."
+      ],
+      "title": "Effect of Butyrate and Inulin Supplementation on Glycemic Status, Lipid Profile and Glucagon-Like Peptide 1 Level in Patients with Type 2 Diabetes: A Randomized Double-Blind, Placebo-Controlled Trial",
+      "source": "Horm. Metab. Res.",
+      "year": "2017",
+      "doi": "10.1055/s-0043-119089"
+    },
+    {
+      "id": "B20-ijms-24-07184",
+      "authors": [
+        "Frost G.",
+        "Sleeth M.L.",
+        "Sahuri-Arisoylu M.",
+        "Lizarbe B.",
+        "Cerdan S.",
+        "Brody L.",
+        "Anastasovska J.",
+        "Ghourab S.",
+        "Hankir M.",
+        "Zhang S."
+      ],
+      "title": "The Short-Chain Fatty Acid Acetate Reduces Appetite via a Central Homeostatic Mechanism",
+      "source": "Nat. Commun.",
+      "year": "2014",
+      "doi": "10.1038/ncomms4611"
+    },
+    {
+      "id": "B21-ijms-24-07184",
+      "authors": [
+        "Overby H.B.",
+        "Ferguson J.F."
+      ],
+      "title": "Gut Microbiota-Derived Short-Chain Fatty Acids Facilitate Microbiota: Host Cross Talk and Modulate Obesity and Hypertension",
+      "source": "Curr. Hypertens. Rep.",
+      "year": "2021",
+      "doi": "10.1007/s11906-020-01125-2"
+    },
+    {
+      "id": "B22-ijms-24-07184",
+      "authors": [
+        "Chambers E.S.",
+        "Byrne C.S.",
+        "Aspey K.",
+        "Chen Y.",
+        "Khan S.",
+        "Morrison D.J.",
+        "Frost G."
+      ],
+      "title": "Acute Oral Sodium Propionate Supplementation Raises Resting Energy Expenditure and Lipid Oxidation in Fasted Humans",
+      "source": "Diabetes Obes. Metab.",
+      "year": "2018",
+      "doi": "10.1111/dom.13159"
+    },
+    {
+      "id": "B23-ijms-24-07184",
+      "authors": [
+        "Karlsson F.H.",
+        "Fåk F.",
+        "Nookaew I.",
+        "Tremaroli V.",
+        "Fagerberg B.",
+        "Petranovic D.",
+        "Bäckhed F.",
+        "Nielsen J."
+      ],
+      "title": "Symptomatic atherosclerosis is associated with an altered gut metagenome",
+      "source": "Nat. Commun.",
+      "year": "2012",
+      "doi": "10.1038/ncomms2266"
+    },
+    {
+      "id": "B24-ijms-24-07184",
+      "authors": [
+        "Aron-Wisnewsky J.",
+        "Clément K."
+      ],
+      "title": "The gut microbiome, diet, and links to cardiometabolic and chronic disorders",
+      "source": "Nat. Rev. Nephrol.",
+      "year": "2016",
+      "doi": "10.1038/nrneph.2015.191"
+    },
+    {
+      "id": "B25-ijms-24-07184",
+      "authors": [
+        "He X.",
+        "Sun J.",
+        "Liu C.",
+        "Yu X.",
+        "Li H.",
+        "Zhang W.",
+        "Li Y.",
+        "Geng Y.",
+        "Wang Z."
+      ],
+      "title": "Compositional Alterations of Gut Microbiota in Patients with Diabetic Kidney Disease and Type 2 Diabetes Mellitus",
+      "source": "Diabetes Metab. Syndr. Obes. Targets Ther.",
+      "year": "2022",
+      "doi": "10.2147/DMSO.S347805"
+    },
+    {
+      "id": "B26-ijms-24-07184",
+      "authors": [
+        "Gradisteanu G.P.",
+        "Stoica R.A.",
+        "Petcu L.",
+        "Picu A.",
+        "Suceveanu A.P.",
+        "Salmen T.",
+        "Stefan D.S.",
+        "Serafinceanu C.",
+        "Chifiriuc M.C.",
+        "Stoian A.P."
+      ],
+      "title": "Microbiota signatures in type-2 diabetic patients with chronic kidney disease—A Pilot Study",
+      "source": "J. Mind Med. Sci.",
+      "year": "2019",
+      "doi": "10.22543/7674.61.P130136"
+    },
+    {
+      "id": "B27-ijms-24-07184",
+      "authors": [
+        "Zinman B.",
+        "Wanner C.",
+        "Lachin J.M.",
+        "Fitchett D.",
+        "Bluhmki E.",
+        "Hantel S.",
+        "Mattheus M.",
+        "Devins T.",
+        "Johansen O.E.",
+        "Woerle H.J."
+      ],
+      "title": "Empagliflozin, Cardiovascular Outcomes, and Mortality in Type 2 Diabetes",
+      "source": "N. Engl. J. Med.",
+      "year": "2015",
+      "doi": "10.1056/NEJMoa1504720"
+    },
+    {
+      "id": "B28-ijms-24-07184",
+      "authors": [
+        "Wiviott S.",
+        "Raz I.",
+        "Bonaca M.P.",
+        "Mosenzon O.",
+        "Kato E.T.",
+        "Cahn A.",
+        "Silverman M.G.",
+        "Zelniker T.A.",
+        "Kuder J.F.",
+        "Murphy S.A."
+      ],
+      "title": "Dapagliflozin and Cardiovascular Outcomes in Type 2 Diabetes",
+      "source": "N. Engl. J. Med.",
+      "year": "2019",
+      "doi": "10.1056/NEJMoa1812389"
+    },
+    {
+      "id": "B29-ijms-24-07184",
+      "authors": [
+        "Perkovic V.",
+        "Jardine M.",
+        "Neal B.",
+        "Bompoint S.",
+        "Heerspink H.J.L.",
+        "Charytan D.M.",
+        "Edwards R.",
+        "Agarwal R.",
+        "Bakris G.",
+        "Bull S."
+      ],
+      "title": "Canagliflozin and Renal Outcomes in Type 2 Diabetes and Nephropathy",
+      "source": "N. Engl. J. Med.",
+      "year": "2019",
+      "doi": "10.1056/NEJMoa1811744"
+    },
+    {
+      "id": "B30-ijms-24-07184",
+      "authors": [
+        "Marso S.P.",
+        "Bain S.",
+        "Consoli A.",
+        "Eliaschewitz F.G.",
+        "Jódar E.",
+        "Leiter L.A.",
+        "Lingvay I.",
+        "Rosenstock J.",
+        "Seufert J.",
+        "Warren M.L."
+      ],
+      "title": "Semaglutide and Cardiovascular Outcomes in Patients with Type 2 Diabetes",
+      "source": "N. Engl. J. Med.",
+      "year": "2016",
+      "doi": "10.1056/NEJMoa1607141"
+    },
+    {
+      "id": "B31-ijms-24-07184",
+      "authors": [
+        "Gerstein H.",
+        "Colhoun H.",
+        "Dagenais G.R.",
+        "Diaz R.",
+        "Lakshmanan M.",
+        "Pais P.",
+        "Probstfield J.",
+        "Riesmeyer J.S.",
+        "Riddle M.C.",
+        "Rydén L."
+      ],
+      "title": "Dulaglutide and cardiovascular outcomes in type 2 diabetes (REWIND): A double-blind, randomized placebo-controlled trial",
+      "source": "Lancet",
+      "year": "2019",
+      "doi": "10.1016/S0140-6736(19)31149-3"
+    },
+    {
+      "id": "B32-ijms-24-07184",
+      "authors": [
+        "Marso S.P.",
+        "Daniels G.H.",
+        "Brown-Frandsen K.",
+        "Kristensen P.",
+        "Mann J.F.E.",
+        "Nauck M.A.",
+        "Nissen S.E.",
+        "Pocock S.",
+        "Poulter N.R.",
+        "Ravn L.S."
+      ],
+      "title": "Liraglutide and Cardiovascular Outcomes in Type 2 Diabetes",
+      "source": "N. Engl. J. Med.",
+      "year": "2016",
+      "doi": "10.1056/NEJMoa1603827"
+    },
+    {
+      "id": "B33-ijms-24-07184",
+      "authors": [
+        "Wang B.",
+        "Qiu J.",
+        "Lian J.",
+        "Yang X.",
+        "Zhou J."
+      ],
+      "title": "Gut Metabolite Trimethylamine-N-Oxide in Atherosclerosis: From Mechanism to Therapy",
+      "source": "Front. Cardiovasc. Med.",
+      "year": "2021",
+      "doi": "10.3389/fcvm.2021.723886"
+    },
+    {
+      "id": "B34-ijms-24-07184",
+      "authors": [
+        "van Bommel E.J.M.",
+        "Herrema H.",
+        "Davids M.",
+        "Kramer M.H.H.",
+        "Nieuwdorp M.",
+        "van Raalte D.H."
+      ],
+      "title": "Effects of 12-Week Treatment with Dapagliflozin and Gliclazide on Faecal Microbiome: Results of a Double-Blind Randomized Trial in Patients with Type 2 Diabetes",
+      "source": "Diabetes Metab.",
+      "year": "2020",
+      "doi": "10.1016/j.diabet.2019.11.005"
+    },
+    {
+      "id": "B35-ijms-24-07184",
+      "authors": [
+        "Deng X.",
+        "Zhang C.",
+        "Wang P.",
+        "Wei W.",
+        "Shi X.",
+        "Wang P.",
+        "Yang J.",
+        "Wang L.",
+        "Tang S.",
+        "Fang Y."
+      ],
+      "title": "Cardiovascular Benefits of Empagliflozin Are Associated with Gut Microbiota and Plasma Metabolites in Type 2 Diabetes",
+      "source": "J. Clin. Endocrinol. Metab.",
+      "year": "2022",
+      "doi": "10.1210/clinem/dgac210"
+    },
+    {
+      "id": "B36-ijms-24-07184",
+      "authors": [
+        "Smits M.M.",
+        "Fluitman K.S.",
+        "Herrema H.",
+        "Davids M.",
+        "Kramer M.H.H.",
+        "Groen A.K.",
+        "Belzer C.",
+        "de Vos W.M.",
+        "Cahen D.L.",
+        "Nieuwdorp M.D.H."
+      ],
+      "title": "Liraglutide and Sitagliptin Have No Effect on Intestinal Microbiota Composition: A 12-Week Randomized Placebo-Controlled Trial in Adults with Type 2 Diabetes",
+      "source": "Diabetes Metab.",
+      "year": "2021",
+      "doi": "10.1016/j.diabet.2021.101223"
+    },
+    {
+      "id": "B37-ijms-24-07184",
+      "authors": [
+        "Shung J.",
+        "Liu F.",
+        "Zhang B.",
+        "Dong K.",
+        "Lu M.",
+        "Jiang R.",
+        "Xu Y.",
+        "Diao L.",
+        "Zhao J.",
+        "Tang H."
+      ],
+      "title": "Liraglutide-induced structural modulation of the gut microbiota in patients with type 2 diabetes mellitus",
+      "source": "PeerJ",
+      "year": "2021",
+      "doi": "10.7717/peerj.11128"
+    },
+    {
+      "id": "B38-ijms-24-07184",
+      "authors": [
+        "Chen F.",
+        "He L.",
+        "Li J.",
+        "Yang S.",
+        "Zhang B.",
+        "Zhu D.",
+        "Wu Z.",
+        "Zhang S.",
+        "Hou D.",
+        "Ouyang C."
+      ],
+      "title": "Polyethylene Glycol Loxenatide Injection (GLP-1) Protects Vascular Endothelial Cell Function in Middle-Aged and Elderly Patients with Type 2 Diabetes by Regulating Gut Microbiota",
+      "source": "Front. Mol. Biosci.",
+      "year": "2022",
+      "doi": "10.3389/fmolb.2022.879294"
+    },
+    {
+      "id": "B39-ijms-24-07184",
+      "authors": [
+        "Néri A.K.",
+        "da S Junior G.B.",
+        "Meneses G.C.",
+        "Martins A.M.",
+        "Daher E.D.",
+        "O da C Lino D.",
+        "Silva R.P.",
+        "Nunes M.",
+        "Alencar R.L.",
+        "Rodrigues M.S."
+      ],
+      "title": "Cardiovascular Risk Assessment and Association with Novel Biomarkers in Patients with Type 2 Diabetes Mellitus",
+      "source": "Biomark. Med.",
+      "year": "2021",
+      "doi": "10.2217/bmm-2020-0611"
+    },
+    {
+      "id": "B40-ijms-24-07184",
+      "authors": [
+        "Wang X.L.",
+        "Zhang W.",
+        "Li Z.",
+        "Han W.Q.",
+        "Wu H.Y.",
+        "Wang Q.R.",
+        "Liu X.H.",
+        "Xing K.",
+        "Cheng G.",
+        "Chang F.J."
+      ],
+      "title": "Vascular Damage Effect of Circulating Microparticles in Patients with ACS Is Aggravated by Type 2 Diabetes",
+      "source": "Mol. Med. Rep.",
+      "year": "2021",
+      "doi": "10.3892/mmr.2021.12113"
+    },
+    {
+      "id": "B41-ijms-24-07184",
+      "authors": [
+        "Tsai H.J.",
+        "Tsai W.C.",
+        "Hung W.C.",
+        "Hung W.W.",
+        "Chang C.C.",
+        "Dai C.Y.",
+        "Tsai Y.C."
+      ],
+      "title": "Gut Microbiota and Subclinical Cardiovascular Disease in Patients with Type 2 Diabetes Mellitus",
+      "source": "Nutrients",
+      "year": "2021",
+      "doi": "10.3390/nu13082679"
+    },
+    {
+      "id": "B42-ijms-24-07184",
+      "authors": [
+        "Tang W.H.W.",
+        "Bäckhed F.",
+        "Landmesser U.",
+        "Hazen S.L."
+      ],
+      "title": "Intestinal Microbiota in Cardiovascular Health and Disease: JACC State-Of-the-Art Review",
+      "source": "J. Am. Coll. Cardiol.",
+      "year": "2019",
+      "doi": "10.1016/j.jacc.2019.03.024"
+    },
+    {
+      "id": "B43-ijms-24-07184",
+      "authors": [
+        "Liu B.",
+        "Zhang L.",
+        "Yang H.",
+        "Zheng H.",
+        "Liao X."
+      ],
+      "title": "Microbiota: A potential orchestrator of antidiabetic therapy",
+      "source": "Front. Endocrinol.",
+      "year": "2023",
+      "doi": "10.3389/fendo.2023.973624"
+    },
+    {
+      "id": "B44-ijms-24-07184",
+      "authors": [
+        "Emoto T.",
+        "Yamashita T.",
+        "Kobayashi T.",
+        "Sasaki N.",
+        "Hirota Y.",
+        "Hayashi T.",
+        "So A.",
+        "Kasahara K.",
+        "Yodoi K.",
+        "Matsumoto T."
+      ],
+      "title": "Characterization of gut microbiota profiles in coronary artery disease patients using data mining analysis of terminal restriction fragment length polymorphism: Gut microbiota could be a diagnostic marker of coronary artery disease",
+      "source": "Heart Vessel.",
+      "year": "2017",
+      "doi": "10.1007/s00380-016-0841-y"
+    },
+    {
+      "id": "B45-ijms-24-07184",
+      "authors": [
+        "Wu H.",
+        "Tremaroli V.",
+        "Schmidt C.",
+        "Lundqvist A.",
+        "Olsson L.M.",
+        "Krämer M.",
+        "Gummesson A.",
+        "Perkins R.",
+        "Bergström G.",
+        "Bäckhed F."
+      ],
+      "title": "The Gut Microbiota in Prediabetes and Diabetes: A Population-Based Cross-Sectional Study",
+      "source": "Cell Metab.",
+      "year": "2020",
+      "doi": "10.1016/j.cmet.2020.06.011"
+    },
+    {
+      "id": "B46-ijms-24-07184",
+      "authors": [
+        "Ye J.",
+        "Wu Z.",
+        "Zhao Y.",
+        "Zhang S.",
+        "Liu W.",
+        "Su Y."
+      ],
+      "title": "Role of gut microbiota in the pathogenesis and treatment of diabetes mullites: Advanced research-based review",
+      "source": "Front. Microbiol.",
+      "year": "2022",
+      "doi": "10.3389/fmicb.2022.1029890"
+    },
+    {
+      "id": "B47-ijms-24-07184",
+      "authors": [
+        "Montandon S.A.",
+        "Jornayvaz F.R."
+      ],
+      "title": "Effects of Antidiabetic Drugs on Gut Microbiota Composition",
+      "source": "Genes",
+      "year": "2017",
+      "doi": "10.3390/genes8100250"
+    },
+    {
+      "id": "B48-ijms-24-07184",
+      "authors": [
+        "Salmen T.",
+        "Pietroșel V.-A.",
+        "Mihai B.-M.",
+        "Bica I.C.",
+        "Teodorescu C.",
+        "Păunescu H.",
+        "Coman O.A.",
+        "Mihai D.-A.",
+        "Pantea Stoian A."
+      ],
+      "title": "Non-Insulin Novel Antidiabetic Drugs Mechanisms in the Pathogenesis of COVID-19",
+      "source": "Biomedicines",
+      "year": "2022",
+      "doi": "10.3390/biomedicines10102624"
+    },
+    {
+      "id": "B49-ijms-24-07184",
+      "authors": [
+        "Joshi S.S.",
+        "Singh T.",
+        "Newby D.E.",
+        "Singh J."
+      ],
+      "title": "Sodium-glucose co-transporter 2 inhibitor therapy: Mechanisms of action in heart failure",
+      "source": "Heart",
+      "year": "2021",
+      "doi": "10.1136/heartjnl-2020-318060"
+    },
+    {
+      "id": "B50-ijms-24-07184",
+      "authors": [
+        "Xu B.",
+        "Li S.",
+        "Kang B.",
+        "Zhou J."
+      ],
+      "title": "The current role of sodium-glucose cotransporter 2 inhibitors in type 2 diabetes mellitus management",
+      "source": "Cardiovasc. Diabetol.",
+      "year": "2022",
+      "doi": "10.1186/s12933-022-01512-w"
+    },
+    {
+      "id": "B51-ijms-24-07184",
+      "authors": [
+        "Coelho F.D.S.",
+        "Borges-Canha M.",
+        "von Hafe M.",
+        "Neves J.S.",
+        "Vale C.",
+        "Leite A.R.",
+        "Carvalho D.",
+        "Leite-Moreira A."
+      ],
+      "title": "Effects of sodium-glucose co-transporter 2 inhibitors on liver parameters and steatosis: A meta-analysis of randomized clinical trials",
+      "source": "Diabetes/Metab. Res. Rev.",
+      "year": "2021",
+      "doi": "10.1002/dmrr.3413"
+    },
+    {
+      "id": "B52-ijms-24-07184",
+      "authors": [
+        "Bica C.",
+        "Sandu C.",
+        "Suceveanu A.I.",
+        "Sarbu E.",
+        "Stoica R.A.",
+        "Gherghiceanu F.",
+        "Bohiltea R.E.",
+        "Stefan S.D.",
+        "Stoian A.P."
+      ],
+      "title": "Non-alcoholic fatty liver disease: A major challenge in type 2 diabetes mellitus (Review)",
+      "source": "Exp. Ther. Med.",
+      "year": "2020",
+      "doi": "10.3892/etm.2020.8882"
+    },
+    {
+      "id": "B53-ijms-24-07184",
+      "authors": [
+        "Pahud de Mortanges A.",
+        "Salvador D. Jr.",
+        "Laimer M.",
+        "Muka T.",
+        "Wilhelm M.",
+        "Bano A."
+      ],
+      "title": "The Role of SGLT2 Inhibitors in Atherosclerosis: A Narrative Mini-Review",
+      "source": "Front. Pharmacol.",
+      "year": "2021",
+      "doi": "10.3389/fphar.2021.751214"
+    },
+    {
+      "id": "B54-ijms-24-07184",
+      "authors": [
+        "Yau K.",
+        "Dharia A.",
+        "Alrowiyti I.",
+        "Cherney D.Z.I."
+      ],
+      "title": "Prescribing SGLT2 Inhibitors in Patients with CKD: Expanding Indications and Practical Considerations",
+      "source": "Kidney Int. Rep.",
+      "year": "2022",
+      "doi": "10.1016/j.ekir.2022.04.094"
+    },
+    {
+      "id": "B55-ijms-24-07184",
+      "authors": [
+        "Deng L.",
+        "Yang Y.",
+        "Xu G."
+      ],
+      "title": "Empagliflozin ameliorates type 2 diabetes mellitus-related diabetic nephropathy via altering the gut microbiota",
+      "source": "Biochim. Biophys. Acta. Mol. Cell Biol. Lipids",
+      "year": "2022",
+      "doi": "10.1016/j.bbalip.2022.159234"
+    },
+    {
+      "id": "B56-ijms-24-07184",
+      "authors": [
+        "Yang M.",
+        "Shi F.H.",
+        "Liu W.",
+        "Zhang M.C.",
+        "Feng R.L.",
+        "Qian C.",
+        "Liu W.",
+        "Ma J."
+      ],
+      "title": "Dapagliflozin Modulates the Fecal Microbiota in a Type 2 Diabetic Rat Model",
+      "source": "Front. Endocrinol.",
+      "year": "2020",
+      "doi": "10.3389/fendo.2020.00635"
+    },
+    {
+      "id": "B57-ijms-24-07184",
+      "authors": [
+        "Wang X.",
+        "Wang Z.",
+        "Liu D.",
+        "Jiang H.",
+        "Cai C.",
+        "Li G.",
+        "Yu G."
+      ],
+      "title": "Canagliflozin Prevents Lipid Accumulation, Mitochondrial Dysfunction, and Gut Microbiota Dysbiosis in Mice with Diabetic Cardiovascular Disease",
+      "source": "Front. Pharmacol.",
+      "year": "2022",
+      "doi": "10.3389/fphar.2022.839640"
+    },
+    {
+      "id": "B58-ijms-24-07184",
+      "authors": [
+        "Zhang Q.",
+        "Xiao X.",
+        "Zheng J.",
+        "Li M.",
+        "Yu M.",
+        "Ping F.",
+        "Wang T.",
+        "Wang X."
+      ],
+      "title": "Featured article: Structure moderation of gut microbiota in liraglutide-treated diabetic male rats",
+      "source": "Exp. Biol. Med.",
+      "year": "2018",
+      "doi": "10.1177/1535370217743765"
+    },
+    {
+      "id": "B59-ijms-24-07184",
+      "authors": [
+        "Lee D.M.",
+        "Battson M.L.",
+        "Jarrell D.K.",
+        "Hou S.",
+        "Ecton K.E.",
+        "Weir T.L.",
+        "Gentile C.L."
+      ],
+      "title": "SGLT2 inhibition via dapagliflozin improves generalized vascular dysfunction and alters the gut microbiota in type 2 diabetic mice",
+      "source": "Cardiovasc. Diabetol.",
+      "year": "2018",
+      "doi": "10.1186/s12933-018-0708-x"
+    },
+    {
+      "id": "B60-ijms-24-07184",
+      "authors": [
+        "Wu H.",
+        "Esteve E.",
+        "Tremaroli V.",
+        "Khan M.T.",
+        "Caesar R.",
+        "Mannerås-Holm L.",
+        "Ståhlman M.",
+        "Olsson L.M.",
+        "Serino M.",
+        "Planas-Fèlix M."
+      ],
+      "title": "Metformin alters the gut microbiome of individuals with treatment-naive type 2 diabetes, contributing to the therapeutic effects of the drug",
+      "source": "Nat. Med.",
+      "year": "2017",
+      "doi": "10.1038/nm.4345"
+    },
+    {
+      "id": "B61-ijms-24-07184",
+      "authors": [
+        "Lee C.B.",
+        "Chae S.U.",
+        "Jo S.J.",
+        "Jerng U.M.",
+        "Bae S.K."
+      ],
+      "title": "The Relationship between the Gut Microbiome and Metformin as a Key for Treating Type 2 Diabetes Mellitus",
+      "source": "Int. J. Mol. Sci.",
+      "year": "2021",
+      "doi": "10.3390/ijms22073566"
+    },
+    {
+      "id": "B62-ijms-24-07184",
+      "authors": [
+        "Kuriyama S."
+      ],
+      "title": "A Potential Mechanism of Cardio-Renal Protection with Sodium-Glucose Cotransporter 2 Inhibitors: Amelioration of Renal Congestion",
+      "source": "Kidney Blood Press. Res.",
+      "year": "2019",
+      "doi": "10.1159/000501081"
+    },
+    {
+      "id": "B63-ijms-24-07184",
+      "authors": [
+        "Bauer P.V.",
+        "Duca F.A.",
+        "Zaved Waise T.M.",
+        "Rasmussen B.A.",
+        "Abraham M.A.",
+        "Dranse H.J.",
+        "Puri A.",
+        "O’Brien C.A.",
+        "Lam T.K.T."
+      ],
+      "title": "Metformin Alters Upper Small Intestinal Microbiota that Impact a Glucose-SGLT1-Sensing Glucoregulatory Pathway",
+      "source": "Cell Metab.",
+      "year": "2018",
+      "doi": "10.1016/j.cmet.2017.09.019"
+    },
+    {
+      "id": "B64-ijms-24-07184",
+      "authors": [
+        "Chen X.Y.",
+        "Chen L.",
+        "Yang W.",
+        "Xie A.M."
+      ],
+      "title": "GLP-1 Suppresses Feeding Behaviors and Modulates Neuronal Electrophysiological Properties in Multiple Brain Regions",
+      "source": "Front. Mol. Neurosci.",
+      "year": "2021",
+      "doi": "10.3389/fnmol.2021.793004"
+    },
+    {
+      "id": "B65-ijms-24-07184",
+      "authors": [
+        "Bendotti G.",
+        "Montefusco L.",
+        "Lunati M.E.",
+        "Usuelli V.",
+        "Pastore I.",
+        "Lazzaroni E.",
+        "Assi E.",
+        "Seelam A.J.",
+        "El Essawy B.",
+        "Jang J."
+      ],
+      "title": "The anti-inflammatory and immunological properties of GLP-1 Receptor Agonists",
+      "source": "Pharmacol. Res.",
+      "year": "2022",
+      "doi": "10.1016/j.phrs.2022.106320"
+    },
+    {
+      "id": "B66-ijms-24-07184",
+      "authors": [
+        "Jensen J.K.",
+        "Zobel E.H.",
+        "von Scholten B.J.",
+        "Rotbain Curovic V.",
+        "Hansen T.W.",
+        "Rossing P.",
+        "Kjaer A.",
+        "Ripa R.S."
+      ],
+      "title": "Effect of 26 Weeks of Liraglutide Treatment on Coronary Artery Inflammation in Type 2 Diabetes Quantified by [64Cu] Cu-DOTATATE PET/CT: Results from the LIRAFLAME Trial",
+      "source": "Front. Endocrinol.",
+      "year": "2021",
+      "doi": "10.3389/fendo.2021.790405"
+    },
+    {
+      "id": "B67-ijms-24-07184",
+      "authors": [
+        "Grasset E.",
+        "Puel A.",
+        "Charpentier J.",
+        "Collet X.",
+        "Christensen J.E.",
+        "Tercé F.",
+        "Burcelin R."
+      ],
+      "title": "A Specific Gut Microbiota Dysbiosis of Type 2 Diabetic Mice Induces GLP-1 Resistance through an Enteric NO-Dependent and Gut-Brain Axis Mechanism",
+      "source": "Cell Metab.",
+      "year": "2017",
+      "doi": "10.1016/j.cmet.2017.04.013"
+    },
+    {
+      "id": "B68-ijms-24-07184",
+      "authors": [
+        "van Bloemendaal L.",
+        "IJzerman R.G.",
+        "Ten Kulve J.S.",
+        "Barkhof F.",
+        "Konrad R.J.",
+        "Drent M.L.",
+        "Veltman D.J.",
+        "Diamant M."
+      ],
+      "title": "GLP-1 receptor activation modulates appetite- and reward-related brain areas in humans",
+      "source": "Diabetes",
+      "year": "2014",
+      "doi": "10.2337/db14-0849"
+    },
+    {
+      "id": "B69-ijms-24-07184",
+      "authors": [
+        "Stoian A.P.",
+        "Papanas N.",
+        "Prazny M.",
+        "Rizvi A.A.",
+        "Rizzo M."
+      ],
+      "title": "Incretin-Based Therapies Role in COVID-19 Era: Evolving Insights",
+      "source": "J. Cardiovasc. Pharmacol. Ther.",
+      "year": "2020",
+      "doi": "10.1177/1074248420937868"
+    },
+    {
+      "id": "B70-ijms-24-07184",
+      "authors": [
+        "Zhang Q.",
+        "Hu N."
+      ],
+      "title": "Effects of Metformin on the Gut Microbiota in Obesity and Type 2 Diabetes Mellitus",
+      "source": "Diabetes Metab. Syndr. Obes. Targets Ther.",
+      "year": "2020",
+      "doi": "10.2147/DMSO.S286430"
+    },
+    {
+      "id": "B71-ijms-24-07184",
+      "authors": [
+        "Tsai C.",
+        "Lu H.",
+        "Chou Y.H.",
+        "Liu P.Y.",
+        "Chen H.Y.",
+        "Huang M.C.",
+        "Lin C.H.",
+        "Tsai C.N."
+      ],
+      "title": "Gut Microbial Signatures for Glycemic Responses of GLP-1 Receptor Agonists in Type 2 Diabetic Patients: A Pilot Study",
+      "source": "Front. Endocrinol.",
+      "year": "2022",
+      "doi": "10.3389/fendo.2021.814770"
+    },
+    {
+      "id": "B72-ijms-24-07184",
+      "authors": [
+        "Charpentier J.",
+        "Briand F.",
+        "Lelouvier B.",
+        "Servant F.",
+        "Azalbert V.",
+        "Puel A.",
+        "Christensen J.E.",
+        "Waget A.",
+        "Branchereau M.",
+        "Garret C."
+      ],
+      "title": "Liraglutide targets the gut microbiota and the intestinal immune system to regulate insulin secretion",
+      "source": "Acta Diabetol.",
+      "year": "2021",
+      "doi": "10.1007/s00592-020-01657-8"
+    },
+    {
+      "id": "B73-ijms-24-07184",
+      "authors": [
+        "Leclerc M.",
+        "Ferrari C.B.",
+        "Etienne-Mesmin L.",
+        "Mariadassou M.",
+        "Lebreuilly L.",
+        "Tran S.L.",
+        "Brazeau L.",
+        "Mayeur C.",
+        "Delmas J.",
+        "Rué O."
+      ],
+      "title": "Nitric Oxide Impacts Human Gut Microbiota Diversity and Functionalities",
+      "source": "ASM J.",
+      "year": "2021",
+      "doi": "10.1128/mSystems.00558-21"
+    },
+    {
+      "id": "B74-ijms-24-07184",
+      "authors": [
+        "Miao J.",
+        "Ling A.V.",
+        "Manthena P.V.",
+        "Gearing M.E.",
+        "Graham M.J.",
+        "Crooke R.M.",
+        "Croce K.J.",
+        "Esquejo R.M.",
+        "Clish C.B."
+      ],
+      "title": "Flavin-Containing Monooxygenase 3 as a Potential Player in Diabetes-Associated Atherosclerosis",
+      "source": "Nat. Commun.",
+      "year": "2015",
+      "doi": "10.1038/ncomms7498"
+    },
+    {
+      "id": "B75-ijms-24-07184",
+      "authors": [
+        "Nogal A.",
+        "Valdes A.M.",
+        "Menni C."
+      ],
+      "title": "The role of short-chain fatty acids in the interplay between gut microbiota and diet in cardio-metabolic health",
+      "source": "Gut Microbes",
+      "year": "2021",
+      "doi": "10.1080/19490976.2021.1897212"
+    },
+    {
+      "id": "B76-ijms-24-07184",
+      "authors": [
+        "Kato S.",
+        "Sato T.",
+        "Fujita H.",
+        "Kawatani M.",
+        "Yamada Y."
+      ],
+      "title": "Effects of GLP-1 receptor agonist on changes in the gut bacterium and the underlying mechanisms",
+      "source": "Sci. Rep.",
+      "year": "2021",
+      "doi": "10.1038/s41598-021-88612-x"
+    },
+    {
+      "id": "B77-ijms-24-07184",
+      "authors": [
+        "Trujillo J.M.",
+        "Nuffer W.",
+        "Smith B.A."
+      ],
+      "title": "GLP-1 receptor agonists: An updated review of head-to-head clinical studies",
+      "source": "Ther. Adv. Endocrinol. Metab.",
+      "year": "2021",
+      "doi": "10.1177/2042018821997320"
+    },
+    {
+      "id": "B78-ijms-24-07184",
+      "authors": [
+        "LeValley L.S.",
+        "Tomaro-Duchesneau C.",
+        "Britton R.A."
+      ],
+      "title": "Degradation of the Incretin Hormone Glucagon-Like Peptide-1 (GLP-1) byEnterococcus faecalisMetalloprotease GelE",
+      "source": "mSphere",
+      "year": "2020",
+      "doi": "10.1128/mSphere.00585-19"
+    }
+  ],
+  "full_text_source": "xml",
+  "pdf_url": null,
+  "pdf_text": null
+}

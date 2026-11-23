@@ -10,6 +10,7 @@ from app.models import AuthUser
 from app.schemas import CurrentUserSchema
 from app.routers.chats import router as chats_router
 from app.routers.settings import router as settings_router
+from app.routers.pubmed import router as pubmed_router
 
 app = FastAPI(
     title="MediRounds App API",
@@ -29,6 +30,7 @@ app.add_middleware(
 
 app.include_router(chats_router)
 app.include_router(settings_router)
+app.include_router(pubmed_router)
 
 
 @app.get("/")

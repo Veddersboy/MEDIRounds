@@ -21,6 +21,7 @@ import { useApp } from "./app-provider";
 import { repository } from "@/lib/repository";
 import { exportChatAsPdf } from "./pdf-export";
 import { ChatSession, Message } from "@/lib/types";
+import { PubMedModal } from "./pubmed-modal";
 
 function cleanUserContent(content: string) {
   // If the prompt ends with a double newline before user content:
@@ -42,6 +43,8 @@ export function ChatView({ id }: { id?: string }) {
   const [error, setError] = useState("");
   const [copied, setCopied] = useState("");
   const [atBottom, setAtBottom] = useState(true);
+  const [uploadOpen, setUploadOpen] = useState(false);
+  const [pubmedModalOpen, setPubmedModalOpen] = useState(false);
 
   const endRef = useRef<HTMLDivElement>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -449,6 +452,38 @@ export function ChatView({ id }: { id?: string }) {
             disabled={sending}
           />
 
+          <div className="upload-wrap">
+            {uploadOpen && (
+              <div className="upload-popover">
+                <button
+                  type="button"
+                  onClick={() => setUploadOpen(false)}
+                >
+                  Upload PDF
+                </button>
+                <button
+                  type="button"
+                  onClick={() => {
+                    setUploadOpen(false);
+                    setPubmedModalOpen(true);
+                  }}
+                >
+                  Upload from PubMed PMC
+                </button>
+              </div>
+            )}
+            <button
+              type="button"
+              className="upload-button"
+              onClick={() => setUploadOpen((v) => !v)}
+              aria-label="Upload options"
+              aria-expanded={uploadOpen}
+              disabled={sending}
+            >
+              <Plus size={18} />
+            </button>
+          </div>
+
           <button
             type="submit"
             disabled={!draft.trim() || sending}
@@ -465,6 +500,11 @@ export function ChatView({ id }: { id?: string }) {
           </p>
         )}
       </div>
+
+      <PubMedModal
+        isOpen={pubmedModalOpen}
+        onClose={() => setPubmedModalOpen(false)}
+      />
     </div>
   );
 }
