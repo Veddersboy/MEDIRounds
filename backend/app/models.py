@@ -131,3 +131,25 @@ class UserSettings(Base):
     show_disclaimer: Mapped[bool] = mapped_column(Boolean, default=True, nullable=False)
     enter_to_send: Mapped[bool] = mapped_column(Boolean, default=True, nullable=False)
     user: Mapped[AuthUser] = relationship(back_populates="settings")
+
+
+class HiddenConversation(Base):
+    __tablename__ = "hidden_conversations"
+    __table_args__ = (Index("ix_hidden_conversations_user_created", "user_id", "created_at"),)
+
+    # ID assigned by the RAG.
+    conversation_id: Mapped[str] = mapped_column(String(36), primary_key=True)
+    user_id: Mapped[str] = mapped_column(Text, ForeignKey("user.id", ondelete="CASCADE"), nullable=False)
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=utcnow, nullable=False)
+
+
+# The per-user record of auto-generated research recomendations
+class ResearchRecommendations(Base):
+    __tablename__ = "research_recommendations"
+
+    user_id: Mapped[str] = mapped_column(Text, ForeignKey("user.id", ondelete="CASCADE"), primary_key=True)
+    questions: Mapped[list[str]] = mapped_column(JSON, default=list, nullable=False)
+    # Not defined until the first set of generated recommendations
+    generated_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
+    # Set when a refresh starts, so new refreshes can't interrupt old ones (we don't want multiple resets concurrently)
+    refresh_started_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)

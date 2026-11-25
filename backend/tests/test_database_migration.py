@@ -16,10 +16,10 @@ def test_migrations_create_fresh_database(tmp_path):
 
     engine = create_engine(url)
     tables = set(inspect(engine).get_table_names())
-    assert {"user", "session", "account", "verification", "chat_sessions", "messages", "citations", "user_settings"} <= tables
+    assert {"user", "session", "account", "verification", "chat_sessions", "messages", "citations", "user_settings", "hidden_conversations", "research_recommendations"} <= tables
     assert "users" not in tables
     with engine.connect() as conn:
-        assert conn.execute(text("SELECT version_num FROM alembic_version")).scalar_one() == "0003"
+        assert conn.execute(text("SELECT version_num FROM alembic_version")).scalar_one() == "0004"
     columns = {col["name"] for col in inspect(engine).get_columns("user_settings")}
     assert "experience" in columns
     engine.dispose()
