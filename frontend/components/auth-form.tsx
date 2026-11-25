@@ -61,7 +61,7 @@ export default function AuthForm({ mode }: AuthFormProps) {
                         return;
                     }
 
-                    router.push("/timeline");
+                    router.push("/");
                     router.refresh();
                 } catch {
                     setError(

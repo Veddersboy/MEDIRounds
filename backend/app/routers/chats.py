@@ -1,5 +1,4 @@
 
-import os
 from datetime import datetime
 from typing import Any
 from uuid import UUID
@@ -11,7 +10,7 @@ from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.auth import get_current_user
-from app.database import get_db
+from app.database import get_db, settings
 from app.models import AuthUser, UserSettings
 
 router = APIRouter(
@@ -19,9 +18,7 @@ router = APIRouter(
     tags=["Chats"],
 )
 
-CHATBOT_API_URL = os.getenv(
-    "CHATBOT_API_URL", ""
-).rstrip("/")
+CHATBOT_API_URL = (settings.CHATBOT_API_URL or "").rstrip("/")
 
 
 class SendMessageRequest(BaseModel):
@@ -54,7 +51,7 @@ async def rag_request(
         "Accept": "application/json",
     }
 
-    api_key = os.getenv("CHATBOT_API_KEY")
+    api_key = settings.CHATBOT_API_KEY
     if api_key:
         headers["Authorization"] = f"Bearer {api_key}"
 
