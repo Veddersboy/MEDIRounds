@@ -4,6 +4,7 @@ import {
   Message,
   Settings,
   defaultSettings,
+  defaultSuggestions,
 } from "./types";
 
 const SESSIONS_KEY = "rounds.demo.sessions.v1";
@@ -220,6 +221,11 @@ export const mockRepository: ChatRepository = {
     return assistant;
   },
 
+  // Retrieve suggested research questions
+  async getSuggestions() {
+    return defaultSuggestions;
+  },
+
   // Retrieve user settings
   async getSettings() {
     try {
@@ -316,6 +322,10 @@ export const apiRepository: ChatRepository = {
         body: JSON.stringify({ content }),
       }
     );
+  },
+
+  async getSuggestions() {
+    return request<string[]>("/api/v1/suggestions");
   },
 
   async getSettings() {
