@@ -33,6 +33,7 @@ class FakeRag:
         self.prompts = []
         self.reply = json.dumps(NEW)
         self.status = "completed"  # status the next reply is saved with; None saves nothing
+        self.delete_status = 204
 
     def add(self, title="Visible"):
         conversation_id = str(uuid4())
@@ -72,6 +73,10 @@ class FakeRag:
         conversation = self.conversations.get(path.split("/")[2])
         if conversation is None:
             return httpx.Response(404)
+        if request.method == "DELETE":
+            if self.delete_status == 204:
+                del self.conversations[conversation["id"]]
+            return httpx.Response(self.delete_status)
         return httpx.Response(200, json=conversation["messages"])
 
 
@@ -127,6 +132,12 @@ def get_row(db):
     row = db.get(ResearchRecommendations, USER)
     db.commit()
     return row
+
+
+def make_stale(db):
+    row = get_row(db)
+    row.questions, row.generated_at = OLD, datetime.now(timezone.utc) - timedelta(hours=25)
+    db.commit()
 
 
 def hidden_ids(db):
@@ -217,34 +228,100 @@ def test_failed_refresh_keeps_questions_and_waits_to_retry(env):
 def test_incomplete_reply_is_not_used(env, status):
     client, rag, db, _ = env
     client.get(URL)
-    row = get_row(db)
-    row.questions, row.generated_at = OLD, datetime.now(timezone.utc) - timedelta(hours=25)
-    db.commit()
+    make_stale(db)
     rag.status = status
     client.get(URL)
     assert len(rag.prompts) == 2
     assert get_row(db).questions == OLD
 
 
-@pytest.mark.parametrize("replies,expected", [(9, 1), (10, 2)])
-def test_conversation_is_reused_until_reply_limit(env, replies, expected):
+@pytest.mark.parametrize("limit,prompts,reused", [
+    (1, 0, False),  # empty conversations are never reused
+    (1, 1, False),
+    (3, 0, False),
+    (3, 2, True),
+    (3, 3, False),
+])
+def test_conversation_is_reused_until_prompt_limit(env, monkeypatch, limit, prompts, reused):
     client, rag, db, _ = env
+    monkeypatch.setattr(suggestions, "MAX_PROMPTS_PER_CONVERSATION", limit)
     conversation_id = rag.add(chats.HIDDEN_CONVERSATION_TITLE)
-    for _ in range(replies):
-        rag.add_message(conversation_id, "assistant", "[]")
+    for _ in range(prompts):
+        rag.add_message(conversation_id, "user", "A prompt that never got a reply")
     db.add(HiddenConversation(conversation_id=conversation_id, user_id=USER))
     db.commit()
     client.get(URL)
-    assert len(hidden_ids(db)) == expected
+    assert (hidden_ids(db) == [conversation_id]) is reused
+    assert len(hidden_ids(db)) == 1
     assert get_row(db).questions == NEW
 
 
-def test_missing_rag_conversation_is_replaced(env):
+def test_each_refresh_replaces_and_deletes_the_old_conversation(env):
+    client, rag, db, _ = env
+    visible = rag.add()
+    db.add(AuthUser(id="user-2", name="Bo", email="bo@example.com", email_verified=False))
+    db.flush()
+    other_users = str(uuid4())
+    db.add(HiddenConversation(conversation_id=other_users, user_id="user-2"))
+    db.commit()
+
+    client.get(URL)
+    first = [i for i in hidden_ids(db) if i != other_users]
+    make_stale(db)
+    client.get(URL)
+    second = [i for i in hidden_ids(db) if i != other_users]
+
+    assert len(first) == len(second) == 1 and first != second
+    assert set(rag.conversations) == {visible, *second}
+    assert other_users in hidden_ids(db)
+
+
+def test_failed_refresh_deletes_nothing(env):
+    client, rag, db, _ = env
+    client.get(URL)
+    make_stale(db)
+    rag.status = "failed"
+    client.get(URL)
+    assert len(hidden_ids(db)) == 2
+    assert set(hidden_ids(db)) == set(rag.conversations)
+
+
+def test_failed_delete_keeps_questions_and_is_retried(env):
+    client, rag, db, _ = env
+    client.get(URL)
+    make_stale(db)
+    rag.delete_status = 500
+    client.get(URL)
+    row = get_row(db)
+    assert row.questions == NEW and row.refresh_started_at is None
+    assert set(hidden_ids(db)) == set(rag.conversations) and len(rag.conversations) == 2
+    assert client.get("/api/v1/chats").json() == []
+
+    make_stale(db)
+    rag.delete_status = 204
+    client.get(URL)
+    assert len(rag.conversations) == 1
+    assert hidden_ids(db) == list(rag.conversations)
+
+
+def test_cleanup_crash_keeps_questions(env, monkeypatch):
     client, _, db, _ = env
+
+    async def crash(user_id):
+        raise RuntimeError("boom")
+
+    monkeypatch.setattr(suggestions, "delete_old_hidden_conversations", crash)
+    assert client.get(URL).status_code == 200
+    row = get_row(db)
+    assert row.questions == NEW and row.refresh_started_at is None
+
+
+def test_missing_rag_conversation_is_replaced(env):
+    client, rag, db, _ = env
     db.add(HiddenConversation(conversation_id=str(uuid4()), user_id=USER))
     db.commit()
     client.get(URL)
-    assert len(hidden_ids(db)) == 2
+    assert hidden_ids(db) == list(rag.conversations)
     assert get_row(db).questions == NEW
 
 

@@ -7,7 +7,7 @@ import re
 from datetime import timedelta
 
 from fastapi import HTTPException
-from sqlalchemy import or_, select, update
+from sqlalchemy import delete, or_, select, update
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.ext.asyncio import AsyncSession
 
@@ -22,8 +22,8 @@ MAX_AGE = timedelta(hours=24)
 # A refresh that failed or crashed can be retried after this long. Must exceed REFRESH_TIMEOUT_SECONDS.
 REFRESH_CLAIM = timedelta(minutes=5)
 REFRESH_TIMEOUT_SECONDS = 240
-# Start a new hidden conversation after this many replies, in case the RAG service sends the whole history to the model.
-MAX_REPLIES_PER_CONVERSATION = 10
+# Start a new hidden conversation after this many prompts. At 1, every refresh starts without any history.
+MAX_PROMPTS_PER_CONVERSATION = 1
 
 TOPICS_PER_REFRESH = 4
 QUESTIONS_PER_TOPIC = 3
@@ -111,6 +111,13 @@ async def refresh_suggestions(user_id: str) -> None:
     except Exception:
         # refresh_started_at stays set, so the next attempt waits until the claim expires.
         logger.warning("Refreshing research recommendations failed", exc_info=True)
+        return
+
+    # Separate from the refresh, so a cleanup failure can't discard the new questions.
+    try:
+        await delete_old_hidden_conversations(user_id)
+    except Exception:
+        logger.warning("Cleaning up hidden conversations failed", exc_info=True)
 
 
 async def generate_questions(user_id: str) -> list[str]:
@@ -144,8 +151,10 @@ async def open_hidden_conversation(user_id: str) -> str:
             if exc.status_code != 404:
                 raise
         else:
-            replies = sum(message["role"] == "assistant" for message in messages)
-            if replies < MAX_REPLIES_PER_CONVERSATION:
+            # Count prompts rather than replies, so failed attempts count too.
+            # An empty conversation has either failed before saving anything or is unusable, so replace it.
+            prompts = sum(message["role"] == "user" for message in messages)
+            if 0 < prompts < MAX_PROMPTS_PER_CONVERSATION:
                 return conversation_id
 
     conversation = await chats.rag_request(
@@ -159,6 +168,33 @@ async def open_hidden_conversation(user_id: str) -> str:
         db.add(HiddenConversation(conversation_id=conversation["id"], user_id=user_id))
         await db.commit()
     return conversation["id"]
+
+
+async def delete_old_hidden_conversations(user_id: str) -> None:
+    """Delete all of the user's hidden conversations except the newest."""
+    async with AsyncSessionLocal() as db:
+        conversation_ids = list(
+            await db.scalars(
+                select(HiddenConversation.conversation_id)
+                .where(HiddenConversation.user_id == user_id)
+                .order_by(HiddenConversation.created_at.desc())
+            )
+        )
+
+    for conversation_id in conversation_ids[1:]:
+        try:
+            await chats.rag_request("DELETE", f"/conversations/{conversation_id}", user_id)
+        except HTTPException as exc:
+            # A 404 means it's already gone. Otherwise keep the row: it stays hidden and is retried next time.
+            if exc.status_code != 404:
+                logger.warning("Deleting a hidden conversation failed: %s", exc.detail)
+                continue
+
+        async with AsyncSessionLocal() as db:
+            await db.execute(
+                delete(HiddenConversation).where(HiddenConversation.conversation_id == conversation_id)
+            )
+            await db.commit()
 
 
 def build_prompt(experience: str, specialty: str) -> str:

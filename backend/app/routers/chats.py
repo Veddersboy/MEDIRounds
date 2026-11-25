@@ -92,6 +92,10 @@ async def rag_request(
 
             check_rag_status(response)
 
+            # Successful deletes have no body.
+            if response.status_code == 204:
+                return None
+
             return response.json()
 
     except httpx.RequestError as exc:
