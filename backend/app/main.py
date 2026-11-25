@@ -1,5 +1,5 @@
 
-from fastapi import Depends, FastAPI
+from fastapi import BackgroundTasks, Depends, FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy import text
 from sqlalchemy.ext.asyncio import AsyncSession
@@ -10,6 +10,7 @@ from app.models import AuthUser
 from app.schemas import CurrentUserSchema
 from app.routers.chats import router as chats_router
 from app.routers.settings import router as settings_router
+from app.suggestions import load_suggestions, refresh_suggestions
 
 app = FastAPI(
     title="MediRounds App API",
@@ -68,3 +69,22 @@ async def me(
     user: AuthUser = Depends(get_current_user),
 ):
     return user
+
+
+@app.get(
+    "/api/v1/suggestions",
+    response_model=list[str],
+)
+async def research_recs(
+    background_tasks: BackgroundTasks,
+    user: AuthUser = Depends(get_current_user),
+    db: AsyncSession = Depends(get_db),
+):
+    user_id = str(user.id)
+
+    # A refresh is needed if questions are missing or over 24 hours old, and none is in progress.
+    suggestions, needs_refresh = await load_suggestions(user_id, db)
+    if needs_refresh:
+        background_tasks.add_task(refresh_suggestions, user_id)
+
+    return suggestions

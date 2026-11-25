@@ -11,7 +11,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.auth import get_current_user
 from app.database import get_db, settings
-from app.models import AuthUser, UserSettings
+from app.models import AuthUser, HiddenConversation, UserSettings
 
 router = APIRouter(
     prefix="/api/v1/chats",
@@ -19,6 +19,9 @@ router = APIRouter(
 )
 
 CHATBOT_API_URL = (settings.CHATBOT_API_URL or "").rstrip("/")
+
+# Backs up the hidden_conversations table, in case saving a conversation's ID fails.
+HIDDEN_CONVERSATION_TITLE = "__medirounds_suggestions__"
 
 
 class SendMessageRequest(BaseModel):
@@ -38,6 +41,36 @@ def require_chatbot_url() -> str:
     return CHATBOT_API_URL
 
 
+def rag_headers(user_id: str, accept: str) -> dict[str, str]:
+    headers = {
+        "X-User-ID": user_id,
+        "Accept": accept,
+    }
+
+    api_key = settings.CHATBOT_API_KEY
+    if api_key:
+        headers["Authorization"] = f"Bearer {api_key}"
+
+    return headers
+
+
+def check_rag_status(response: httpx.Response) -> None:
+    if response.status_code == 404:
+        raise HTTPException(
+            status_code=404,
+            detail="RAG resource not found",
+        )
+
+    if response.is_error:
+        raise HTTPException(
+            status_code=502,
+            detail=(
+                "RAG service returned HTTP "
+                f"{response.status_code}"
+            ),
+        )
+
+
 async def rag_request(
     method: str,
     path: str,
@@ -46,15 +79,6 @@ async def rag_request(
 ) -> Any:
     base_url = require_chatbot_url()
 
-    headers = {
-        "X-User-ID": user_id,
-        "Accept": "application/json",
-    }
-
-    api_key = settings.CHATBOT_API_KEY
-    if api_key:
-        headers["Authorization"] = f"Bearer {api_key}"
-
     try:
         async with httpx.AsyncClient(
             timeout=120.0,
@@ -62,24 +86,11 @@ async def rag_request(
             response = await client.request(
                 method,
                 f"{base_url}{path}",
-                headers=headers,
+                headers=rag_headers(user_id, "application/json"),
                 json=payload,
             )
 
-            if response.status_code == 404:
-                raise HTTPException(
-                    status_code=404,
-                    detail="RAG resource not found",
-                )
-
-            if response.is_error:
-                raise HTTPException(
-                    status_code=502,
-                    detail=(
-                        "RAG service returned HTTP "
-                        f"{response.status_code}"
-                    ),
-                )
+            check_rag_status(response)
 
             return response.json()
 
@@ -119,7 +130,9 @@ def map_conversation(
 
 async def list_rag_conversations(
     user_id: str,
+    db: AsyncSession,
 ) -> list[dict]:
+    """List the user's conversations, leaving out hidden ones."""
     data = await rag_request(
         "GET",
         "/conversations",
@@ -132,7 +145,21 @@ async def list_rag_conversations(
             detail="Unexpected RAG conversations response",
         )
 
-    return data
+    # Queried after the RAG call, so a conversation hidden in the meantime is left out too.
+    hidden_ids = set(
+        await db.scalars(
+            select(HiddenConversation.conversation_id).where(
+                HiddenConversation.user_id == user_id,
+            )
+        )
+    )
+
+    return [
+        conversation
+        for conversation in data
+        if conversation["id"] not in hidden_ids
+        and conversation["title"] != HIDDEN_CONVERSATION_TITLE
+    ]
 
 
 async def list_rag_messages(
@@ -161,13 +188,73 @@ async def list_rag_messages(
     )
 
 
+async def rag_chat(
+    conversation_id: str,
+    user_id: str,
+    content: str,
+) -> dict:
+    """Send a message and return the completed reply once it has been saved."""
+    base_url = require_chatbot_url()
+    messages_path = f"/conversations/{conversation_id}/messages"
+
+    seen_ids = {
+        message["id"]
+        for message in await rag_request("GET", messages_path, user_id)
+    }
+
+    # /chat always answers with an event stream. Read it to the end, then fetch the saved reply.
+    try:
+        async with httpx.AsyncClient(
+            timeout=120.0,
+        ) as client:
+            async with client.stream(
+                "POST",
+                f"{base_url}/chat",
+                headers=rag_headers(user_id, "text/event-stream"),
+                json={
+                    "conversation_id": conversation_id,
+                    "message": content,
+                },
+            ) as response:
+                check_rag_status(response)
+
+                async for _ in response.aiter_bytes():
+                    pass
+
+    except httpx.RequestError as exc:
+        raise HTTPException(
+            status_code=503,
+            detail="Unable to reach RAG service",
+        ) from exc
+
+    # A failed answer also streams with HTTP 200, so only accept a new, completed reply.
+    replies = [
+        message
+        for message in await rag_request("GET", messages_path, user_id)
+        if message["role"] == "assistant"
+        and message["status"] == "completed"
+        and message["id"] not in seen_ids
+    ]
+
+    if not replies:
+        raise HTTPException(
+            status_code=502,
+            detail="RAG service did not complete its answer",
+        )
+
+    return map_message(
+        max(replies, key=lambda message: message["created_at"])
+    )
+
+
 @router.get("")
 async def list_chats(
     user: AuthUser = Depends(get_current_user),
+    db: AsyncSession = Depends(get_db),
 ):
     user_id = str(user.id)
 
-    conversations = await list_rag_conversations(user_id)
+    conversations = await list_rag_conversations(user_id, db)
 
     chats = []
 
@@ -211,11 +298,12 @@ async def create_chat(
 async def get_chat(
     conversation_id: UUID,
     user: AuthUser = Depends(get_current_user),
+    db: AsyncSession = Depends(get_db),
 ):
     user_id = str(user.id)
     chat_id = str(conversation_id)
 
-    conversations = await list_rag_conversations(user_id)
+    conversations = await list_rag_conversations(user_id, db)
 
     conversation = next(
         (
@@ -281,7 +369,7 @@ async def send_message(
     user_id = str(user.id)
     chat_id = str(conversation_id)
 
-    conversations = await list_rag_conversations(user_id)
+    conversations = await list_rag_conversations(user_id, db)
 
     if not any(
         item["id"] == chat_id
@@ -302,31 +390,4 @@ async def send_message(
     prefix = EXPERIENCE_PROMPTS.get(experience, "")
     content = f"{prefix}\n\n{body.content}" if prefix else body.content
 
-    result = await rag_request(
-        "POST",
-        "/chat",
-        user_id,
-        payload={
-            "conversation_id": chat_id,
-            "message": content,
-        },
-    )
-
-    messages = await list_rag_messages(
-        chat_id,
-        user_id,
-    )
-
-    assistant_messages = [
-        message
-        for message in messages
-        if message["role"] == "assistant"
-    ]
-
-    if not assistant_messages:
-        raise HTTPException(
-            status_code=502,
-            detail="RAG response was not persisted",
-        )
-
-    return assistant_messages[-1]
+    return await rag_chat(chat_id, user_id, content)
