@@ -10,7 +10,6 @@ import {
   Check,
   Clipboard,
   FileText,
-  Plus,
   Stethoscope,
 } from "lucide-react";
 
@@ -20,6 +19,7 @@ import remarkGfm from "remark-gfm";
 import { useApp } from "./app-provider";
 import { repository } from "@/lib/repository";
 import { exportChatAsPdf } from "./pdf-export";
+import { SuggestedPrompts } from "./suggested-prompts";
 import { ChatSession, Message } from "@/lib/types";
 
 function cleanUserContent(content: string) {
@@ -293,21 +293,7 @@ export function ChatView({ id }: { id?: string }) {
               clinical guidelines, and treatment considerations.
             </p>
 
-            <div className="prompts">
-              {[
-                "Compare major classes of type 2 diabetes medications",
-                "What should be considered when interpreting HbA1c?",
-                "Summarize approaches to managing diabetes with CKD",
-              ].map((p) => (
-                <button
-                  key={p}
-                  onClick={() => void send(p)}
-                >
-                  {p}
-                  <Plus size={15} />
-                </button>
-              ))}
-            </div>
+            <SuggestedPrompts onSelect={(p) => void send(p)} />
           </div>
         ) : (
           // Existing messages

@@ -53,10 +53,18 @@ export interface ChatRepository {
 
   sendMessage(id: string, content: string): Promise<Message>;
 
+  getSuggestions(): Promise<string[]>;
+
   getSettings(): Promise<Settings>;
 
   saveSettings(settings: Settings): Promise<void>;
 }
+
+export const defaultSuggestions = [
+  "Compare major classes of type 2 diabetes medications",
+  "What should be considered when interpreting HbA1c?",
+  "Summarize approaches to managing diabetes with CKD",
+];
 
 export const defaultSettings: Settings = {
   theme: "light",

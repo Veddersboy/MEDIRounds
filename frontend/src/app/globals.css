@@ -578,6 +578,14 @@ html[data-theme="dark"] .welcome-logo-dark {
   color: var(--accent)
 }
 
+.prompt-placeholder {
+  min-height: 94px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  opacity: .5
+}
+
 .page-center {
   display: grid;
   place-items: center;
@@ -871,7 +879,8 @@ html[data-theme="dark"] .welcome-logo-dark {
   .prompts {
     grid-template-columns: 1fr
   }
-  .prompts button {
+  .prompts button,
+  .prompt-placeholder {
     min-height: 60px
   }
   .welcome {
